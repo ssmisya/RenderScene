@@ -255,7 +255,8 @@ exec(compile((ROOT/'scripts/v2_architecture.py').read_text(),str(ROOT/'scripts/v
 GROUP='01_Foundation_and_cruciform_shell'
 brick='Historic red brick • CC0 scan'
 # Footprint proportions use published approximately 42 m length, 28 m overall width.
-box('nave',( -5.0,0,10.1),(30.0,15.0,18.6),brick,collide=True)
+box('nave lower aisles',(-5.0,0,8.45),(30.0,15.0,15.3),brick,collide=True)
+box('nave raised central bay',(-5.0,0,10.3),(30.0,9.3,19.0),brick,collide=True)
 box('crossing',(2.0,0,12.6),(16.0,16.0,23.6),brick,collide=True)
 for sy in [-1,1]:box('transept',(2,sy*9.6,8.9),(13.0,8.8,16.2),brick,collide=True)
 lathe((13.5,0,.8),[(0,0),(7.0,0),(7.0,14.5),(6.8,16.1),(0,16.1)],brick,48,smooth=False)
@@ -266,7 +267,7 @@ for cx,cy,sx,sy in [(-5,0,30.6,15.6),(2,0,16.6,16.6),(2,-9.6,13.6,9.4),(2,9.6,13
  cornice_rect(cx,cy,sx-.5,sy-.5,4.95)
 lathe((13.5,0,0),[(7.2,0),(7.2,1.2),(7.1,1.4),(7.4,1.55),(7.15,1.7),(7.15,4.7),(7.45,4.9),(7.45,5.1),(7.2,5.3)],'Carved terracotta',48,smooth=False)
 # Nave/wing eaves and sheet-metal roofs.
-for cx,cy,sx,sy,z,h in [(-7,0,27,15.5,19.0,2),(2,0,16.6,16.6,24,2.1),(2,-9.6,13.6,9.0,17,2),(2,9.6,13.6,9,17,2)]:cornice_rect(cx,cy,sx,sy,z-.5);hiproof(cx,cy,sx,sy,z,h)
+for cx,cy,sx,sy,z,h in [(-7,0,27,9.6,19.8,1.0),(2,0,16.6,16.6,24,2.1),(2,-9.6,13.6,9.0,17,2),(2,9.6,13.6,9,17,2)]:cornice_rect(cx,cy,sx,sy,z-.5);hiproof(cx,cy,sx,sy,z,h)
 lathe((13.5,0,16.8),[(7.3,0),(7.3,.2),(2.6,3.0)],'Painted roof 04',48,smooth=False)
 GROUP='02_Nave_windows_and_brick_carving'
 for sy in [-1,1]:
@@ -275,9 +276,9 @@ for sy in [-1,1]:
   window(F,u,5.8,1.60,7.5)
   window(F,u,2.05,1.2,2.2,False,glass='Window shadow')
  for u in [-6.5,-3.3,0,3.3,6.5]:
-  fbox(F,u,10,.12,.7,16,.36,brick)
-  for z in [6+i*.65 for i in range(17)]:fbox(F,u,z,.32,.38,.22,.23,'Carved terracotta')
- for u in [-5,-1.7,1.7,5]:crown(F,u,18.8,.85,filled=True)
+  fbox(F,u,9.9,.12,.52,11.9,.30,brick)
+  for z in [6+i*.65 for i in range(14)]:fbox(F,u,z,.32,.38,.22,.23,'Carved terracotta')
+ for u in [-5,-1.7,1.7,5]:crown(F,u,15.85,.85,filled=True)
 # Wing round ends with paired tall arched windows.
 for sy in [-1,1]:
  F=frame((2,sy*14.02,0),(0,sy))
@@ -294,26 +295,12 @@ for normal,center in [((0,-1),(2,-8.02,0)),((0,1),(2,8.02,0)),((1,0),(10.02,0,0)
  for u in [-5.2,0,5.2]:window(F,u,17.8,1.25,4.5,True)
  for u in [-6.8,-2.5,2.5,6.8]:fbox(F,u,20.4,.2,.6,7,.45,brick)
  for u in [-5.6,-2.8,0,2.8,5.6]:crown(F,u,24,.80,filled=True)
-# Layered brick friezes and inset masonry panels visible along the west and south.
-F=frame((-20.44,0,0),(-1,0))
-for u in [-4.4,4.4]:
- for z in [2.7,12.2,14.6,17.0]:
-  fbox(F,u,z,.12,1.4,1.1,.08,'Recessed soot')
-  fbox(F,u,z,.18,1.18,.90,.07,brick)
-  for v in [-.72,.72]:fbox(F,u+v,z,.25,.10,1.26,.16,'Carved terracotta')
-  for v in [-.62,.62]:fbox(F,u,z+v,.25,1.54,.10,.16,'Carved terracotta')
-for u in [-2.5,2.5]:
- fbox(F,u,15.6,.14,.42,8.0,.28,brick)
- for z in [12+i*.62 for i in range(12)]:fbox(F,u,z,.32,.53,.12,.18,'Carved terracotta')
-for z in [6.0,18.4,19.2]:
- fbox(F,0,z,.25,14.1,.14,.26,'Carved terracotta')
- for u in [-6.8+i*.34 for i in range(41)]:fbox(F,u,z-.18,.22,.12,.19,.22,'Carved terracotta')
 # Recess-like lower-wall decorative panels, with profile depth.
 for sy in [-1,1]:
  F=frame((-13,sy*7.54,0),(0,sy))
  for u in [-5,-1.7,1.7,5]:
   fbox(F,u,15.3,.12,2.05,.86,.11,'Recessed soot');fbox(F,u,15.3,.19,1.8,.65,.09,brick)
- for z in [14.5,17.35,18.15]:
+ for z in [14.5,15.35,15.85]:
   fbox(F,0,z,.22,13.7,.12,.3,'Carved terracotta')
   for u in [-6.6+i*.35 for i in range(39)]:fbox(F,u,z-.18,.17,.15,.16,.23,'Carved terracotta')
 
@@ -341,45 +328,7 @@ for sy in [-1,1]:
   a=k*pi/4;F=frame((cx+3.1*cos(a),cy+3.1*sin(a),0),(cos(a),sin(a)))
   window(F,0,18.1,1.15,2.5,False);crown(F,0,21.2,1.0,filled=True)
  tent(cx,cy,22.4,3.9,7.6)
-# West entry block and asymmetrical bell tower.
-GROUP='05_West_portal_and_belltower'
-box('west entry',(-15.2,0,10.6),(10.4,14.5,19.6),brick,collide=True)
-F=frame((-20.42,0,0),(-1,0));portal(F,3.5,5.6)
-for u in [-5.7,5.7]:
- fbox(F,u,10.4,.17,1,17.2,.40,brick)
- for z in [2.0+i*.77 for i in range(21)]:fbox(F,u,z,.42,.65,.26,.25,'Carved terracotta')
- for z in [2.1,3.5,11,13,15.0]:
-  fbox(F,u,z,.57,.45,.65,.05,'Recessed soot');fbox(F,u,z,.59,.32,.49,.05,'Carved terracotta')
-for u in [-3.3,3.3]:
- window(F,u,11.4,1.0,4.8,False,glass=brick)
-fbox(F,0,15.3,.24,3.85,9.7,.48,brick)
-for du in [-2.13,2.13]:
- fbox(F,du,15.4,.48,.22,9.6,.32,'Carved terracotta')
-# Rose window above main archivolt.
-radial_arch(F,0,9.65,.53,.33,.49,.16,full=2*pi)
-path([F(-.72,10.05,.74),F(0,10.93,.74),F(.72,10.05,.74)],.043,'Iron dark green',6)
-arc(F,0,9.6,.43,.14,.60,'Terracotta highlight',32,0,2*pi)
-pts=[F(.41*cos(i*2*pi/24),9.6+.41*sin(i*2*pi/24),.69) for i in range(24)];add(pts,[tuple(range(24))],'Window shadow')
-for i in range(8):a=i*pi/4;beam(F(0,9.6,.7),F(.37*cos(a),9.6+.37*sin(a),.7),.022,'Window lead',5)
-cornice_rect(-15.2,0,10.6,14.7,19.7);hiproof(-15.2,0,11,15.1,20.2,1.1)
-# Open bell chamber: eight piers and arched voussoirs, no solid core.
-bx,by=-15.2,0
-lathe((bx,by,21),[(4.40,0),(4.40,.45),(4.15,.65)],'Carved terracotta',8,pi/8,False)
-for k in range(8):
- a=k*pi/4+pi/8;px=bx+3.95*cos(a);py=by+3.95*sin(a)
- box('',(px,py,24.3),(.76,.76,5.5),brick,angle=a)
- for zz in [22.1+i*.59 for i in range(9)]:box('',(px,py,zz),(.9,.9,.16),'Carved terracotta',angle=a)
- a=k*pi/4;F=frame((bx+3.65*cos(a),by+3.65*sin(a),0),(cos(a),sin(a)))
- arc(F,0,25.5,1.00,.4,.08,brick);arc(F,0,25.5,1.4,.13,.20,'Carved terracotta');crown(F,0,25.5,1.56,.15)
- for u in [-.65,0,.65]:fbox(F,u,22.2,.12,.035,1.4,.07,'Iron black')
- fbox(F,0,22.7,.12,2.1,.05,.07,'Iron black')
- # upper small arch tier.
- fbox(F,-1.1,28.5,.0,.6,2.6,.65,brick);fbox(F,1.1,28.5,.0,.6,2.6,.65,brick)
- arc(F,0,29.0,.64,.32,.08,brick);crown(F,0,29,.97,.14)
- # Small real bell silhouette.
- lathe((bx+1.8*cos(a),by+1.8*sin(a),23.3),[(.56,0),(.5,.12),(.31,.48),(.23,.70),(.07,.78)],'Gold leaf',20)
- beam((bx+1.8*cos(a),by+1.8*sin(a),24.1),(bx+1.8*cos(a),by+1.8*sin(a),25.2),.05,'Iron black')
-tent(bx,by,30.0,4.2,9.3)
+exec(compile((ROOT/'scripts/v21_west.py').read_text(),str(ROOT/'scripts/v21_west.py'),'exec'))
 # Large central drum, 16 windows with pilasters, two ornamental arcade tiers.
 GROUP='06_Main_drum'
 cx,cy=2.0,0
@@ -424,9 +373,9 @@ for a in [0,pi/2,pi,3*pi/2]:beam((cx,cy,51.8),(cx+2.2*cos(a),cy+2.2*sin(a),48.6)
 # Drainpipes and thresholds reinforce pedestrian-scale detail.
 GROUP='08_Drains_and_steps'
 for x,y in [(-19.9,-7.4),(-19.9,7.4),(-4.7,-13.7),(-4.7,13.7),(8.5,-13.7),(8.5,13.7)]:
- path([(x,y,17),(x+.23,y,16.6),(x+.23,y,1.0),(x+.55,y,.6)],.088,'Iron dark green',10)
+ path([(x,y,16),(x+.23,y,15.6),(x+.23,y,1.0),(x+.55,y,.6)],.088,'Iron dark green',10)
  for z in [2,5,8,11,14]:box('',(x+.22,y,z),(.30,.25,.05),'Iron black')
-for i in range(5):box('entry step',(-21.5-i*.33,0,.1+(4-i)*.115),(.36,7.2,.20),'Granite foundation',collide=True)
+# V2.1 stairs are generated once in v21_west.py.
 for sy in [-1,1]:
  for i in range(3):box('ear step',(-5.0-i*.32,sy*10,.12+(2-i)*.13),(.34,4,.22),'Granite foundation',collide=True)
 print('CATHEDRAL geometry ready',flush=True)
@@ -554,14 +503,7 @@ for x,y in [(-39,-22),(30,21)]:
  label('SOPHIA SQUARE',(x,y-.08,1.83),.105,name='Wayfinding title');label('ARCHITECTURE MUSEUM',(x,y-.081,1.60),.063,name='Wayfinding subtitle')
  label('1932',(x,y-.082,1.31),.15,material_name='Gold leaf',name='Heritage year')
  label('EXTERIOR WALK',(x,y-.081,.78),.077,name='Wayfinding direction')
-# Pigeons add correct small-scale cues without static human mannequins.
-GROUP='Plaza_pigeons'
-for i in range(26):
- x=random.uniform(-48,-29);y=random.uniform(-19,29);a=random.random()*2*pi
- sphere((x,y,.20),.13,'Window lead',scale=(1.0,1.65,.80),N=10,rings=6)
- sphere((x+.10*cos(a),y+.10*sin(a),.37),.074,'Iron dark green',N=10,rings=6)
- beam((x+.15*cos(a),y+.15*sin(a),.38),(x+.24*cos(a),y+.24*sin(a),.36),.023,'Iron black',5,r2=.005)
- for sy in [-1,1]:beam((x+sy*.04,y,.15),(x+sy*.04,y+.03,.035),.012,'Carved terracotta',5)
+# Coarse pigeon meshes removed in V2.1; no substitute animal placeholders.
 print('Environment geometry ready',flush=True)
 
 exec(compile((ROOT/'scripts/v2_details.py').read_text(),str(ROOT/'scripts/v2_details.py'),'exec'))
@@ -629,7 +571,7 @@ exec(compile((ROOT/'scripts/v2_lighting.py').read_text(),str(ROOT/'scripts/v2_li
 bpy.context.preferences.filepaths.save_version=0
 bpy.ops.file.pack_all();bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'Harbin_Sophia_Square.blend'))
 # Mesh statistics for delivery and validation.
-stats={'objects':len(scene.objects),'render_meshes':len(B),'vertices':sum(len(ob.data.vertices) for ob in scene.objects if ob.type=='MESH' and not ob.hide_render),'polygons':sum(len(ob.data.polygons) for ob in scene.objects if ob.type=='MESH' and not ob.hide_render),'collision_proxies':len(collision),'cameras':[o.name for o in scene.objects if o.type=='CAMERA'],'blender_version':bpy.app.version_string}
+stats={'revision':'v2.1.0','night_objects':len(night.objects),'night_lights':len(lighting_record),'packed_image_count':sum(bool(im.packed_file) for im in bpy.data.images),'packed_font_count':sum(bool(f.packed_file) for f in bpy.data.fonts),'objects':len(scene.objects),'render_meshes':len(B),'vertices':sum(len(ob.data.vertices) for ob in scene.objects if ob.type=='MESH' and not ob.hide_render),'polygons':sum(len(ob.data.polygons) for ob in scene.objects if ob.type=='MESH' and not ob.hide_render),'collision_proxies':len(collision),'cameras':[o.name for o in scene.objects if o.type=='CAMERA'],'blender_version':bpy.app.version_string}
 json.dump(stats,open(ROOT/'scene_stats.json','w'),indent=2);print('SCENE_SAVED',stats,flush=True)
 if '--render-preview' in sys.argv:
  scene.render.resolution_percentage=55;scene.cycles.samples=24;scene.render.filepath=str(ROOT/'renders/preview.png');bpy.ops.render.render(write_still=True)

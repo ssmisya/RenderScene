@@ -1,5 +1,5 @@
 """Create two render-ready native scenes, sharing geometry but separate worlds and lights."""
-scene.name='01_DAY_白天';scene['lighting_mode']='DAY';scene['revision']='v2-photo-detail-20260913'
+scene.name='01_DAY_白天';scene['lighting_mode']='DAY';scene['revision']='v2.1-structural-west-20260913'
 daylights=bpy.data.collections.new('10_DAY_Sun');scene.collection.children.link(daylights)
 for ob in list(COLS['08_CAMERAS_LIGHTS'].objects):
  if ob.type=='LIGHT':COLS['08_CAMERAS_LIGHTS'].objects.unlink(ob);daylights.objects.link(ob)
@@ -26,7 +26,7 @@ for i,(pos,target,kind,power) in enumerate(night_targets):
  power*=3.2 if kind=='commercial' else 8.5
  # Wider commercial lighting; cathedral close fixtures graze relief and fluting.
  light('NIGHT_%03d_%s'%(i,kind),'SPOT',pos,target,power,color,.095,65 if kind=='commercial' else 62)
-light('NIGHT_West_square_fill','AREA',(-37,12,11),(-13,0,13),6500,(1,.80,.52),9)
+light('NIGHT_West_square_fill','AREA',(-37,12,11),(-13,0,13),4000,(1,.80,.52),9)
 light('NIGHT_South_square_fill','AREA',(-4,-30,13),(1,-3,16),5400,(1,.79,.50),10)
 light('NIGHT_North_square_fill','AREA',(-4,31,13),(1,3,16),5400,(1,.80,.53),10)
 light('NIGHT_East_square_fill','AREA',(38,4,11),(12,0,13),6000,(1,.78,.48),8)
@@ -64,18 +64,20 @@ for sc in [scene,night]:
  sc.unit_settings.system='METRIC';sc.unit_settings.scale_length=1;sc.render.engine='CYCLES';sc.cycles.samples=192;sc.cycles.use_denoising=True;sc.cycles.adaptive_threshold=.018;sc.cycles.max_bounces=9;sc.cycles.diffuse_bounces=4;sc.cycles.glossy_bounces=4;sc.cycles.transmission_bounces=4
  sc.cycles.device=scene.cycles.device;sc.render.resolution_x=2400;sc.render.resolution_y=1600;sc.render.resolution_percentage=100;sc.render.image_settings.file_format='PNG';sc.render.image_settings.color_mode='RGB';sc.render.image_settings.color_depth='8';sc.render.film_transparent=False
  sc.view_settings.view_transform='AgX';sc.view_settings.look='AgX - Medium High Contrast';sc.view_settings.exposure=.20 if sc==scene else .35
- sc.camera=cam;sc.render.filepath='//renders/v2/'+('DAY_Hero.png' if sc==scene else 'NIGHT_Hero.png')
+ sc.camera=cam;sc.render.filepath='//renders/v2_1/'+('DAY_Hero.png' if sc==scene else 'NIGHT_Hero.png')
  sc['accuracy_note']='Photo-interpreted exterior. OSM footprint references. No photogrammetric or surveyed claim. See V2_实景核对与使用.md.'
  sc['architectural_lights']='OFF - no artificial light collection linked' if sc==scene else 'ON - facade, portal, drum, bell tower and street fixtures'
 # Slightly less theatrical wide-angle perspective; camera remains at real pedestrian eye height.
 for name,loc,tgt,lens in [('01_HERO_West_square',(-67,29,1.70),(0,0,23.0),31),('02_EYE_LEVEL_170cm',(-57,-32,1.70),(0,0,20.5),28),('03_EAST_Facade',(62,-10,1.70),(2,0,21.5),28),('05_Brick_detail',(-34,-4.5,1.70),(-20.4,0,4.75),42)]:
  ob=bpy.data.objects[name];ob.location=loc;ob.rotation_euler=(Vector(tgt)-ob.location).to_track_quat('-Z','Y').to_euler();ob.data.lens=lens
 camera('06_NORTH_Square',(-8,30,1.7),(-10,112,16),29)
-camera('07_Portal_close',(-28.8,-2,1.7),(-20.4,0,2.6),49)
+camera('07_Portal_close',(-29.8,-2,1.7),(-20.4,0,3.2),49)
+camera('08_FRONT_Elevation',(-70,0,1.7),(-8,0,24),26.5)
+camera('09_WEST_Return',(-66,-35,1.7),(-6,0,23),31)
 # Cameras added after linking collections are available in both scenes.
 for t in list(bpy.data.texts):
  if t.name=='START_HERE.txt':bpy.data.texts.remove(t)
-t=bpy.data.texts.new('START_HERE.txt');t.write('圣索菲亚广场 v2 / SAINT SOPHIA SQUARE\n\n右上角 Scene 选择：01_DAY_白天 / 02_NIGHT_夜晚\nF12 渲染当前场景。两套场景共享原生可编辑几何，但灯光和世界环境独立。\n白天无建筑照明；夜晚有立面、门廊、鼓座、钟楼和广场灯。\n摄影机 01-07 在 08_CAMERAS_LIGHTS。\n选中摄影机 -> Ctrl+小键盘0 设为当前；小键盘0进入相机视角。\nShift+` 启动步行导航，WASD + 鼠标；Esc退出。\n材质预览模式不代表最终夜间灯光，请选 Rendered 或 F12。\n\n纹理已打包。实景资料、估计范围和命令见 V2_实景核对与使用.md。\n本工程为照片参考的外景重建，非实测数字孪生；室内未建模。\n')
+t=bpy.data.texts.new('START_HERE.txt');t.write('圣索菲亚广场 v2.1 / SAINT SOPHIA SQUARE\n\n右上角 Scene 选择：01_DAY_白天 / 02_NIGHT_夜晚\nF12 渲染当前场景。两套场景共享原生可编辑几何，但灯光和世界环境独立。\n白天无建筑照明；夜晚有立面、门廊、鼓座、钟楼和广场灯。\n摄影机 01-09 在 08_CAMERAS_LIGHTS。\n选中摄影机 -> Ctrl+小键盘0 设为当前；小键盘0进入相机视角。\nShift+` 启动步行导航，WASD + 鼠标；Esc退出。\n材质预览模式不代表最终夜间灯光，请选 Rendered 或 F12。\n\n纹理已打包。实景资料、估计范围和命令见 V2_实景核对与使用.md。\n本工程为照片参考的外景重建，非实测数字孪生；室内未建模。\n')
 (ROOT/'renders/v2').mkdir(exist_ok=True)
 json.dump({'units':'Blender metres; watts are Cycles radiometric power, not electrical consumption','day_artificial_lights':0,'night_lights':lighting_record},open(ROOT/'game/lighting_v2.json','w'),ensure_ascii=False,indent=2)
 # Relative image paths are valid on relocation; packed data permits offline render.

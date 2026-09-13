@@ -1,0 +1,10 @@
+{
+  "revision": "2.1.0",
+  "archive": "Harbin_Sophia_v2.1_Day_Night.zip",
+  "bytes": 460068975,
+  "sha256": "77f733e777f8de115684335828c191e9a99b5fa9b6a47cc37493274018405287",
+  "entries": 168,
+  "crc_check": "PASS",
+  "main_scene_sha256": "820b5f6a647a97c1c34387183d77d8a1071c5996885ce4b65029b379d7bb88da",
+  "images_verified": 18
+}

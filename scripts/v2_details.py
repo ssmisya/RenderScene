@@ -8,35 +8,11 @@ for sy in [-1,1]:
   fbox(F,u,10.0,.17,.45,11.6,.33,brick)
   for z in [6.1+i*.6 for i in range(16)]:fbox(F,u,z,.32,.54,.11,.22,'Carved terracotta')
  for u in [-1.7,1.7]:crown(F,u,16.5,.7,filled=True)
-# Stepped brick panels and small cross-like centre bosses on the west plinth.
-F=frame((-20.44,0,0),(-1,0))
-for u in [-6.1,6.1]:
- for z,ww,hh in [(2.7,1.65,1.6),(8.0,1.0,.72),(10,1.0,.72),(12,1.0,.72),(14,1.0,.72),(16,1.0,.72),(18,1.0,.72)]:
-  fbox(F,u,z,.35,ww,hh,.12,'Recessed soot')
-  for k in range(3):
-   w=ww-k*.17;h=hh-k*.17;dd=.43+k*.035
-   for side in [-1,1]:
-    fbox(F,u+side*w/2,z,dd,.09,h,.12,'Carved terracotta');fbox(F,u,z+side*h/2,dd,w,.09,.12,'Carved terracotta')
-  fbox(F,u,z,.57,.32,.42,.13,'Carved terracotta');fbox(F,u,z,.58,.46,.16,.14,'Carved terracotta')
-# Soot-darkened drip edges along cornices, with geometry rather than flat black stripes.
+# V2.1 front relief, plinth and entry are generated with the structural west facade.
+# Retain side weathering without placing old panels above the new lower shoulders.
 for sy in [-1,1]:
  F=frame((-12.8,sy*7.61,0),(0,sy))
- for z in [5.20,14.48,18.15]:
-  fbox(F,0,z,.20,13.8,.045,.36,'Recessed soot')
-# Entry plaques from the actual museum usage; precise typography is an approximation.
-F=frame((-20.44,0,0),(-1,0))
-for u,txt in [(-2.35,'全国重点文物保护单位'),(2.35,'哈尔滨市建筑艺术馆')]:
- fbox(F,u,2.60,1.12,.63,.46,.06,'Old brass hardware')
- street_text(txt,F(u,2.61,1.162),.045,(-1,0),'Door black lacquer','Entrance_plaque')
-# Wheelchair access ramp on one side, fitted to the 0.55 m landing.
-GROUP='V2_Entry_access'
-box('door landing',(-21.2,0,.34),(1.60,7.4,.58),'Granite foundation',collide=True)
-verts=[(-21.65,-3.7,.04),(-20.55,-3.7,.04),(-20.55,-10.7,.04),(-21.65,-10.7,.04),(-21.65,-3.7,.63),(-20.55,-3.7,.63),(-20.55,-10.7,.06),(-21.65,-10.7,.06)]
-add(verts,[(0,1,2,3),(4,7,6,5),(0,4,5,1),(1,5,6,2),(2,6,7,3)],'Granite foundation')
-for xx in [-21.65,-20.55]:
- beam((xx,-3.7,1.48),(xx,-10.7,.94),.027,'Window lead',10)
- for yy in [-3.7,-5.7,-7.7,-9.7]:
-  zz=.63-(abs(yy)-3.7)/7*.57;beam((xx,yy,zz),(xx,yy,zz+.85),.023,'Window lead',8)
+ for z in [5.20,14.48,15.85]:fbox(F,0,z,.20,13.8,.035,.30,'Recessed soot')
 # Small visible projector housings at ledges and base, recording targets for NIGHT.
 GROUP='V2_Architectural_projector_fixtures'
 def projector(pos,target,power=100,kind='cathedral'):
@@ -52,8 +28,14 @@ for sy in [-1,1]:
  for x in [-18.6,-15.0,-11.5,-7.8]:projector((x,sy*8.25,5.55),(x,sy*7.8,15.6),95)
  for x in [-3.8,-.4,3.4,7.6]:projector((x,sy*14.65,5.35),(x,sy*14.15,14.1),110)
  for x in [-17,-10,-2,7]:projector((x,sy*(16.0 if x>-5 else 9.5),.8),(x,sy*(14.1 if x>-5 else 7.5),4.3),45)
-for u in [-6,-4.3,-2.3,2.3,4.3,6]:projector((-21.30,u,5.35),(-20.60,u,17.8),105)
-for u in [-5.3,5.3]:projector((-22.4,u,.8),(-20.6,u,3.3),70)
+# Aim from photographed ledge levels; a ground light would be occluded by the projecting portal.
+projector((-21.1,0,12.05),(-20.12,0,18.35),55)
+for u in [-3.30,3.30]:projector((-21.05,u,10.02),(-20.15,u,13.60),42)
+for u in [-5.99,5.99]:
+ projector((-21.38,u,5.35),(-20.72,u,13.70),60)
+ projector((-22.5,u,.80),(-20.8,u,3.25),30)
+for u in [-4.7,4.7]:projector((-23.25,u,1.1),(-21.25,u*.72,6.8),65)
+projector((-21.45,0,10.20),(-20.98,0,11.10),8)
 for k in range(16):
  a=k*pi/8;projector((2+6.33*cos(a),6.33*sin(a),26.85),(2+5.9*cos(a),5.9*sin(a),34.1),125,'drum')
 for k in range(8):

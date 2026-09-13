@@ -60,5 +60,6 @@
   ],
   "render": "verification/offline/NIGHT_Portability.png",
   "result": "PASS",
+  "revision": "2.1.0",
   "temporary_blend_retained": false
 }

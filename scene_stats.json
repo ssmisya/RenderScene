@@ -1,9 +1,14 @@
 {
-  "objects": 1156,
-  "render_meshes": 866,
-  "vertices": 1592033,
-  "polygons": 1221599,
-  "collision_proxies": 252,
+  "revision": "v2.1.0",
+  "night_objects": 1700,
+  "night_lights": 480,
+  "packed_image_count": 11,
+  "packed_font_count": 1,
+  "objects": 1221,
+  "render_meshes": 928,
+  "vertices": 1628914,
+  "polygons": 1250861,
+  "collision_proxies": 255,
   "cameras": [
     "01_HERO_West_square",
     "02_EYE_LEVEL_170cm",
@@ -11,12 +16,9 @@
     "04_MAP_Overview",
     "05_Brick_detail",
     "06_NORTH_Square",
-    "07_Portal_close"
+    "07_Portal_close",
+    "08_FRONT_Elevation",
+    "09_WEST_Return"
   ],
-  "blender_version": "5.2.1 LTS",
-  "night_objects": 1633,
-  "night_lights": 478,
-  "revision": "v2",
-  "packed_image_count": 11,
-  "packed_font_count": 1
+  "blender_version": "5.2.1 LTS"
 }

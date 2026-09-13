@@ -63,6 +63,5 @@
     "longitude": 126.62129
   },
   "local_rotation_degrees": 17.3,
-  "playable_scope": "exterior square and surrounding street surfaces; closed cathedral interior",
-  "revision": "v2"
+  "playable_scope": "exterior square and surrounding street surfaces; closed cathedral interior"
 }

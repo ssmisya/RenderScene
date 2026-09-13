@@ -3,17 +3,32 @@
   "axis": "Blender Z up; local X points 17.3 degrees north of east",
   "colliders": [
     {
-      "name": "nave",
+      "name": "nave lower aisles",
       "type": "box",
       "center": [
         -5.0,
         0,
-        10.1
+        8.45
       ],
       "size": [
         30.0,
         15.0,
-        18.6
+        15.3
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "nave raised central bay",
+      "type": "box",
+      "center": [
+        -5.0,
+        0,
+        10.3
+      ],
+      "size": [
+        30.0,
+        9.3,
+        19.0
       ],
       "rotation_z": 0
     },
@@ -74,92 +89,137 @@
       "height": 15.4
     },
     {
-      "name": "west entry",
+      "name": "west central tower base",
       "type": "box",
       "center": [
         -15.2,
         0,
-        10.6
+        10.5
       ],
       "size": [
-        10.4,
-        14.5,
+        9.4,
+        9.3,
         19.6
       ],
       "rotation_z": 0
     },
     {
-      "name": "entry step",
+      "name": "west lower shoulder",
       "type": "box",
       "center": [
-        -21.5,
-        0,
-        0.56
+        -18.25,
+        -5.99,
+        8.4
       ],
       "size": [
-        0.36,
-        7.2,
-        0.2
+        4.6,
+        2.78,
+        15.4
       ],
       "rotation_z": 0
     },
     {
-      "name": "entry step",
+      "name": "west lower shoulder",
       "type": "box",
       "center": [
-        -21.83,
-        0,
-        0.44500000000000006
+        -18.25,
+        5.99,
+        8.4
       ],
       "size": [
-        0.36,
-        7.2,
-        0.2
+        4.6,
+        2.78,
+        15.4
       ],
       "rotation_z": 0
     },
     {
-      "name": "entry step",
+      "name": "west threshold",
       "type": "box",
       "center": [
-        -22.16,
+        -20.68,
         0,
-        0.33
+        0.36
       ],
       "size": [
-        0.36,
-        7.2,
-        0.2
+        1.5,
+        4.0,
+        0.61
       ],
       "rotation_z": 0
     },
     {
-      "name": "entry step",
+      "name": "west front stair",
       "type": "box",
       "center": [
-        -22.49,
+        -21.4,
         0,
-        0.21500000000000002
+        0.524
       ],
       "size": [
-        0.36,
-        7.2,
-        0.2
+        0.34,
+        5.0,
+        0.18
       ],
       "rotation_z": 0
     },
     {
-      "name": "entry step",
+      "name": "west front stair",
       "type": "box",
       "center": [
-        -22.82,
+        -21.709999999999997,
+        0,
+        0.41800000000000004
+      ],
+      "size": [
+        0.34,
+        5.15,
+        0.18
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "west front stair",
+      "type": "box",
+      "center": [
+        -22.02,
+        0,
+        0.312
+      ],
+      "size": [
+        0.34,
+        5.3,
+        0.18
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "west front stair",
+      "type": "box",
+      "center": [
+        -22.33,
+        0,
+        0.20600000000000002
+      ],
+      "size": [
+        0.34,
+        5.45,
+        0.18
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "west front stair",
+      "type": "box",
+      "center": [
+        -22.639999999999997,
         0,
         0.1
       ],
       "size": [
-        0.36,
-        7.2,
-        0.2
+        0.34,
+        5.6,
+        0.18
       ],
       "rotation_z": 0
     },
@@ -2200,7 +2260,7 @@
           79.92469114442619
         ]
       ],
-      "height": 17
+      "height": 30
     },
     {
       "name": "OSM_338426696",
@@ -2415,7 +2475,7 @@
           186.2288052763607
         ]
       ],
-      "height": 30
+      "height": 25
     },
     {
       "name": "OSM_969818564",
@@ -2462,7 +2522,7 @@
           -127.26899673596625
         ]
       ],
-      "height": 21
+      "height": 30
     },
     {
       "name": "OSM_1172705662",
@@ -2585,7 +2645,7 @@
           -151.04929829000938
         ]
       ],
-      "height": 25
+      "height": 17
     },
     {
       "name": "OSM_1294641993",
@@ -2608,7 +2668,7 @@
           -175.57893238293792
         ]
       ],
-      "height": 21
+      "height": 30
     },
     {
       "name": "OSM_1294641994",
@@ -2631,7 +2691,7 @@
           -185.86511522855992
         ]
       ],
-      "height": 21
+      "height": 17
     },
     {
       "name": "OSM_1294641995",
@@ -2654,7 +2714,7 @@
           -198.03749024728063
         ]
       ],
-      "height": 30
+      "height": 25
     },
     {
       "name": "OSM_1294641996",
@@ -2716,7 +2776,7 @@
           -55.958027938925454
         ]
       ],
-      "height": 25
+      "height": 30
     },
     {
       "name": "OSM_1294641998",
@@ -2786,7 +2846,7 @@
           -167.03986365056517
         ]
       ],
-      "height": 30
+      "height": 25
     },
     {
       "name": "OSM_1294642000",
@@ -2832,7 +2892,7 @@
           -159.26613928955936
         ]
       ],
-      "height": 30
+      "height": 25
     },
     {
       "name": "OSM_1294642003",
@@ -2855,7 +2915,7 @@
           -157.20724713613998
         ]
       ],
-      "height": 30
+      "height": 25
     },
     {
       "name": "OSM_1294642004",
@@ -2878,7 +2938,7 @@
           -79.47877341896358
         ]
       ],
-      "height": 30
+      "height": 25
     },
     {
       "name": "OSM_1294642005",
@@ -2901,7 +2961,7 @@
           -120.77397417740342
         ]
       ],
-      "height": 25
+      "height": 17
     },
     {
       "name": "",
@@ -4040,21 +4100,6 @@
         1.25,
         0.14,
         2.35
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "door landing",
-      "type": "box",
-      "center": [
-        -21.2,
-        0,
-        0.34
-      ],
-      "size": [
-        1.6,
-        7.4,
-        0.58
       ],
       "rotation_z": 0
     },

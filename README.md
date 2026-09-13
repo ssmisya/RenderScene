@@ -1,22 +1,27 @@
-# 哈尔滨圣索菲亚广场 · v2
+# 哈尔滨圣索菲亚广场 · v2.1
 
 可离线打开、编辑、渲染的 Blender 原生外景工程，内含白天与夜晚两套场景。主文件：**Harbin_Sophia_Square.blend**。
 
 ## 仓库版本
 
-**默认主版本：V2 · `main` · `v2.0.0`**。克隆后先执行 `git lfs pull` 下载模型、贴图及成片。完整流程见 [版本管理.md](版本管理.md)，版本记录见 [CHANGELOG.md](CHANGELOG.md)。
+**默认主版本：V2.1（V2 主线）· `main` · `v2.1.0`**。克隆后先执行 `git lfs pull` 下载模型、贴图及成片。完整流程见 [版本管理.md](版本管理.md)，版本记录见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 直接使用
 
 1. 打开主工程，或双击 `打开白天.command` / `打开夜晚.command`。
 2. Blender 顶部 Scene 菜单切换 **01_DAY_白天** / **02_NIGHT_夜晚**。
 3. 按 **F12** 渲染，默认 **2400 × 1600、Cycles 192 samples**。本机已使用 Apple M5 / Metal 实渲。
-4. 成片在 **renders/v2/**，每个机位都有 DAY / NIGHT 对照。双击 `preview.html` 可查看离线画廊。
+4. 成片在 **renders/v2_1/**，每个机位都有 DAY / NIGHT 对照。双击 `preview.html` 可查看离线画廊。
 5. 用 F3 搜索 **Walk Navigation**，鼠标转向、WASD 移动；相机的人眼高度为 1.70 m。
 
 完整说明：[V2_实景核对与使用.md](V2_实景核对与使用.md)。文件与脚本索引：[目录与使用指南.md](目录与使用指南.md)。
 
 ## 这一版
+
+当前完整压缩包为 `Harbin_Sophia_v2.1_Day_Night.zip`，校验清单为 `MANIFEST_v2_1.json`。
+
+本轮修正中央高、两侧低的前脸体块、屋顶转折、盲板和钟楼厚墙，删除全部粗糙鸽子。详见 [V2.1 结构修正与实景核对](V2.1_结构修正与实景核对.md)。以下为 V2 系列基础内容。
+
 
 - 新补充 32 张实拍参考，涵盖门廊细节、游客机位、广场反向视角和夜景；作者、许可和原页面都保存在 `references/v2/`。
 - 重做分格双扇门、浮雕、径向砌砖、拱券齿饰和退台；扫描材质升到 4K，补充风化与近景细节。
@@ -31,14 +36,14 @@
 | 目录或文件 | 用途 |
 |---|---|
 | Harbin_Sophia_Square.blend | 当前主工程，全部使用中的图片、字体内嵌 |
-| renders/v2/ | 7 个机位 × 两种光照的 Blender 实渲 |
+| renders/v2_1/ | 9 个机位 × 两种光照的 Blender 实渲 |
 | assets/textures/v2/ | 4K 扫描材质及拱砖面裁切；原 1K 资源仍保留 |
 | references/v2/ | 新参考照片、联系表、许可、逐图索引 |
 | scripts/ | 重建、灯光、渲染、验证、游戏导出脚本 |
 | game/ | 可见网格 GLB、碰撞 GLB、出生点、路线、夜灯参数 |
-| validation_v2.json | 场景、纹理、字体、日夜隔离、尺寸与路线检查 |
+| validation_v2_1.json | 场景、纹理、字体、日夜隔离、尺寸与路线检查 |
 | game/export_validation.json | 两份 GLB 重新导入检查 |
-| renders/v2/render_validation.json | 成片尺寸、像素内容检查 |
+| renders/v2_1/render_validation.json | 成片尺寸、像素内容检查 |
 | backups/pre_v2_20260913/ | 本轮修改前的可回退快照 |
 
 ## 游戏使用
@@ -53,7 +58,7 @@
 
 ```sh
 blender -b Harbin_Sophia_Square.blend --python scripts/render_v2.py -- --mode both --view all
-blender -b Harbin_Sophia_Square.blend --python scripts/validate_v2.py
+blender -b Harbin_Sophia_Square.blend --python scripts/validate_v21.py
 blender -b Harbin_Sophia_Square.blend --python scripts/export_game.py
 blender -b --python scripts/verify_game.py
 ```

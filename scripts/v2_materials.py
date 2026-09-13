@@ -74,3 +74,7 @@ for name in ['Historic red brick • CC0 scan','Carved terracotta','Terracotta h
  for node in M[name].node_tree.nodes:
   if node.type=='VALTORGB' and node.label=='Soot and uneven historic masonry':
    node.color_ramp.elements[0].position=.38;node.color_ramp.elements[0].color=(.10,.12,.105,1);node.color_ramp.elements[1].position=.61
+
+# V2.1 carved black door has subdued worn paint and low relief, not polished metal.
+for name in ['Door black lacquer','Door carved relief']:
+ p=M[name].node_tree.nodes.get('Principled BSDF');p.inputs['Roughness'].default_value=.68;p.inputs['Metallic'].default_value=.02

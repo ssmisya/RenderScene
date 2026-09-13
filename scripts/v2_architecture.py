@@ -1,12 +1,22 @@
 """Photographic portal reconstruction helpers, called before cathedral construction."""
 def radial_arch(F,u,sp,r,width,d,depth=.18,full=pi):
  # Real wedge-shaped voussoirs and recessed mortar, with radial rather than horizontal joints.
- arc(F,u,sp,r,width,d-.16,'Old lime mortar',max(24,int(r*24)),0,full)
+ arc(F,u,sp,r,width,d+depth-.14,'Old lime mortar',max(24,int(r*24)),0,full)
  count=max(12,int(full*(r+width*.5)/.115));gap=.009/max(r,.1)
  for i in range(count):
   a=i*full/count+gap/2;b=(i+1)*full/count-gap/2
   vs=[F(u+rr*cos(ang),sp+rr*sin(ang),dd) for dd in [d,d+depth] for rr,ang in [(r,a),(r,b),(r+width,b),(r+width,a)]]
-  add(vs,[(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)],'Arch fired brick %02d'%random.randrange(14),uv=[(0,0),(0,1),(1,1),(1,0)]*2)
+  # Independent deterministic UV jitter avoids identical pores repeated like rivet heads.
+  uv_rng=random.Random(int(r*10000)+int(sp*1000)*101+i*7919)
+  du=uv_rng.uniform(0,.18);dv=uv_rng.uniform(0,.18);uu=[du,du+.82];vv=[dv,dv+.82]
+  if uv_rng.random()<.5:uu.reverse()
+  if uv_rng.random()<.5:vv.reverse()
+  coords=[(uu[0],vv[0]),(uu[0],vv[1]),(uu[1],vv[1]),(uu[1],vv[0])]*2
+  add(vs,[(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)],'Arch fired brick %02d'%random.randrange(14),uv=coords)
+def door_arc(F,u,sp,r,width,d,mat,N,start,end):
+ # Millimetre-scale low relief, not the 13 cm depth used by masonry arches.
+ G=lambda uu,zz,dd:F(uu,zz,d+(dd-d)*.035)
+ arc(G,u,sp,r,width,d,mat,N,start,end)
 def panel_frame(F,u,z,w,h,d):
  fbox(F,u,z,d,w,h,.052,'Door carved relief')
  fbox(F,u,z,d+.037,w-.12,h-.12,.036,'Door black lacquer')
@@ -28,13 +38,19 @@ def portal(F,w=3.2,h=5.5):
   panel_frame(F,u,.65*s,1.23*s,.27*s,.28)
   panel_frame(F,u,3.05*s,1.23*s,.23*s,.28)
   # Raised Orthodox cross and fine carved rays on each main panel.
-  fbox(F,u,1.99*s,.37,.065*s,1.36*s,.025,'Door carved relief')
-  for zz,ww in [(2.35,.75),(2.57,.40)]:fbox(F,u,zz*s,.37,ww*s,.07*s,.026,'Door carved relief')
-  beam(F(u-.24*s,1.49*s,.385),F(u+.24*s,1.34*s,.385),.025*s,'Door carved relief',6)
+  fbox(F,u,1.99*s,.341,.065*s,1.36*s,.006,'Door carved relief')
+  for zz,ww in [(2.35,.75),(2.57,.40)]:fbox(F,u,zz*s,.341,ww*s,.07*s,.006,'Door carved relief')
+  beam(F(u-.24*s,1.49*s,.343),F(u+.24*s,1.34*s,.343),.006*s,'Door carved relief',6)
   for j in range(24):
-   a=j*2*pi/24;beam(F(u+.15*s*cos(a),2.34*s+.15*s*sin(a),.385),F(u+.34*s*cos(a),2.34*s+.34*s*sin(a),.385),.009*s,'Door carved relief',4)
+   a=j*2*pi/24;beam(F(u+.15*s*cos(a),2.34*s+.15*s*sin(a),.343),F(u+.34*s*cos(a),2.34*s+.34*s*sin(a),.343),.003*s,'Door carved relief',4)
+  for zz,xx in [(2.66,0),(2.35,-.38),(2.35,.38),(1.38,0)]:
+   for ang in [0,2*pi/3,4*pi/3]:
+    door_arc(F,u+(xx+.038*cos(ang))*s,(zz+.038*sin(ang))*s,.039*s,.008*s,.341,'Door carved relief',12,0,2*pi)
+  for sign2 in [-1,1]:
+   for zz in [1.70,2.15]:
+    door_arc(F,u+sign2*.23*s,zz*s,.10*s,.008*s,.341,'Door carved relief',16,0,pi*1.8)
   for j in range(10):
-   x=u+(-.50+j*.11)*s;path([F(x,3.04*s,.375),F(x+.045*s,3.10*s,.375),F(x+.09*s,3.04*s,.375)],.010*s,'Door carved relief',4)
+   x=u+(-.50+j*.11)*s;path([F(x,3.04*s,.343),F(x+.045*s,3.10*s,.343),F(x+.09*s,3.04*s,.343)],.003*s,'Door carved relief',4)
   fbox(F,sign*.085*s,1.80*s,.40,.038*s,.39*s,.045,'Old brass hardware')
  # Central cusp and round brick medallion in tympanum.
  fbox(F,0,3.39*s,.34,.22*s,.22*s,.20,'Door carved relief')
@@ -54,8 +70,8 @@ def portal(F,w=3.2,h=5.5):
   for k in range(7):
    u=sign*(2.06+k*.36)*s;wid=.28*s;d=(.33+k*.07)*s
    fbox(F,u,sp/2+.15*s,d,wid,sp-.28*s,.24*s,'Carved terracotta')
-   for j in range(int(sp/(.19*s))):
-    z=.3*s+j*.19*s
+   for j in range(int(sp/(.43*s))):
+    z=(.35+j*.43+(k%2)*.19)*s
     fbox(F,u,z,d+.14*s,wid+.08*s,.06*s,.11*s,'Arch fired brick %02d'%((j+k)%14))
    for zz in [.35,1.16,2.35,3.30]:fbox(F,u,zz*s,d+.15*s,wid+.19*s,.15*s,.23*s,'Carved terracotta')
   # Outer capital's small blind semi-arch and raised point.

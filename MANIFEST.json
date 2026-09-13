@@ -1,5 +1,5 @@
 {
-  "current_manifest": "MANIFEST_v2.json",
-  "revision": "v2",
-  "old_manifest": "backups/pre_v2_20260913/MANIFEST.json"
+  "current_manifest": "MANIFEST_v2_1.json",
+  "revision": "2.1.0",
+  "historical_v2_manifest": "MANIFEST_v2.json"
 }
