@@ -508,6 +508,8 @@ print('Environment geometry ready',flush=True)
 
 exec(compile((ROOT/'scripts/v2_details.py').read_text(),str(ROOT/'scripts/v2_details.py'),'exec'))
 
+exec(compile((ROOT/'scripts/v22_street_refinements.py').read_text(),str(ROOT/'scripts/v22_street_refinements.py'),'exec'))
+
 # --- Convert geometry buffers into editable native mesh datablocks. ---
 for (collection,group,mat),(verts,faces,smooth,uvs) in B.items():
  me=bpy.data.meshes.new(group+' | '+mat);me.from_pydata(verts,[],faces);me.update()
@@ -571,7 +573,7 @@ exec(compile((ROOT/'scripts/v2_lighting.py').read_text(),str(ROOT/'scripts/v2_li
 bpy.context.preferences.filepaths.save_version=0
 bpy.ops.file.pack_all();bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'Harbin_Sophia_Square.blend'))
 # Mesh statistics for delivery and validation.
-stats={'revision':'v2.1.0','night_objects':len(night.objects),'night_lights':len(lighting_record),'packed_image_count':sum(bool(im.packed_file) for im in bpy.data.images),'packed_font_count':sum(bool(f.packed_file) for f in bpy.data.fonts),'objects':len(scene.objects),'render_meshes':len(B),'vertices':sum(len(ob.data.vertices) for ob in scene.objects if ob.type=='MESH' and not ob.hide_render),'polygons':sum(len(ob.data.polygons) for ob in scene.objects if ob.type=='MESH' and not ob.hide_render),'collision_proxies':len(collision),'cameras':[o.name for o in scene.objects if o.type=='CAMERA'],'blender_version':bpy.app.version_string}
+stats={'revision':'v2.2.0-demo','night_objects':len(night.objects),'night_lights':len(lighting_record),'packed_image_count':sum(bool(im.packed_file) for im in bpy.data.images),'packed_font_count':sum(bool(f.packed_file) for f in bpy.data.fonts),'objects':len(scene.objects),'render_meshes':len(B),'vertices':sum(len(ob.data.vertices) for ob in scene.objects if ob.type=='MESH' and not ob.hide_render),'polygons':sum(len(ob.data.polygons) for ob in scene.objects if ob.type=='MESH' and not ob.hide_render),'collision_proxies':len(collision),'cameras':[o.name for o in scene.objects if o.type=='CAMERA'],'blender_version':bpy.app.version_string}
 json.dump(stats,open(ROOT/'scene_stats.json','w'),indent=2);print('SCENE_SAVED',stats,flush=True)
 if '--render-preview' in sys.argv:
  scene.render.resolution_percentage=55;scene.cycles.samples=24;scene.render.filepath=str(ROOT/'renders/preview.png');bpy.ops.render.render(write_still=True)

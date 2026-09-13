@@ -1,3 +1,5 @@
+> **V2.2 更新**：可玩入口为根目录 `启动游戏Demo.command`；当前总说明见 [README.md](README.md)，游戏操作见 [demo/README.md](demo/README.md)，实景验收仍未通过。以下为既有资产说明，V2.1 路径属于历史版本。
+
 # 哈尔滨圣索菲亚教堂及周边 · Blender 场景资产包
 
 ## 先确认交付形式

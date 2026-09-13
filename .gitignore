@@ -14,3 +14,12 @@ verification/git_remote_check/
 !.env.example
 *.pem
 *.key
+
+# Godot imported caches and runtime data (source assets remain versioned)
+demo/.godot/
+demo/.runtime/
+demo/qa/
+builds/
+references/v2_2/*_2025*.jpg
+!references/v2_2/Arplane_20250224.jpg
+logs/godot_launch_sample.txt

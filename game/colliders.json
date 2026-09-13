@@ -3102,231 +3102,6 @@
       "height": 76
     },
     {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.168843479098754,
-        32.475478609398095,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.168843479098754,
-        37.48623954080733,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.168843479098754,
-        42.49700047221656,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.168843479098754,
-        47.5077614036258,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.168843479098754,
-        52.51852233503503,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.168843479098754,
-        57.52928326644427,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.96093016908274,
-        69.4368097130461,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.96093016908274,
-        74.44737624762286,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.96093016908274,
-        79.45794278219961,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.96093016908274,
-        84.46850931677635,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.96093016908274,
-        89.4790758513531,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.96093016908274,
-        94.48964238592986,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.96093016908274,
-        99.5002089205066,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.96093016908274,
-        104.51077545508335,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "arcade pier",
-      "type": "box",
-      "center": [
-        -57.96093016908274,
-        109.5213419896601,
-        2.8
-      ],
-      "size": [
-        1.0,
-        0.75,
-        5.6
-      ],
-      "rotation_z": 0
-    },
-    {
       "name": "bench",
       "type": "box",
       "center": [
@@ -4390,6 +4165,857 @@
         1.55
       ],
       "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -50.5,
+        33.7,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -55.0,
+        33.7,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -59.5,
+        33.7,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -64.0,
+        33.7,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -64.0,
+        41.3,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -59.5,
+        41.3,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -55.0,
+        41.3,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -50.5,
+        41.3,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -46.7,
+        54.5,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -46.7,
+        50.25,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -46.7,
+        46.0,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -46.7,
+        41.75,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -46.7,
+        37.5,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -54.3,
+        37.5,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -54.3,
+        41.75,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -54.3,
+        46.0,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -54.3,
+        50.25,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -54.3,
+        54.5,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -60.9,
+        104.1,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -60.9,
+        99.5142857142857,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -60.9,
+        94.92857142857143,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -60.9,
+        90.34285714285714,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -60.9,
+        85.75714285714285,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -60.9,
+        81.17142857142858,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -60.9,
+        76.58571428571429,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -60.9,
+        72.0,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -68.7,
+        72.0,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -68.7,
+        76.58571428571429,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -68.7,
+        81.17142857142856,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -68.7,
+        85.75714285714285,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -68.7,
+        90.34285714285714,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -68.7,
+        94.92857142857142,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -68.7,
+        99.5142857142857,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -68.7,
+        104.1,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -50.0,
+        100.19999999999999,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -54.93333333333333,
+        100.19999999999999,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -59.86666666666667,
+        100.19999999999999,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -64.8,
+        100.19999999999999,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -64.8,
+        108.0,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -59.86666666666667,
+        108.0,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -54.93333333333333,
+        108.0,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery pier",
+      "type": "box",
+      "center": [
+        -50.0,
+        108.0,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -68.8,
+        37.5,
+        0.075
+      ],
+      "size": [
+        0.34,
+        6.4,
+        0.15
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -68.46,
+        37.5,
+        0.15
+      ],
+      "size": [
+        0.34,
+        6.4,
+        0.3
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -68.12,
+        37.5,
+        0.22499999999999998
+      ],
+      "size": [
+        0.34,
+        6.4,
+        0.44999999999999996
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -67.78,
+        37.5,
+        0.3
+      ],
+      "size": [
+        0.34,
+        6.4,
+        0.6
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -67.44,
+        37.5,
+        0.375
+      ],
+      "size": [
+        0.34,
+        6.4,
+        0.75
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -67.1,
+        37.5,
+        0.44999999999999996
+      ],
+      "size": [
+        0.34,
+        6.4,
+        0.8999999999999999
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -66.76,
+        37.5,
+        0.525
+      ],
+      "size": [
+        0.34,
+        6.4,
+        1.05
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -64.8,
+        67.2,
+        0.075
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.15
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -64.8,
+        67.54,
+        0.15
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.3
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -64.8,
+        67.88,
+        0.22499999999999998
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.44999999999999996
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -64.8,
+        68.22,
+        0.3
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.6
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -64.8,
+        68.56,
+        0.375
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.75
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -64.8,
+        68.9,
+        0.44999999999999996
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.8999999999999999
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "gallery stair",
+      "type": "box",
+      "center": [
+        -64.8,
+        69.24,
+        0.525
+      ],
+      "size": [
+        6.4,
+        0.34,
+        1.05
+      ],
+      "rotation_z": 0
+    },
+    {
+      "name": "glazed opening perimeter",
+      "type": "cylinder",
+      "center": [
+        -24.8,
+        89.6,
+        0.6
+      ],
+      "radius": 4.25,
+      "height": 1.2
     }
   ]
 }

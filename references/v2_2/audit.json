@@ -1,0 +1,115 @@
+{
+  "review_date": "2026-09-13",
+  "target_epoch": "2025 permanent exterior structures, non-snow demo",
+  "recent_window_months": 24,
+  "preferred_window_months": 12,
+  "coverage_complete": false,
+  "current_epoch_verified": false,
+  "items": [
+    {
+      "id": "ENV-01",
+      "subject": "砖廊体量与回折",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "brick_gallery_2025"
+      ],
+      "finding": "已用 OSM L 形约束替换直线薄廊，增加端头山花、檐口和入口；开间、尺寸及端头位置仍需相机匹配/测量。",
+      "implementation": "scripts/v22_street_refinements.py",
+      "comparison_evidence": []
+    },
+    {
+      "id": "ENV-02",
+      "subject": "钢构塔廊",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "steel_gallery_2025",
+        "xinhua_moon_0_2025",
+        "xinhua_moon_2_2025"
+      ],
+      "finding": "补充横向拱廊、三层拱圈、菱形格栅和筒拱肋；现有塔身高度/比例及位置仍属估计。",
+      "implementation": "scripts/v22_street_refinements.py",
+      "comparison_evidence": []
+    },
+    {
+      "id": "ENV-03",
+      "subject": "圆形玻璃设施",
+      "status": "UNVERIFIED",
+      "photo_ids": [
+        "cnr_1_2025"
+      ],
+      "finding": "删除没有证据支持的旋转木马，替换绿栏杆和低玻璃顶；照片拍摄时间和位置需要独立确认。",
+      "implementation": "scripts/v22_street_refinements.py",
+      "comparison_evidence": []
+    },
+    {
+      "id": "ENV-04",
+      "subject": "北侧商业建筑",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "hualian_2025_a",
+        "golden_sun_2025_a",
+        "cnr_9_2025"
+      ],
+      "finding": "补屋顶老虎窗框、齿饰和落水管；通用门窗排列、转角楼体、沿街店面仍未完整重建。",
+      "implementation": "scripts/v22_street_refinements.py",
+      "comparison_evidence": []
+    },
+    {
+      "id": "ENV-05",
+      "subject": "曼哈顿屋顶标识",
+      "status": "UNVERIFIED",
+      "photo_ids": [
+        "cnr_6_2025",
+        "xinhua_summer_2_2025"
+      ],
+      "finding": "补 MANHATTAN 标识；尺寸位置和各年份店招变化未完成标定。",
+      "implementation": "scripts/v22_street_refinements.py",
+      "comparison_evidence": []
+    },
+    {
+      "id": "ENV-06",
+      "subject": "石栏杆与灯基座",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "xinhua_summer_5_2025",
+        "cnr_2_2025"
+      ],
+      "finding": "照片可见的石栏杆、台阶和灯座尚未逐件测量匹配；不能通过多放通用栏杆替代。",
+      "implementation": null,
+      "comparison_evidence": []
+    },
+    {
+      "id": "ENV-07",
+      "subject": "其余街区及背面",
+      "status": "UNVERIFIED",
+      "photo_ids": [],
+      "finding": "尚缺每栋建筑完整四向近期照片、背面、店招和屋顶证据；禁止声称街区100%还原。",
+      "implementation": null,
+      "comparison_evidence": []
+    },
+    {
+      "id": "CH-01",
+      "subject": "教堂细部",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "Arplane_20250224",
+        "church_2025"
+      ],
+      "finding": "V2.1 前脸修正保留；主鼓座、穹顶拼片、侧立面窗饰等仍不等于实测复制。",
+      "implementation": null,
+      "comparison_evidence": []
+    },
+    {
+      "id": "LIGHT-01",
+      "subject": "夜景照明",
+      "status": "UNVERIFIED",
+      "photo_ids": [
+        "xinhua_summer_2_2025",
+        "xinhua_moon_0_2025"
+      ],
+      "finding": "Godot 功能灯光已接入；运行截图需继续与同曝光实照比较，不能以开灯测试代替写实验收。",
+      "implementation": "demo/scripts/main.gd",
+      "comparison_evidence": []
+    }
+  ]
+}

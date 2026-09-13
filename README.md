@@ -1,68 +1,63 @@
-# 哈尔滨圣索菲亚广场 · v2.1
+# 哈尔滨圣索菲亚广场 · V2.2 可玩 Demo
 
-可离线打开、编辑、渲染的 Blender 原生外景工程，内含白天与夜晚两套场景。主文件：**Harbin_Sophia_Square.blend**。
+当前工作分支：`codex/v2.2-playable-demo`。V2.1 稳定基线、历史标签和资产保留；V2.2 属于 V2 主线的开发 Demo。**游戏可以运行，周边实景还原验收仍为 NOT_ACCEPTED。**
 
-## 仓库版本
+## 马上体验
 
-**默认主版本：V2.1（V2 主线）· `main` · `v2.1.0`**。克隆后先执行 `git lfs pull` 下载模型、贴图及成片。完整流程见 [版本管理.md](版本管理.md)，版本记录见 [CHANGELOG.md](CHANGELOG.md)。
+1. 双击根目录 **`启动游戏Demo.command`**，选择进入白天或夜晚。
+2. WASD 行走，鼠标环顾，Shift 跑，空格跳，左键开火、右键瞄准、R 换弹。
+3. N 切换昼夜，F 手电，G 收枪，Esc 打开菜单并释放鼠标。
 
-## 直接使用
+独立 Mac 应用位于 `builds/索菲亚广场 · 持枪漫游.app`，可分享压缩包为 `SophiaWalk_macOS_v2.2_demo.zip`。不需要先开 Blender 或 Godot 编辑器。克隆仓库后先执行 `git lfs pull` 获取模型与应用 ZIP。
 
-1. 打开主工程，或双击 `打开白天.command` / `打开夜晚.command`。
-2. Blender 顶部 Scene 菜单切换 **01_DAY_白天** / **02_NIGHT_夜晚**。
-3. 按 **F12** 渲染，默认 **2400 × 1600、Cycles 192 samples**。本机已使用 Apple M5 / Metal 实渲。
-4. 成片在 **renders/v2_1/**，每个机位都有 DAY / NIGHT 对照。双击 `preview.html` 可查看离线画廊。
-5. 用 F3 搜索 **Walk Navigation**，鼠标转向、WASD 移动；相机的人眼高度为 1.70 m。
+游戏说明和源码索引：[demo/README.md](demo/README.md)。双击 `打开Godot工程.command` 可继续开发；`构建游戏Demo.command` 可从当前模型重新打包。
 
-完整说明：[V2_实景核对与使用.md](V2_实景核对与使用.md)。文件与脚本索引：[目录与使用指南.md](目录与使用指南.md)。
+## Blender 主工程
 
-## 这一版
+主文件仍为 **`Harbin_Sophia_Square.blend`**，两套场景是 `01_DAY_白天` / `02_NIGHT_夜晚`。双击 `打开白天.command` / `打开夜晚.command`，或直接打开主文件；F12 渲染。当前成片在 [renders/v2_2/](renders/v2_2/)。旧版 `preview.html`、ZIP 和 `renders/v2_1/` 是历史成果。
 
-当前完整压缩包为 `Harbin_Sophia_v2.1_Day_Night.zip`，校验清单为 `MANIFEST_v2_1.json`。
+本次增加砖廊回折和端头构件、钢构拱廊与格栅、商业楼屋顶窗框和檐部细节；替换缺乏依据的旋转木马为待核位置的圆形采光设施。Blender 与游戏导出同步，粗糙鸽子继续保持删除。
 
-本轮修正中央高、两侧低的前脸体块、屋顶转折、盲板和钟楼厚墙，删除全部粗糙鸽子。详见 [V2.1 结构修正与实景核对](V2.1_结构修正与实景核对.md)。以下为 V2 系列基础内容。
+这些是依据照片进行的局部修订，**周边楼体、门窗店招、转角、栏杆、教堂细部仍有已知偏差；不宣称 100% 还原或已实现照片级游戏画面**。游戏中也存在离线材质和实时材质差异。
 
+## 强制实景标准
 
-- 新补充 32 张实拍参考，涵盖门廊细节、游客机位、广场反向视角和夜景；作者、许可和原页面都保存在 `references/v2/`。
-- 重做分格双扇门、浮雕、径向砌砖、拱券齿饰和退台；扫描材质升到 4K，补充风化与近景细节。
-- 分开处理周边商业街、高层与裙房，新增钟塔、封闭亭屋等可辨认环境元素；修正广场与透笼街的边界。
-- 白天无人工灯光或自发光网格；夜间开启独立的教堂投光、射灯、商业灯光与广场路灯。
-- 原工程、脚本、成片和旧游戏导出保存在 `backups/pre_v2_20260913/`；根目录更早的 ZIP、GLB 等资产未覆盖。
+已查看 18 张图片，其中 10 张满足本批次近期 / 可辨范围条件，来自 4 个独立拍摄来源。部分仅能验证体量，不能验证细小装饰。拍摄日不明、室内和虚焦照片不计入相应数量。当前目标是 2025 常设建筑，2026 最新状态未确认。
 
-这是**照片参考重建**，尚非实地扫描或 1:1 数字孪生。周边楼高、上层体量、装饰及临时街具仍有推定，室内与写实动态人群未制作。具体已核对与仍估计的部分见完整说明。
+- [实景复原与地图扩展 SOP](docs/实景复原与地图扩展SOP.md)：至少 10 张近期独立照片，逐细节对照，发现不一致返工，覆盖和时间均必须通过。
+- [照片来源](references/v2_2/README.md) / [逐项差异表](references/v2_2/audit.json)：9 项待处理，不得以照片数量代替准确性。
+- [自动实景检查](verification/v2_2/reference_validation.json)：当前 NOT_ACCEPTED。
 
-## 主要目录
+`AGENTS.md` 已要求后续地图工作遵守 SOP。任何正式“还原通过”结论都需要零未解决差异和对应渲染证据。
 
-| 目录或文件 | 用途 |
+## 当前文件与验证
+
+| 文件 / 目录 | 用途 |
 |---|---|
-| Harbin_Sophia_Square.blend | 当前主工程，全部使用中的图片、字体内嵌 |
-| renders/v2_1/ | 9 个机位 × 两种光照的 Blender 实渲 |
-| assets/textures/v2/ | 4K 扫描材质及拱砖面裁切；原 1K 资源仍保留 |
-| references/v2/ | 新参考照片、联系表、许可、逐图索引 |
-| scripts/ | 重建、灯光、渲染、验证、游戏导出脚本 |
-| game/ | 可见网格 GLB、碰撞 GLB、出生点、路线、夜灯参数 |
-| validation_v2_1.json | 场景、纹理、字体、日夜隔离、尺寸与路线检查 |
-| game/export_validation.json | 两份 GLB 重新导入检查 |
-| renders/v2_1/render_validation.json | 成片尺寸、像素内容检查 |
-| backups/pre_v2_20260913/ | 本轮修改前的可回退快照 |
+| `Harbin_Sophia_Square.blend` | 可离线编辑 / 渲染的原生工程，使用的图片与字体已内嵌 |
+| `demo/` | 可编辑 Godot 工程、脚本、PBR 资产、声音和 Mac 导出设置 |
+| `game/` | Blender 导出的可见 GLB、碰撞 GLB、灯光与地图元数据 |
+| `renders/v2_2/` | 6 张 Blender 实渲及独立游戏应用截图 |
+| `verification/v2_2/` | 运行、素材来源、发布校验与限制说明 |
+| `validation_v2_2.json` | 原生场景的结构、打包资源、日夜隔离和路线检查 |
+| `game/export_validation.json` | GLB 实际重新导入的检查结果 |
+| `MANIFEST_v2_2.json` | 本批主工程、导出、Demo 包和成片的哈希 |
+| `scripts/setup_godot.py` / `build_demo.py` | 项目内安装锁定引擎、同步资产、构建 Mac 应用 |
+| `scripts/v22_street_refinements.py` | 本轮街景几何修订 |
+| `scripts/validate_references.py` | 强制参考 / 差异门槛；当前 strict 模式返回 2 |
+| `backups/`、旧 ZIP / GLB、旧 MANIFEST | 历史资产，保留不删除 |
 
-## 游戏使用
-
-1 单位 = 1 米。Blender Z 向上；导出 glTF Y 向上，坐标为 `(x,z,-y)`。可见网格与碰撞代理分别导入引擎，非凸建筑使用静态三角网格碰撞或凸分解。出生点、眼高与绕行路线在 `game/map_metadata.json`。
-
-游戏 GLB 使用最多 2K 的便携 PBR 副本；它不完整表达 Cycles 程序化风化、世界环境与夜间照明。`game/lighting_v2.json` 提供夜灯布置参数，但目标引擎需要转换光强并重新调光。尚未完成特定游戏引擎的 LOD、NavMesh、流式加载和运行帧率测试。
-
-## 命令行
-
-在主工程目录运行，把 `blender` 替换为本机 Blender 可执行文件：
+本机独立应用已做图形运行检查；详细硬件、短时帧率和 15 项结果见运行报告。单人户外原型，未制作敌人、联网、建筑内部、专项 LOD、全地图长期性能验证。
 
 ```sh
-blender -b Harbin_Sophia_Square.blend --python scripts/render_v2.py -- --mode both --view all
-blender -b Harbin_Sophia_Square.blend --python scripts/validate_v21.py
-blender -b Harbin_Sophia_Square.blend --python scripts/export_game.py
-blender -b --python scripts/verify_game.py
+# 当前主工程渲染 / 验证（命令在项目根目录执行）
+/Applications/Blender.app/Contents/MacOS/Blender -b Harbin_Sophia_Square.blend --python scripts/render_v22.py
+/Applications/Blender.app/Contents/MacOS/Blender -b Harbin_Sophia_Square.blend --python scripts/validate_v22.py
+python3 scripts/setup_godot.py
+python3 scripts/build_demo.py
+python3 scripts/validate_references.py --strict
 ```
 
-完整重建使用 `blender -b --python scripts/build_scene.py`，会覆盖主工程与派生数据。已有手工修改时请先另存。
+完整程序化重建为 `blender -b --python scripts/build_scene.py`，会覆盖主工程；若有手工修改，先另存。Blender 5.2.1 LTS / Godot 4.7.2 是本次实际验证版本。
 
-开放素材署名：Poly Haven CC0；© OpenStreetMap contributors / ODbL；实拍照片作者与 CC 许可见 `references/v2/实拍照片索引.md` 及 `REFERENCES.md`。
+许可与历史：[demo/LICENSES.txt](demo/LICENSES.txt)、[REFERENCES.md](REFERENCES.md)、[版本管理.md](版本管理.md)、[CHANGELOG.md](CHANGELOG.md)、[V2.1 历史说明](docs/V2.1_README_历史.md)。

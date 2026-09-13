@@ -1,0 +1,94 @@
+{
+  "review_date": "2026-09-13",
+  "reviewed_photos": 18,
+  "eligible_recent_photos": [
+    "church_2025",
+    "hualian_2025_a",
+    "steel_gallery_2025",
+    "brick_gallery_2025",
+    "golden_sun_2025_a",
+    "xinhua_summer_2_2025",
+    "xinhua_summer_5_2025",
+    "xinhua_moon_0_2025",
+    "xinhua_moon_2_2025",
+    "Arplane_20250224"
+  ],
+  "rejected": [
+    {
+      "id": "hualian_2025_b",
+      "reasons": [
+        "insufficient architectural detail / wrong scope"
+      ]
+    },
+    {
+      "id": "golden_sun_2025_b",
+      "reasons": [
+        "insufficient architectural detail / wrong scope"
+      ]
+    },
+    {
+      "id": "xinhua_summer_3_2025",
+      "reasons": [
+        "insufficient architectural detail / wrong scope"
+      ]
+    },
+    {
+      "id": "xinhua_moon_1_2025",
+      "reasons": [
+        "insufficient architectural detail / wrong scope"
+      ]
+    },
+    {
+      "id": "cnr_6_2025",
+      "reasons": [
+        "capture date unconfirmed"
+      ]
+    },
+    {
+      "id": "cnr_1_2025",
+      "reasons": [
+        "capture date unconfirmed"
+      ]
+    },
+    {
+      "id": "cnr_2_2025",
+      "reasons": [
+        "capture date unconfirmed"
+      ]
+    },
+    {
+      "id": "cnr_9_2025",
+      "reasons": [
+        "capture date unconfirmed"
+      ]
+    }
+  ],
+  "source_groups": [
+    "Arplane",
+    "Dahua Harbin self-photographed",
+    "李嘉南",
+    "谢剑飞"
+  ],
+  "checks": {
+    "ten_recent_distinct_photos": true,
+    "three_independent_sources": true,
+    "source_integrity": true,
+    "coverage_complete": false,
+    "zero_unresolved_differences": false,
+    "matches_have_evidence": true,
+    "current_epoch_verified": false
+  },
+  "open_items": [
+    "ENV-01",
+    "ENV-02",
+    "ENV-03",
+    "ENV-04",
+    "ENV-05",
+    "ENV-06",
+    "ENV-07",
+    "CH-01",
+    "LIGHT-01"
+  ],
+  "accuracy_gate": "NOT_ACCEPTED",
+  "note": "A count check does not certify pixel, dimensional or photogrammetric accuracy."
+}

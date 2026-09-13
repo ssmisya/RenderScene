@@ -1,0 +1,103 @@
+{
+  "version": "2.2.0-demo",
+  "date": "2026-09-13",
+  "branch": "codex/v2.2-playable-demo",
+  "blender": "5.2.1 LTS",
+  "godot": "4.7.2-stable",
+  "runtime_gate": "PASS_15_OF_15",
+  "accuracy_gate": "NOT_ACCEPTED",
+  "files": {
+    "Harbin_Sophia_Square.blend": {
+      "bytes": 131478958,
+      "sha256": "fd4952d5ba6c456390544810314759e4cba66a53b488ed7659889fe8b8a17ede"
+    },
+    "game/Sophia_Square.glb": {
+      "bytes": 228314992,
+      "sha256": "8aee7c43b517f2bb66b93bf8fc5bd562efd357f5b62c9e98fb53502e3a10c7d7"
+    },
+    "game/Sophia_Collision.glb": {
+      "bytes": 535292,
+      "sha256": "fb205afd21bcded61ce74746fee15b58c20b81d12f0b2b719d1355624e142c37"
+    },
+    "SophiaWalk_macOS_v2.2_demo.zip": {
+      "bytes": 211014844,
+      "sha256": "eecbf8e44ef5c855ea203f767b0a626cb6b1e843f3f0184cec5a2d7acb235f52"
+    },
+    "demo/project.godot": {
+      "bytes": 1066,
+      "sha256": "aaeb92a4e91e5c5f5e280f15ee52f1d7c02e12d425e91751d810965a7d893711"
+    },
+    "demo/scripts/main.gd": {
+      "bytes": 16553,
+      "sha256": "94dfe3e50f5147ceb89f3d283d228f34b165546322054dc19f64a80224e95214"
+    },
+    "demo/scripts/player.gd": {
+      "bytes": 9060,
+      "sha256": "38e161c0c87d073500659ac007d361214ae9d3641d14245d40b772bdf46b95f1"
+    },
+    "validation_v2_2.json": {
+      "bytes": 4849,
+      "sha256": "c46ddf08437c36d72ab3a8119c4acd5e3c604cf3760f0af621c3fbfd756a81da"
+    },
+    "game/export_validation.json": {
+      "bytes": 1993,
+      "sha256": "b912aaaa28cff00e6233ea59d3b3a34ce6ebc7daa68320bb57c1eb7588143765"
+    },
+    "verification/v2_2/runtime_validation.json": {
+      "bytes": 1213,
+      "sha256": "abaa62a792d956592dcefad3ec765c8e0af1e015064597a4f5a58973bf1f0594"
+    },
+    "verification/v2_2/reference_validation.json": {
+      "bytes": 1953,
+      "sha256": "add27e210eb90266c1b63d89c4cee576e31598a513e0f004152fc00cc066c353"
+    },
+    "docs/实景复原与地图扩展SOP.md": {
+      "bytes": 6882,
+      "sha256": "baf18b67df206f013e2971a856d85d438fddf453695733bfcafa112de8a69b5f"
+    },
+    "renders/v2_2/DAY_Hero.png": {
+      "bytes": 2391501,
+      "sha256": "04d6a7200244cc5869b7d17a01bdc57947efd8cd53a7fdcda86b99485eb5305b"
+    },
+    "renders/v2_2/DAY_North.png": {
+      "bytes": 2083656,
+      "sha256": "07d6115ed698af841e9c169d04fd82f7a2d4fee1771d391676e76cb9f5793dc1"
+    },
+    "renders/v2_2/DAY_Streets.png": {
+      "bytes": 2376922,
+      "sha256": "96fd181df7bfd9e02bb7c2e48e6eee657defb2b59dd020f16af04e64cfbb5416"
+    },
+    "renders/v2_2/NIGHT_Hero.png": {
+      "bytes": 2225847,
+      "sha256": "2a9eb5e489a8df51360503c716947ae1f892b024e75e6690d05f7ebe0658165e"
+    },
+    "renders/v2_2/NIGHT_North.png": {
+      "bytes": 2019066,
+      "sha256": "996722a6f716115896cb2d56fccc6ba51b3981d71b7046fbe25b6d26077e7465"
+    },
+    "renders/v2_2/NIGHT_Streets.png": {
+      "bytes": 2058320,
+      "sha256": "7c84a6cd5528766b2649d8c5a53e7a5ac58602bfaa240f958bbce11ac2f7d407"
+    },
+    "renders/v2_2/game_day_north.png": {
+      "bytes": 880216,
+      "sha256": "c25693c5851c524a4feff31f0e6b812285cacc2b039cca1eeb50dc372db84b7c"
+    },
+    "renders/v2_2/game_day_portal.png": {
+      "bytes": 1526266,
+      "sha256": "a7f1ed62f601470b8e8116ba92d1caab7affb1a3734dbe9139c4b8024281d5c8"
+    },
+    "renders/v2_2/game_day_spawn.png": {
+      "bytes": 1079351,
+      "sha256": "d009f7c85b1ccfed533d3e0a2c5476a5aae479baeac5db217c124b3e7b4a69c7"
+    },
+    "renders/v2_2/game_night_flashlight.png": {
+      "bytes": 818715,
+      "sha256": "7973f44156d79a37fb1a4ff48958a6d7b0b6eb75782d4accef584e38d47ef00e"
+    },
+    "renders/v2_2/game_night_spawn.png": {
+      "bytes": 795606,
+      "sha256": "30306685099a7cd1dfa82d684bd7cd2bb312064310bde16062815b0283ae541e"
+    }
+  }
+}
