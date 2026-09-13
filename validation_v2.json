@@ -1,0 +1,152 @@
+{
+  "blender": "5.2.1 LTS",
+  "scenes": {
+    "DAY": {
+      "name": "01_DAY_白天",
+      "objects": 1156,
+      "lights": 1,
+      "artificial_lights": 0,
+      "emissive_meshes": 0,
+      "cameras": 7,
+      "saved_resolution": [
+        2400,
+        1600
+      ],
+      "saved_samples": 192,
+      "camera": "01_HERO_West_square"
+    },
+    "NIGHT": {
+      "name": "02_NIGHT_夜晚",
+      "objects": 1633,
+      "lights": 478,
+      "artificial_lights": 478,
+      "emissive_meshes": 8,
+      "cameras": 7,
+      "saved_resolution": [
+        2400,
+        1600
+      ],
+      "saved_samples": 192,
+      "camera": "01_HERO_West_square"
+    }
+  },
+  "packed_images": [
+    {
+      "name": "brick_diff.jpg",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "path": "//assets/textures/v2/brick_diff.jpg"
+    },
+    {
+      "name": "brick_disp.jpg",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "path": "//assets/textures/v2/brick_disp.jpg"
+    },
+    {
+      "name": "brick_face_diff.jpg",
+      "packed": true,
+      "size": [
+        470,
+        165
+      ],
+      "path": "//assets/textures/v2/brick_face_diff.jpg"
+    },
+    {
+      "name": "brick_face_nor_gl.jpg",
+      "packed": true,
+      "size": [
+        470,
+        165
+      ],
+      "path": "//assets/textures/v2/brick_face_nor_gl.jpg"
+    },
+    {
+      "name": "brick_face_rough.jpg",
+      "packed": true,
+      "size": [
+        470,
+        165
+      ],
+      "path": "//assets/textures/v2/brick_face_rough.jpg"
+    },
+    {
+      "name": "brick_nor_gl.jpg",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "path": "//assets/textures/v2/brick_nor_gl.jpg"
+    },
+    {
+      "name": "brick_rough.jpg",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "path": "//assets/textures/v2/brick_rough.jpg"
+    },
+    {
+      "name": "paving_diff.jpg",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "path": "//assets/textures/v2/paving_diff.jpg"
+    },
+    {
+      "name": "paving_nor_gl.jpg",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "path": "//assets/textures/v2/paving_nor_gl.jpg"
+    },
+    {
+      "name": "paving_rough.jpg",
+      "packed": true,
+      "size": [
+        4096,
+        4096
+      ],
+      "path": "//assets/textures/v2/paving_rough.jpg"
+    },
+    {
+      "name": "sky.hdr",
+      "packed": true,
+      "size": [
+        2048,
+        1024
+      ],
+      "path": "//assets/textures/sky.hdr"
+    }
+  ],
+  "packed_fonts": [
+    {
+      "name": "Heiti TC Medium",
+      "packed": true
+    }
+  ],
+  "height_m": 53.349998474121094,
+  "collision_proxies": 252,
+  "plaza_south_edge_m": -35.0,
+  "toulong_sample_y_m": -43.1,
+  "route": {
+    "route_samples": 668,
+    "capsule_radius_m": 0.3,
+    "route_collision_intersections": [],
+    "method": "2D expanded box/cylinder and polygon boundary clearance; ground excluded. Not a game-engine physics test."
+  },
+  "errors": [],
+  "scope": "Data and actual image-generation checks. No survey accuracy, engine FPS or NavMesh certification."
+}

@@ -1,0 +1,15 @@
+{
+  "objects": 618,
+  "render_meshes": 471,
+  "vertices": 1319492,
+  "polygons": 1006316,
+  "collision_proxies": 125,
+  "cameras": [
+    "01_HERO_West_square",
+    "02_EYE_LEVEL_170cm",
+    "03_EAST_Facade",
+    "04_MAP_Overview",
+    "05_Brick_detail"
+  ],
+  "blender_version": "5.2.1 LTS"
+}

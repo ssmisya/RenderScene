@@ -1,0 +1,109 @@
+{
+  "Sophia_Square.glb": {
+    "size_bytes": 231404080,
+    "header_valid": true,
+    "meshes": 887,
+    "materials": 83,
+    "images": 12,
+    "external_uris": [],
+    "imported_meshes": 887,
+    "loaded_images": [
+      {
+        "name": "brick_face_diff",
+        "size": [
+          470,
+          165
+        ]
+      },
+      {
+        "name": "brick_face_nor_gl",
+        "size": [
+          470,
+          165
+        ]
+      },
+      {
+        "name": "brick_face_rough",
+        "size": [
+          470,
+          165
+        ]
+      },
+      {
+        "name": "brick_nor_gl",
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "name": "brick_rough",
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "name": "Carved terracotta portable color",
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "name": "Historic red brick \u2022 CC0 scan portable color",
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "name": "paving_diff",
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "name": "paving_nor_gl",
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "name": "paving_rough",
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "name": "Portable granite slabs",
+        "size": [
+          2048,
+          1664
+        ]
+      },
+      {
+        "name": "Terracotta highlight portable color",
+        "size": [
+          2048,
+          2048
+        ]
+      }
+    ],
+    "empty_meshes": []
+  },
+  "Sophia_Collision.glb": {
+    "size_bytes": 465636,
+    "header_valid": true,
+    "meshes": 252,
+    "materials": 0,
+    "images": 0,
+    "external_uris": [],
+    "imported_meshes": 252,
+    "loaded_images": [],
+    "empty_meshes": []
+  }
+}

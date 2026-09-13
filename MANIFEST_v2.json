@@ -1,0 +1,711 @@
+{
+  "revision": "v2",
+  "project": "Harbin Saint Sophia Square",
+  "main": "Harbin_Sophia_Square.blend",
+  "lighting_scenes": [
+    "01_DAY_白天",
+    "02_NIGHT_夜晚"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "size": 815,
+      "sha256": "8e275feaf82264e23400e9baa72f3ab18023b1343037ab5f5e5c5c1e8357a378"
+    },
+    {
+      "path": "Harbin_Sophia_Square.blend",
+      "size": 129371716,
+      "sha256": "51bc91a9db3bb4d6302ce271bb592574b9b7fed4ac8b3437d40a7ebed53df3ed"
+    },
+    {
+      "path": "PHOTO_AUDIT_V2.json",
+      "size": 2177,
+      "sha256": "2320fe02bbbf2dd56425d362d334adc921c1a2025b3b1acc90c6eccde1aeb104"
+    },
+    {
+      "path": "README.md",
+      "size": 3888,
+      "sha256": "a4e970c80d4a8933dc9d6c1af87cbcf862cc337750d053127eff05cdde39ee6b"
+    },
+    {
+      "path": "REFERENCES.md",
+      "size": 6045,
+      "sha256": "1e3ae30176fd186c008596381926a3e1007a6836cc8642e3ceeaceedbf5b857d"
+    },
+    {
+      "path": "V2_实景核对与使用.md",
+      "size": 10089,
+      "sha256": "eba6f85255b68c28c022d2bbd99d4a1ae416d835b058e5815e523ddc721b46f6"
+    },
+    {
+      "path": "assets/textures/brick_diff.jpg",
+      "size": 694500,
+      "sha256": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f"
+    },
+    {
+      "path": "assets/textures/brick_nor_gl.jpg",
+      "size": 955430,
+      "sha256": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503"
+    },
+    {
+      "path": "assets/textures/brick_rough.jpg",
+      "size": 286623,
+      "sha256": "cd865623c1422926848024e877103e9dfe857b2ca8221fce49264b74c9ff48b1"
+    },
+    {
+      "path": "assets/textures/paving_diff.jpg",
+      "size": 883696,
+      "sha256": "b523617cd1add687f12caac776c29ef7bf943fa1b70bcc1adaab20e4277ca0da"
+    },
+    {
+      "path": "assets/textures/paving_nor_gl.jpg",
+      "size": 609931,
+      "sha256": "f5c7a2c797e229cba4d79c8015bf70255cc4ebc3407751159b9e7f059189ceb5"
+    },
+    {
+      "path": "assets/textures/paving_rough.jpg",
+      "size": 260901,
+      "sha256": "ebf144c38f6fc97b233327d6a5dd774be6cdcd7c909ff2aa40db0c521520b9c7"
+    },
+    {
+      "path": "assets/textures/sky.hdr",
+      "size": 5451493,
+      "sha256": "5244534e9cf5b606f2ff513aa00ddb161b0a4826ffd88a0d3bd03ac29247d198"
+    },
+    {
+      "path": "assets/textures/v2/README.md",
+      "size": 587,
+      "sha256": "33eeb22101b3c55a172e752a6f7365d5ff29e668b33b4534a2fb31573a99f901"
+    },
+    {
+      "path": "assets/textures/v2/brick_diff.jpg",
+      "size": 11437615,
+      "sha256": "7c6b3e81a20efc8c53fe85b83aa9727d38a2b0fe29fbca4bcf100db711fe8cda"
+    },
+    {
+      "path": "assets/textures/v2/brick_disp.jpg",
+      "size": 1741329,
+      "sha256": "4f438ba8fc7244d36c95e06b49b5a4114d689bbcb336188ab06b4df13061969c"
+    },
+    {
+      "path": "assets/textures/v2/brick_face_diff.jpg",
+      "size": 53173,
+      "sha256": "d6a36d7be361c418b1189e5674a1738c169f5c3658aae4acfc54cd3f0ca34099"
+    },
+    {
+      "path": "assets/textures/v2/brick_face_disp.jpg",
+      "size": 8726,
+      "sha256": "9e79a027f30e94394caa5e2c7533e330f3ca158b6be6bda5c4a8903ee4195763"
+    },
+    {
+      "path": "assets/textures/v2/brick_face_nor_gl.jpg",
+      "size": 41488,
+      "sha256": "7d6e776f4086c4318935e6eb908cdd4dabc1bf14cb2443bf8d92f3e75a87b0dd"
+    },
+    {
+      "path": "assets/textures/v2/brick_face_rough.jpg",
+      "size": 29271,
+      "sha256": "15a290521388efd23b9372a16f761823714968cb4d905619715d42f932bd2917"
+    },
+    {
+      "path": "assets/textures/v2/brick_nor_gl.jpg",
+      "size": 11123969,
+      "sha256": "5858d90d1b7e333890a61b51040615021660760273a0025b5348c84f436f6dd8"
+    },
+    {
+      "path": "assets/textures/v2/brick_rough.jpg",
+      "size": 4908970,
+      "sha256": "6f22f26a1ddd593752f524c0c189a8c0f13233e77fd52907b62c2a5bbe4bf7fd"
+    },
+    {
+      "path": "assets/textures/v2/paving_diff.jpg",
+      "size": 17225792,
+      "sha256": "fc0c942d81396cc304804e30d4e8662d2109c989ace5b63bb62381b45d0de25f"
+    },
+    {
+      "path": "assets/textures/v2/paving_disp.jpg",
+      "size": 4077380,
+      "sha256": "cb28053e53d27832e60236ffa98bc2fc897d94a119c9b2df65127dfb858954a7"
+    },
+    {
+      "path": "assets/textures/v2/paving_nor_gl.jpg",
+      "size": 7336888,
+      "sha256": "f405d0b1332e9481c37eb4c3549a72059f50224a9e0f39f46d73efae87561a0e"
+    },
+    {
+      "path": "assets/textures/v2/paving_rough.jpg",
+      "size": 5379807,
+      "sha256": "c6c28cab25d326bb616b686a4b8772afc3be4590692de1f46460198aa881ff2c"
+    },
+    {
+      "path": "game/Sophia_Collision.glb",
+      "size": 465636,
+      "sha256": "d3edc44a79effb2d382388909f2a65bae493d0fe2a396eb37ba98f82b3e03298"
+    },
+    {
+      "path": "game/Sophia_Square.glb",
+      "size": 231404080,
+      "sha256": "b4dde48d49d67807b40678e0ad701aefc180dfefb64aa97c1088e8f764de76b2"
+    },
+    {
+      "path": "game/colliders.json",
+      "size": 73618,
+      "sha256": "66d681baa52ac4ad45445261053a828c4af12154737c69828e8f351f95e88662"
+    },
+    {
+      "path": "game/export_validation.json",
+      "size": 1883,
+      "sha256": "0a316d1c22be7b07d883d7bfe617a9312a6f5595cab6ef0550a60ffcaf9f97e3"
+    },
+    {
+      "path": "game/lighting_v2.json",
+      "size": 191175,
+      "sha256": "8000c75a9498447c9c5e462dd3920354c2d2bbf6951c45a29b6e04d652ea1905"
+    },
+    {
+      "path": "game/map_metadata.json",
+      "size": 816,
+      "sha256": "8321e752987738ee4c7ccf3dd3589b759d94cd831c38ab41638045f27cc83c4f"
+    },
+    {
+      "path": "game/route_validation.json",
+      "size": 213,
+      "sha256": "db11ced4c8366972327fc5913257766d818a8cec09c74567a1f4e6407b8cad12"
+    },
+    {
+      "path": "preview.html",
+      "size": 4256,
+      "sha256": "e8acdd9e6b78df6cf418e11c995bf3d1e9cb505dbc90b77db6fe476782094227"
+    },
+    {
+      "path": "references/brick_asset.json",
+      "size": 29937,
+      "sha256": "30bc50ce0b0b7e702cc481ee2d0783a2440d366f24fe6fb157d36accccdde504"
+    },
+    {
+      "path": "references/category.json",
+      "size": 9702,
+      "sha256": "13384c64f63a35e52b6eb6d1d3af2292c554b415ed10089b420fad6663ed0eaa"
+    },
+    {
+      "path": "references/commons.json",
+      "size": 11252,
+      "sha256": "85ebaa5b9d5792d406af9f17f360613e397599b797a0a8ce2cd3bc39941e676f"
+    },
+    {
+      "path": "references/front_small.jpg",
+      "size": 291066,
+      "sha256": "444af21107c6bff932b4428d449606777480f9023ae163612112637b623c6950"
+    },
+    {
+      "path": "references/map_aligned.json",
+      "size": 73912,
+      "sha256": "864393fa37a5cfb8e125a520f19512c5b1f1de193a1a194285a725d4a8708e65"
+    },
+    {
+      "path": "references/map_local.json",
+      "size": 40001,
+      "sha256": "ce1c1323df539a7c057db3a3f956cebaa1f69cf39baa520f15a4d61f5a96ae08"
+    },
+    {
+      "path": "references/osm.xml",
+      "size": 178049,
+      "sha256": "6f1cfe896a56fcb1cc3b188971a02f14dbf8ad0988a405f93b65ec027a0bd75a"
+    },
+    {
+      "path": "references/paving_asset.json",
+      "size": 25536,
+      "sha256": "ca10e7017822adde3ce1b67499fd702730eb36ebaa302844b954841c1e6cf62a"
+    },
+    {
+      "path": "references/rear.jpg",
+      "size": 3138423,
+      "sha256": "898d4e3810e44bfefb1b755c3b0a1a96aa5ee9781f028ff03905f5acd39de919"
+    },
+    {
+      "path": "references/side_small.jpg",
+      "size": 548074,
+      "sha256": "e2f78e87b54a4e8cdab4c9f104ffdeb3a2b83bcc67900ce1e7b0701bc66a1ad9"
+    },
+    {
+      "path": "references/sky_asset.json",
+      "size": 1947,
+      "sha256": "a7cbb453c0269ac0996e43edaa7995d52b72f89830f4c7d7f813569f6647832c"
+    },
+    {
+      "path": "references/v2/cinema_sign_crop.png",
+      "size": 427884,
+      "sha256": "70b3d944f04cfa6d408d5f23eafbfcf9a5d39d3fb9e28511bbbbe73d3038cc89"
+    },
+    {
+      "path": "references/v2/full_metadata.json",
+      "size": 112637,
+      "sha256": "29c83c23ba7932bdc7da8c486e782097151e4acfc68c86a47987a9e3b92f1c3e"
+    },
+    {
+      "path": "references/v2/plan_check.png",
+      "size": 40906,
+      "sha256": "cfdd292b551d9b7983a8de7b55507373cb4f1e7a9027427be800d553f80b3b9a"
+    },
+    {
+      "path": "references/v2/ref_00.jpg",
+      "size": 257143,
+      "sha256": "83dbd0cae21f59f591c07d81469484cb54f75075b39f6938fd7269aca7bd31ac"
+    },
+    {
+      "path": "references/v2/ref_01.jpg",
+      "size": 263672,
+      "sha256": "64d2ac82a7d2a80db98ba8eba84e01b4ff5d79950f914dfb7d25cf9fd4cd5f78"
+    },
+    {
+      "path": "references/v2/ref_02.jpg",
+      "size": 231924,
+      "sha256": "224848dc98fe9852d8e7b1aa45f10bdce7ffb94326d001e5b579ce5c66d1d356"
+    },
+    {
+      "path": "references/v2/ref_03.jpg",
+      "size": 260952,
+      "sha256": "aa1c523c4a601ec5f8c64a7ca6fc1966c2651da33e0a2564842e303186b63775"
+    },
+    {
+      "path": "references/v2/ref_04.jpg",
+      "size": 106178,
+      "sha256": "c8f1113c438b83060fcab491c53241864e441b4bddcf9840c01d75840e8ba2a6"
+    },
+    {
+      "path": "references/v2/ref_05.jpg",
+      "size": 136474,
+      "sha256": "84342680b203cf8933c47e91c0f8d48ee8dc233e4ef5ebef40fa5e91f3192e9c"
+    },
+    {
+      "path": "references/v2/ref_06.jpg",
+      "size": 340456,
+      "sha256": "e0b48030b287eda3e614c88a99240b789b00995e3bac6bee52f23d62d373fe33"
+    },
+    {
+      "path": "references/v2/ref_07.jpg",
+      "size": 392233,
+      "sha256": "68f6312b215dd73dbaba936019f1d7ae6a4782c096254d240200349d3c152411"
+    },
+    {
+      "path": "references/v2/ref_08.jpg",
+      "size": 473640,
+      "sha256": "1382c5b145118c790abd6c476fd3d778862d5b9cca0edeff61f627005dac99bd"
+    },
+    {
+      "path": "references/v2/ref_09.jpg",
+      "size": 292393,
+      "sha256": "8e8fe3044a8296d0b7415fbc08ea19d249213e44df38a55def5035abe3ecb344"
+    },
+    {
+      "path": "references/v2/ref_10.jpg",
+      "size": 224535,
+      "sha256": "c968325ddfe5f786becbd0f335213edc53194c115515c5f15d1b98a37f301092"
+    },
+    {
+      "path": "references/v2/ref_11.jpg",
+      "size": 370224,
+      "sha256": "c291ef21d2e75b90439947b78aafd3d93c8605995a7befb8d2a4b8e31ba0f0d2"
+    },
+    {
+      "path": "references/v2/ref_12.jpg",
+      "size": 324685,
+      "sha256": "79fe83e227af0d035374d532f80b3c53f4b10c1064af929194fc25951c441f56"
+    },
+    {
+      "path": "references/v2/ref_13.jpg",
+      "size": 205670,
+      "sha256": "7eefed0fc9d0ce5592beb774a78b41d7aa047cae2c2d3cd031059270c57ba785"
+    },
+    {
+      "path": "references/v2/ref_14.jpg",
+      "size": 194179,
+      "sha256": "e81b2caecb6c7f3ce48b1cc5efbcb3e3ff2fa245cfbbe73544807f8f7d13135c"
+    },
+    {
+      "path": "references/v2/ref_15.jpg",
+      "size": 186741,
+      "sha256": "9304e8c95b2ea9d6a1d291531958a5823a9654f191fede5cf6627c39ac8b574a"
+    },
+    {
+      "path": "references/v2/ref_16.jpg",
+      "size": 142012,
+      "sha256": "d22d0b5b2ee3ec092f034c048fdc5196eebbaa27f1e763521101dde2349cafcb"
+    },
+    {
+      "path": "references/v2/ref_17.jpg",
+      "size": 231240,
+      "sha256": "8ff5f102e7ebdf98a64616abc66fc20880fc2c174b0c694a453b64e2f71ed271"
+    },
+    {
+      "path": "references/v2/ref_18.jpg",
+      "size": 211860,
+      "sha256": "ad7a97112532be525865cb16189594c2dcd35d26c5a8761cda0484bd1f0a41c1"
+    },
+    {
+      "path": "references/v2/ref_19.jpg",
+      "size": 197428,
+      "sha256": "5e3f5decd2a90c703fa8ab1867027dd556fba892bc8a2a0cea0e7e20123c445c"
+    },
+    {
+      "path": "references/v2/ref_20.jpg",
+      "size": 248326,
+      "sha256": "0a3afca5d3a2bdec1e1f4fdff69ca9bdb91a3fddb6494cdd37bdf60227c9ea98"
+    },
+    {
+      "path": "references/v2/ref_21.jpg",
+      "size": 430100,
+      "sha256": "9b54f903d5435b214cc72a2abdff843fd34e611385850085632d1a66906e4bfe"
+    },
+    {
+      "path": "references/v2/ref_22.jpg",
+      "size": 410584,
+      "sha256": "2083bf327d5507c970bdd927d8ae96901cb94b05dc687023861405240d483ddf"
+    },
+    {
+      "path": "references/v2/ref_23.jpg",
+      "size": 196207,
+      "sha256": "ad79c050e92d68f4770861fbbb2e47167ec36ae698a954bd5141e3cdb382c5c0"
+    },
+    {
+      "path": "references/v2/ref_24.jpg",
+      "size": 198477,
+      "sha256": "aee318f6df000013158282c088cedf42720c0dd73362bb80c9fd195b3bf6bdd6"
+    },
+    {
+      "path": "references/v2/ref_25.jpg",
+      "size": 176599,
+      "sha256": "c815a22b40e170ff6126306db375123bbf7d114626e314ade278271c381303ed"
+    },
+    {
+      "path": "references/v2/ref_26.jpg",
+      "size": 313108,
+      "sha256": "d3580d3b1456bff00386384240e32aafca29c88bf09079448fda03a3ebeaa46a"
+    },
+    {
+      "path": "references/v2/ref_27.jpg",
+      "size": 280560,
+      "sha256": "f3cd70796d379479e1d3859cfa900b1d54735b85d732f62dae78b84ab82e31c2"
+    },
+    {
+      "path": "references/v2/ref_28.jpg",
+      "size": 175104,
+      "sha256": "1196673dc6849ac02b0f2021a5af16b70bc33dd5e2b67ae037c99f1489024d22"
+    },
+    {
+      "path": "references/v2/ref_29.jpg",
+      "size": 174160,
+      "sha256": "fd6d05ecf03a90b50742c8b10207a325e67d1473ec861ea98a5e5c0a90eee02b"
+    },
+    {
+      "path": "references/v2/ref_30.jpg",
+      "size": 251641,
+      "sha256": "d8c9bbf890663457001a8e24bba14c562b4bc6eee7cf1f6ed55832bc0361338a"
+    },
+    {
+      "path": "references/v2/ref_31.jpg",
+      "size": 464795,
+      "sha256": "1a7933cf2257e525ad7274606b35d1f696bfcefa07a45a03da94e60476e36276"
+    },
+    {
+      "path": "references/v2/reference_index.json",
+      "size": 16813,
+      "sha256": "e6b566d4c061c7608584129f9b3230328c9de15d50d8308c69309ed0e8b7a583"
+    },
+    {
+      "path": "references/v2/sheet_0.jpg",
+      "size": 216006,
+      "sha256": "73a0dca44ad916f635b8afe785b744db5ead8b5602256eb1a0e7c5f014d46f76"
+    },
+    {
+      "path": "references/v2/sheet_1.jpg",
+      "size": 255293,
+      "sha256": "9df34c5bf4e7694b98bc5451eb595b02e4ec08edd1cbf7bb243484341fea726b"
+    },
+    {
+      "path": "references/v2/sheet_2.jpg",
+      "size": 232474,
+      "sha256": "92cf5b501fc9d7818f5d8abc92db0a793c12af0485f38b747572dee13d09d5ee"
+    },
+    {
+      "path": "references/v2/sheet_3.jpg",
+      "size": 211769,
+      "sha256": "95522843c80e7575dee1dafd59314074a4f0f3b44f39f38cf787629472ed0077"
+    },
+    {
+      "path": "references/v2/实拍照片索引.md",
+      "size": 7117,
+      "sha256": "ef7f20ea059268b67d774784c6232f55acc0ed669f1dc43829e13ecfae3be935"
+    },
+    {
+      "path": "references/v2_fetch.log",
+      "size": 1477,
+      "sha256": "7866c400496460adb547e80799a16dd05f71ef265a3b8a31f72ece6eb077f86d"
+    },
+    {
+      "path": "references/v2_materials.log",
+      "size": 197,
+      "sha256": "b902aa7ff53a625de699e138cfdbc5ffe8bb9e3bddfa55923e078d743a97e050"
+    },
+    {
+      "path": "references/v2_research.log",
+      "size": 544,
+      "sha256": "1a07236a3966495590f17ffa8eeb496bfc1cd475842c824d2d62b77a4f2b8a55"
+    },
+    {
+      "path": "references/west.jpg",
+      "size": 412539,
+      "sha256": "5e9011192e64b14bc1f28f4d80b3b6352c84dccd4e699d20177389e675a59fe2"
+    },
+    {
+      "path": "references/west_metadata.json",
+      "size": 7377,
+      "sha256": "2def73a5e58d1a3a631dbeaedd6995db5b50f0aa3f905b974a066565a3ac3e42"
+    },
+    {
+      "path": "references/west_oblique.jpg",
+      "size": 374865,
+      "sha256": "bfa30b654109566cc607cab38f7230ea5abad115e22dd3b9ab51e9310aa455fe"
+    },
+    {
+      "path": "renders/v2/DAY_Close.png",
+      "size": 5396153,
+      "sha256": "b61c42fdc9936962d49abd40a8a61e470c7e41d64e9e706e254767a28b35795b"
+    },
+    {
+      "path": "renders/v2/DAY_Detail.png",
+      "size": 6551068,
+      "sha256": "291bd11cd6ab2f7b64860cdabc5b685b3c6cc314a7d1332b841b8bb1679b157c"
+    },
+    {
+      "path": "renders/v2/DAY_East.png",
+      "size": 4519245,
+      "sha256": "8306163a7eef6e01edd154a1cd13152ce0ae5d07c1aa1966c145b445d193487b"
+    },
+    {
+      "path": "renders/v2/DAY_Eye.png",
+      "size": 5830616,
+      "sha256": "4794ec9aa842f40af1f1cb10444cf1d1a55ed0176215e809701e1f98fd62c806"
+    },
+    {
+      "path": "renders/v2/DAY_Hero.png",
+      "size": 5459351,
+      "sha256": "bfa5af19c44c033ed4de05e44f4fba2262d0b76d7143c17d5d9ecdb60d24d40b"
+    },
+    {
+      "path": "renders/v2/DAY_North.png",
+      "size": 4525047,
+      "sha256": "cd79d827c758b3f0b6743c64a04e523f13acbf2d77013cf24f93478cea44d562"
+    },
+    {
+      "path": "renders/v2/DAY_Overview.png",
+      "size": 6072984,
+      "sha256": "ee198c3ab06bca2bacef5953cb766b83ded4ae6c90c5abb9ac50d10b581945d6"
+    },
+    {
+      "path": "renders/v2/NIGHT_Close.png",
+      "size": 5167430,
+      "sha256": "3f1ad25e6d379587fd529cd3f5c57949fad9f5c5da0587ebc6a9525b726cf944"
+    },
+    {
+      "path": "renders/v2/NIGHT_Detail.png",
+      "size": 6301625,
+      "sha256": "3235f58403b48b57d6d129dbc4bd2b05ed20bc50d9436798725211739fbcda04"
+    },
+    {
+      "path": "renders/v2/NIGHT_East.png",
+      "size": 4667001,
+      "sha256": "5d95796042715e29f5a982b10e132ba3a5f8fc032ecb450f14c33fedf631c3bf"
+    },
+    {
+      "path": "renders/v2/NIGHT_Eye.png",
+      "size": 4865411,
+      "sha256": "0c6aa420bfd2f077faa1bdb69ba1f37ff59b6e0545616bc9919f3790b8dbb1ed"
+    },
+    {
+      "path": "renders/v2/NIGHT_Hero.png",
+      "size": 5199837,
+      "sha256": "787cdb401d8c467aa997ce232bb548ad3af2c56072d5f7851eb1408565c02a24"
+    },
+    {
+      "path": "renders/v2/NIGHT_North.png",
+      "size": 4254517,
+      "sha256": "9bbae335ea2e034b11979917342500af6030ddbc429ae69f541cb802fbd037e8"
+    },
+    {
+      "path": "renders/v2/NIGHT_Overview.png",
+      "size": 4750973,
+      "sha256": "17b495a5c409d95294aba4bb1d05b18e1580859545507a9ee383336a5a711c49"
+    },
+    {
+      "path": "renders/v2/render_validation.json",
+      "size": 4363,
+      "sha256": "eef912360a964ce7d68e831c10e2c04e2c49d8a44ab22a1dabc91d29da5db6b6"
+    },
+    {
+      "path": "scene_stats.json",
+      "size": 461,
+      "sha256": "33ce0d1ddcea84a48e821760bf42082cc75c4a56bd25007bd7be7cf9dd4569bc"
+    },
+    {
+      "path": "scripts/build_scene.py",
+      "size": 43607,
+      "sha256": "f061f967aa238143ff76d543d8869a9c063f01380a06c5b3ceb7260c6908af03"
+    },
+    {
+      "path": "scripts/correct_sign_v2.py",
+      "size": 408,
+      "sha256": "ed3960f85008e404e2d7071ce7c964d9480ec4d2aada4dffdd962f5c697a83f8"
+    },
+    {
+      "path": "scripts/deliver_pipeline.py",
+      "size": 968,
+      "sha256": "8001342f7f630aab132fca17e4bd68a5d000ac582f2f51506d7674be9fb78a1e"
+    },
+    {
+      "path": "scripts/export_game.py",
+      "size": 5592,
+      "sha256": "0f706addd247616474a211d18b85d15c97054657cb025decb713fb9aa57e5675"
+    },
+    {
+      "path": "scripts/fetch_materials_v2.py",
+      "size": 657,
+      "sha256": "8b433b1852d145e15d52b83c0351d38ca521bbcb433693692a326ddaaf329b72"
+    },
+    {
+      "path": "scripts/fetch_reference_thumbnails.py",
+      "size": 1533,
+      "sha256": "0ea317b463311144818683e50cc57faab6b699ebbdf89207aeee303f3a000a94"
+    },
+    {
+      "path": "scripts/finalize_render.py",
+      "size": 397,
+      "sha256": "5b53760506f9af73ae517ea23fb43851fa3d032ee3b710cbe3402a79bc0c8f20"
+    },
+    {
+      "path": "scripts/package_v2.py",
+      "size": 3394,
+      "sha256": "fe30417e97bce9b949ed8957d1812bff77d11841c2bc8f348d141038f335da36"
+    },
+    {
+      "path": "scripts/relocate_project.py",
+      "size": 626,
+      "sha256": "b6d9fa76ef649d086f320e32c37e7a33a9f2c976def7ba8600c0c9ad8cfe9688"
+    },
+    {
+      "path": "scripts/render_scene.py",
+      "size": 206,
+      "sha256": "9a71f9db31c16fa5be507f891fa5eca1472501c08134f38939216accdd860f6b"
+    },
+    {
+      "path": "scripts/render_v2.py",
+      "size": 1667,
+      "sha256": "fcc14ff368223ca53ee4a64192fe8e407cb9b72bfed3ec4a292aaf85a0d568bb"
+    },
+    {
+      "path": "scripts/research_v2.py",
+      "size": 2434,
+      "sha256": "0b3357a5957776f9bab5b56a4363ee8c58812b9db4e7627c4aed68f283efafb7"
+    },
+    {
+      "path": "scripts/select_lighting.py",
+      "size": 759,
+      "sha256": "c657a590c11427d4583d8afeb8b734b15afab1cfcafde985178afca58f0bbaf5"
+    },
+    {
+      "path": "scripts/tune_commercial_night_v2.py",
+      "size": 1357,
+      "sha256": "3c7fe4afdb397caa1d017e9b49acd4f8f65406a16731b5886f9be8a328a69961"
+    },
+    {
+      "path": "scripts/update_route_v2.py",
+      "size": 887,
+      "sha256": "b8df630233440a34fa3f6c058cf332cba9bcee841df31b03d8186d5efc7b0e24"
+    },
+    {
+      "path": "scripts/v2_architecture.py",
+      "size": 5092,
+      "sha256": "ca59e2469c0f9955eeedf44da208c3c74d9a6e4c1aaf795685e7b30909dafe98"
+    },
+    {
+      "path": "scripts/v2_details.py",
+      "size": 13807,
+      "sha256": "2789a631a72807a849d7bf8edd9e97f13516b64a0ac37403aa46960b59f237ff"
+    },
+    {
+      "path": "scripts/v2_lighting.py",
+      "size": 9643,
+      "sha256": "79882d084c82bfd16d076aa3a0578024abe9679df3a385c8c53e8d736bf6813c"
+    },
+    {
+      "path": "scripts/v2_materials.py",
+      "size": 8308,
+      "sha256": "a83522e10ac1cefe5d38dc80358a20dcbddf2d326a4e83439aa3d18614d8d9b1"
+    },
+    {
+      "path": "scripts/v2_streets.py",
+      "size": 10340,
+      "sha256": "82e4b7a914beebbe78cb67520d9d127109166d51309e3b02a43f3b733c1e479d"
+    },
+    {
+      "path": "scripts/validate_v2.py",
+      "size": 4861,
+      "sha256": "746a759ff206da76c1b7dde8ea8617abff0a3df5f71e8e058b132de16b964347"
+    },
+    {
+      "path": "scripts/verify_game.py",
+      "size": 1378,
+      "sha256": "a7537c3bcbea8ccadd41f7fb916ad8aeb01efa472a9270e2bea26efdacd18d2a"
+    },
+    {
+      "path": "scripts/verify_offline_v2.py",
+      "size": 1300,
+      "sha256": "77ed581bb34f855f986b4d6798b414c1ed8f231d0d2219a5546250b3572cd3cc"
+    },
+    {
+      "path": "validation_v2.json",
+      "size": 3172,
+      "sha256": "b6c9a7e344d4a0c3a6dae70087f4b462cd6517b80428dfd5d28a9df71573df0d"
+    },
+    {
+      "path": "verification/README.md",
+      "size": 465,
+      "sha256": "59eb208969ab14d41b7c0d6451b03500131fe4522e758eef4f4239031ac08109"
+    },
+    {
+      "path": "verification/offline/NIGHT_Portability.png",
+      "size": 375815,
+      "sha256": "6c46f442d32d047e884b1aead969eab5057614cb1424ac3575d5a53a97539c78"
+    },
+    {
+      "path": "verification/offline_validation.json",
+      "size": 1398,
+      "sha256": "624cadf5490aeb5563d8c18b6c488fe885159ef485173ce9f4e90395e036ca75"
+    },
+    {
+      "path": "打开夜晚.command",
+      "size": 279,
+      "sha256": "3996935e1d7eefcfd79c3ec303586179453801b1e32a32de7915e2015a1eeefe"
+    },
+    {
+      "path": "打开白天.command",
+      "size": 277,
+      "sha256": "2c811c705ea46cf05942acc1141abee1d438586046be607931f0020cd1c31012"
+    },
+    {
+      "path": "渲染夜晚.command",
+      "size": 341,
+      "sha256": "415b63f83461bdfd6dca4a9fc769f28aada8897c2a30bb5fadde07efc8abef89"
+    },
+    {
+      "path": "渲染白天.command",
+      "size": 339,
+      "sha256": "d88fc7a15620925802f6eb0a5073a9a2ef5cf3968fc55d3c85a61cc33b6f3fa1"
+    },
+    {
+      "path": "目录与使用指南.md",
+      "size": 6446,
+      "sha256": "b5d1f65568695cf55167d07f9dde44968ffec93a6d87b2d94d7d4dc01e6d8776"
+    }
+  ]
+}

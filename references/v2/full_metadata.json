@@ -1,0 +1,2914 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "pages": {
+      "138510698": {
+        "pageid": 138510698,
+        "ns": 6,
+        "title": "File:26156-Harbin (49026988213).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/26156-Harbin_%2849026988213%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:26156-Harbin_(49026988213).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=138510698",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-05 13:10:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "26156-Harbin (49026988213)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Photographs by Xiquinho Silva|Flickr images missing SDC published in|Foreground flowers in Asia",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "45.768013",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "126.620969",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "26156-Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2018-08-26 18:13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/xiquinho/49026988213/\">26156-Harbin</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/7138083@N04\">xiquinhosilva</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "57711486": {
+        "pageid": 57711486,
+        "ns": 6,
+        "title": "File:Above St Sophia's entrance -1 (5636715679) (2).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Above_St_Sophia%27s_entrance_-1_%285636715679%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Above_St_Sophia%27s_entrance_-1_(5636715679)_(2).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57711486",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-04-04 14:06:30",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Above St Sophia's entrance -1 (5636715679) (2)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "45.768106",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "126.620972",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "above St Sophia's entrance #1",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-01-30 12:10",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/lowhorizon/5636715679/\">above St Sophia's entrance #1</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27308523@N02\">Anthony Woodside</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "57711439": {
+        "pageid": 57711439,
+        "ns": 6,
+        "title": "File:Above St Sophia's entrance -2 (5637292518).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Above_St_Sophia%27s_entrance_-2_%285637292518%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Above_St_Sophia%27s_entrance_-2_(5637292518).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57711439",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-04-04 14:04:32",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Above St Sophia's entrance -2 (5637292518)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "45.768084",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "126.620972",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "above St Sophia's entrance #2",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-01-30 12:10",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/lowhorizon/5637292518/\">above St Sophia's entrance #2</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27308523@N02\">Anthony Woodside</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "57711488": {
+        "pageid": 57711488,
+        "ns": 6,
+        "title": "File:Brick detail (5637293596) (2).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Brick_detail_%285637293596%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Brick_detail_(5637293596)_(2).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57711488",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-04-04 14:06:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Brick detail (5637293596) (2)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "45.768181",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "126.621057",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Brick detail",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-01-30 12:10",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/lowhorizon/5637293596/\">Brick detail</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27308523@N02\">Anthony Woodside</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280886": {
+        "pageid": 139280886,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 1.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Cathedral_of_Holy_Wisdom%2C_Harbin_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_1.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280886",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:01",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 1",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280899": {
+        "pageid": 139280899,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 10.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Cathedral_of_Holy_Wisdom%2C_Harbin_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_10.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280899",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 10",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280902": {
+        "pageid": 139280902,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 11.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Cathedral_of_Holy_Wisdom%2C_Harbin_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_11.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280902",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:11",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 11",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280904": {
+        "pageid": 139280904,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 12.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Cathedral_of_Holy_Wisdom%2C_Harbin_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_12.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280904",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 12",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280906": {
+        "pageid": 139280906,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 13.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Cathedral_of_Holy_Wisdom%2C_Harbin_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_13.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280906",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 13",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280908": {
+        "pageid": 139280908,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 14.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Cathedral_of_Holy_Wisdom%2C_Harbin_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_14.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280908",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 14",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280909": {
+        "pageid": 139280909,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 15.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Cathedral_of_Holy_Wisdom%2C_Harbin_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_15.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280909",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:15",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 15",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280910": {
+        "pageid": 139280910,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 17.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Cathedral_of_Holy_Wisdom%2C_Harbin_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_17.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280910",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:16",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 17",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-15|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280912": {
+        "pageid": 139280912,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 18.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cathedral_of_Holy_Wisdom%2C_Harbin_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_18.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280912",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 18",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-15|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280913": {
+        "pageid": 139280913,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 19.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cathedral_of_Holy_Wisdom%2C_Harbin_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_19.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280913",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 19",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-15|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280884": {
+        "pageid": 139280884,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 2.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cathedral_of_Holy_Wisdom%2C_Harbin_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_2.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280884",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 2",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280915": {
+        "pageid": 139280915,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 20.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Cathedral_of_Holy_Wisdom%2C_Harbin_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_20.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280915",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 20",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-15|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280916": {
+        "pageid": 139280916,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 21.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Cathedral_of_Holy_Wisdom%2C_Harbin_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_21.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280916",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:20",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 21",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-15|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280917": {
+        "pageid": 139280917,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 22.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Cathedral_of_Holy_Wisdom%2C_Harbin_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_22.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280917",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:21",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 22",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-15|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280918": {
+        "pageid": 139280918,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 23.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Cathedral_of_Holy_Wisdom%2C_Harbin_23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_23.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280918",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 23",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-15|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-15",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280903": {
+        "pageid": 139280903,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 24.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Cathedral_of_Holy_Wisdom%2C_Harbin_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_24.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280903",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 24",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "145247633": {
+        "pageid": 145247633,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 25.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Cathedral_of_Holy_Wisdom%2C_Harbin_25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_25.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145247633",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-02-12 02:10:33",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 25",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "CC-Zero|Cathedral of Holy Wisdom, Harbin|Self-published work|China photographs taken on 2023-12-23",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "​Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-12-23",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Zero, Public Domain Dedication",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280885": {
+        "pageid": 139280885,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 3.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Cathedral_of_Holy_Wisdom%2C_Harbin_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_3.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280885",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:00",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 3",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280894": {
+        "pageid": 139280894,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 4.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Cathedral_of_Holy_Wisdom%2C_Harbin_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_4.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280894",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:06",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 4",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280898": {
+        "pageid": 139280898,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 8.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Cathedral_of_Holy_Wisdom%2C_Harbin_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_8.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280898",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:08",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 8",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "139280900": {
+        "pageid": 139280900,
+        "ns": 6,
+        "title": "File:Cathedral of Holy Wisdom, Harbin 9.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Cathedral_of_Holy_Wisdom%2C_Harbin_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_Holy_Wisdom,_Harbin_9.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=139280900",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-10-21 09:26:10",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Cathedral of Holy Wisdom, Harbin 9",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-10-13|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Cathedral of Holy Wisdom, Harbin",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-10-13",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:EditQ\" class=\"mw-redirect\" title=\"User:EditQ\">EditQ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "135317266": {
+        "pageid": 135317266,
+        "ns": 6,
+        "title": "File:East facade of St. Sophia Cathedral, Harbin (20230721093312).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/East_facade_of_St._Sophia_Cathedral%2C_Harbin_%2820230721093312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:East_facade_of_St._Sophia_Cathedral,_Harbin_(20230721093312).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=135317266",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-07-31 05:43:53",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "East facade of St. Sophia Cathedral, Harbin (20230721093312)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|China photographs taken on 2023-07-21|Self-published work|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "45.768292",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "126.622214",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Actually the back side.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2023-07-21 09:33:12",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:N509FZ\" title=\"User:N509FZ\">N509FZ</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "61025530": {
+        "pageid": 61025530,
+        "ns": 6,
+        "title": "File:Harbin Saint Sophia Cathedral 2017 summer.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Harbin_Saint_Sophia_Cathedral_2017_summer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Harbin_Saint_Sophia_Cathedral_2017_summer.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61025530",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-07-14 14:44:56",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Harbin Saint Sophia Cathedral 2017 summer",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "​圣索菲亚教堂正面",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-07-14 16:31:14",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Amarespeco&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Amarespeco (page does not exist)\">Amarespeco</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "61025273": {
+        "pageid": 61025273,
+        "ns": 6,
+        "title": "File:Harbin Sophia Cathedral 2017 summer.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Harbin_Sophia_Cathedral_2017_summer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Harbin_Sophia_Cathedral_2017_summer.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=61025273",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-07-14 14:40:03",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Harbin Sophia Cathedral 2017 summer",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "​哈尔滨圣索菲亚教堂侧面",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2017-07-14 16:33:48",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Amarespeco&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Amarespeco (page does not exist)\">Amarespeco</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "57711446": {
+        "pageid": 57711446,
+        "ns": 6,
+        "title": "File:Ogee & iron (5620661473).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ogee_%26_iron_%285620661473%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ogee_%26_iron_(5620661473).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57711446",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-04-04 14:04:43",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Ogee & iron (5620661473)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "45.768076",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "126.620478",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "St Sophia, Harbin 2011",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-01-30 11:58",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/lowhorizon/5620661473/\">Ogee &amp; iron</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27308523@N02\">Anthony Woodside</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "186080119": {
+        "pageid": 186080119,
+        "ns": 6,
+        "title": "File:Saint Sophia Cathedral, Harbin 06.01.2026.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Saint_Sophia_Cathedral%2C_Harbin_06.01.2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Saint_Sophia_Cathedral,_Harbin_06.01.2026.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=186080119",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-03-14 01:10:39",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Saint Sophia Cathedral, Harbin 06.01.2026",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|Self-published work|2026 in Harbin",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Saint Sophia Cathedral, Harbin 06.01.2026",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2026-01-06 14:35:43",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:SmallSonMarex\" title=\"User:SmallSonMarex\">SmallSonMarex</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "57711427": {
+        "pageid": 57711427,
+        "ns": 6,
+        "title": "File:St Sophia's entrance (5637293096).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/St_Sophia%27s_entrance_%285637293096%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:St_Sophia%27s_entrance_(5637293096).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57711427",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-04-04 14:04:26",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "St Sophia's entrance (5637293096)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "45.768189",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "126.621036",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Harbin, 2011.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-01-30 12:10",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/lowhorizon/5637293096/\">St Sophia's entrance</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27308523@N02\">Anthony Woodside</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "57711448": {
+        "pageid": 57711448,
+        "ns": 6,
+        "title": "File:St Sophia -night (5791810665).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/St_Sophia_-night_%285791810665%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:St_Sophia_-night_(5791810665).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57711448",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-04-04 14:04:49",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "St Sophia -night (5791810665)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Cathedral of Holy Wisdom, Harbin|Flickr images reviewed by FlickreviewR",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "St Sophia -night",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2011-02-03 17:21",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/lowhorizon/5791810665/\">St Sophia -night</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27308523@N02\">Anthony Woodside</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY 2.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution 2.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by/2.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-2.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

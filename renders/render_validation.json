@@ -1,0 +1,47 @@
+[
+  {
+    "file": "01_Hero.png",
+    "size": [
+      1920,
+      1280
+    ],
+    "mean_rgb": 0.45274263620376587,
+    "nonblack_fraction": 0.9963834635416666
+  },
+  {
+    "file": "02_Eye_Level.png",
+    "size": [
+      1920,
+      1280
+    ],
+    "mean_rgb": 0.46289047598838806,
+    "nonblack_fraction": 0.997352294921875
+  },
+  {
+    "file": "03_East.png",
+    "size": [
+      1920,
+      1280
+    ],
+    "mean_rgb": 0.5226001739501953,
+    "nonblack_fraction": 0.9889811197916667
+  },
+  {
+    "file": "04_Overview.png",
+    "size": [
+      1920,
+      1280
+    ],
+    "mean_rgb": 0.5575993657112122,
+    "nonblack_fraction": 0.9995304361979167
+  },
+  {
+    "file": "05_Detail.png",
+    "size": [
+      1920,
+      1280
+    ],
+    "mean_rgb": 0.3495226800441742,
+    "nonblack_fraction": 0.994613037109375
+  }
+]

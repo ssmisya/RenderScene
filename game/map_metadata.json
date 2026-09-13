@@ -1,0 +1,68 @@
+{
+  "player_eye_height": 1.7,
+  "player_capsule_radius": 0.3,
+  "spawn_blender": [
+    -55,
+    -21,
+    1.7
+  ],
+  "walking_loop_blender": [
+    [
+      -55,
+      -21,
+      1.7
+    ],
+    [
+      -29,
+      -18,
+      1.7
+    ],
+    [
+      -15,
+      -18,
+      1.7
+    ],
+    [
+      -7,
+      -24,
+      1.7
+    ],
+    [
+      27,
+      -20,
+      1.7
+    ],
+    [
+      33,
+      0,
+      1.7
+    ],
+    [
+      24,
+      22,
+      1.7
+    ],
+    [
+      -9,
+      24,
+      1.7
+    ],
+    [
+      -35,
+      18,
+      1.7
+    ],
+    [
+      -55,
+      -21,
+      1.7
+    ]
+  ],
+  "origin_wgs84": {
+    "latitude": 45.76819,
+    "longitude": 126.62129
+  },
+  "local_rotation_degrees": 17.3,
+  "playable_scope": "exterior square and surrounding street surfaces; closed cathedral interior",
+  "revision": "v2"
+}

@@ -1,0 +1,188 @@
+{
+  "images": [
+    {
+      "file": "renders/v2/DAY_Hero.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        110.70945,
+        115.70115494791666,
+        126.76436197916667
+      ],
+      "sha256": "bfa5af19c44c033ed4de05e44f4fba2262d0b76d7143c17d5d9ecdb60d24d40b"
+    },
+    {
+      "file": "renders/v2/DAY_Eye.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        97.57583359375,
+        102.3871171875,
+        110.37491640625
+      ],
+      "sha256": "4794ec9aa842f40af1f1cb10444cf1d1a55ed0176215e809701e1f98fd62c806"
+    },
+    {
+      "file": "renders/v2/DAY_East.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        123.5528296875,
+        131.16827942708332,
+        143.94283072916667
+      ],
+      "sha256": "8306163a7eef6e01edd154a1cd13152ce0ae5d07c1aa1966c145b445d193487b"
+    },
+    {
+      "file": "renders/v2/DAY_Overview.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        145.37933177083335,
+        144.39296927083333,
+        141.75677682291666
+      ],
+      "sha256": "ee198c3ab06bca2bacef5953cb766b83ded4ae6c90c5abb9ac50d10b581945d6"
+    },
+    {
+      "file": "renders/v2/DAY_Detail.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        86.06577916666667,
+        63.32284401041667,
+        54.60765546875
+      ],
+      "sha256": "291bd11cd6ab2f7b64860cdabc5b685b3c6cc314a7d1332b841b8bb1679b157c"
+    },
+    {
+      "file": "renders/v2/DAY_North.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        125.70370390625,
+        134.82262864583333,
+        144.74341510416667
+      ],
+      "sha256": "cd79d827c758b3f0b6743c64a04e523f13acbf2d77013cf24f93478cea44d562"
+    },
+    {
+      "file": "renders/v2/DAY_Close.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        68.36213776041667,
+        55.411446354166664,
+        48.99267265625
+      ],
+      "sha256": "b61c42fdc9936962d49abd40a8a61e470c7e41d64e9e706e254767a28b35795b"
+    },
+    {
+      "file": "renders/v2/NIGHT_Hero.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        60.714384635416664,
+        55.01676171875,
+        52.408984635416665
+      ],
+      "sha256": "787cdb401d8c467aa997ce232bb548ad3af2c56072d5f7851eb1408565c02a24"
+    },
+    {
+      "file": "renders/v2/NIGHT_Eye.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        43.44858671875,
+        40.43369505208333,
+        39.593151041666665
+      ],
+      "sha256": "0c6aa420bfd2f077faa1bdb69ba1f37ff59b6e0545616bc9919f3790b8dbb1ed"
+    },
+    {
+      "file": "renders/v2/NIGHT_East.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        45.787662239583334,
+        45.2636078125,
+        48.122675
+      ],
+      "sha256": "5d95796042715e29f5a982b10e132ba3a5f8fc032ecb450f14c33fedf631c3bf"
+    },
+    {
+      "file": "renders/v2/NIGHT_Overview.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        28.632015885416667,
+        27.548209635416665,
+        25.978084375
+      ],
+      "sha256": "17b495a5c409d95294aba4bb1d05b18e1580859545507a9ee383336a5a711c49"
+    },
+    {
+      "file": "renders/v2/NIGHT_Detail.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        92.5500015625,
+        64.9509859375,
+        45.86083307291667
+      ],
+      "sha256": "3235f58403b48b57d6d129dbc4bd2b05ed20bc50d9436798725211739fbcda04"
+    },
+    {
+      "file": "renders/v2/NIGHT_North.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        61.31788515625,
+        60.073542447916665,
+        55.75829427083333
+      ],
+      "sha256": "9bbae335ea2e034b11979917342500af6030ddbc429ae69f541cb802fbd037e8"
+    },
+    {
+      "file": "renders/v2/NIGHT_Close.png",
+      "size": [
+        2400,
+        1600
+      ],
+      "mean_rgb_srgb_255": [
+        68.33228333333334,
+        50.32527916666667,
+        34.7602015625
+      ],
+      "sha256": "3f1ad25e6d379587fd529cd3f5c57949fad9f5c5da0587ebc6a9525b726cf944"
+    }
+  ],
+  "day_night_pairs_differ": true,
+  "all_14_images_valid": true
+}

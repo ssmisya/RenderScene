@@ -1,0 +1,6 @@
+{
+  "route_samples": 668,
+  "capsule_radius_m": 0.3,
+  "route_collision_intersections": [],
+  "method": "2D expanded box/cylinder and polygon boundary clearance; ground excluded. Not a game-engine physics test."
+}

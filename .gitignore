@@ -1,0 +1,16 @@
+# Local system files, caches, automatic backups and tools
+.DS_Store
+.AppleDouble/
+._*
+__pycache__/
+*.py[cod]
+*.log
+*.blend[0-9]*
+*.blend@
+.tools/
+verification/git_remote_check/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

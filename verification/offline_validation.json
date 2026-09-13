@@ -1,0 +1,64 @@
+{
+  "copied_scene": "verification/offline/Harbin_Sophia_Square.blend",
+  "external_images_absent": true,
+  "packed_images": [
+    {
+      "name": "brick_diff.jpg",
+      "packed": true,
+      "adjacent_file_exists": false
+    },
+    {
+      "name": "brick_disp.jpg",
+      "packed": true,
+      "adjacent_file_exists": false
+    },
+    {
+      "name": "brick_face_diff.jpg",
+      "packed": true,
+      "adjacent_file_exists": false
+    },
+    {
+      "name": "brick_face_nor_gl.jpg",
+      "packed": true,
+      "adjacent_file_exists": false
+    },
+    {
+      "name": "brick_face_rough.jpg",
+      "packed": true,
+      "adjacent_file_exists": false
+    },
+    {
+      "name": "brick_nor_gl.jpg",
+      "packed": true,
+      "adjacent_file_exists": false
+    },
+    {
+      "name": "brick_rough.jpg",
+      "packed": true,
+      "adjacent_file_exists": false
+    },
+    {
+      "name": "paving_diff.jpg",
+      "packed": true,
+      "adjacent_file_exists": false
+    },
+    {
+      "name": "paving_nor_gl.jpg",
+      "packed": true,
+      "adjacent_file_exists": false
+    },
+    {
+      "name": "paving_rough.jpg",
+      "packed": true,
+      "adjacent_file_exists": false
+    },
+    {
+      "name": "sky.hdr",
+      "packed": true,
+      "adjacent_file_exists": false
+    }
+  ],
+  "render": "verification/offline/NIGHT_Portability.png",
+  "result": "PASS",
+  "temporary_blend_retained": false
+}

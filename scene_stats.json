@@ -1,0 +1,22 @@
+{
+  "objects": 1156,
+  "render_meshes": 866,
+  "vertices": 1592033,
+  "polygons": 1221599,
+  "collision_proxies": 252,
+  "cameras": [
+    "01_HERO_West_square",
+    "02_EYE_LEVEL_170cm",
+    "03_EAST_Facade",
+    "04_MAP_Overview",
+    "05_Brick_detail",
+    "06_NORTH_Square",
+    "07_Portal_close"
+  ],
+  "blender_version": "5.2.1 LTS",
+  "night_objects": 1633,
+  "night_lights": 478,
+  "revision": "v2",
+  "packed_image_count": 11,
+  "packed_font_count": 1
+}

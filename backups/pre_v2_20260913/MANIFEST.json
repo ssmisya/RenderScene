@@ -1,0 +1,230 @@
+{
+  "project": "Harbin Sophia Square — photo-informed exterior reconstruction",
+  "files": [
+    {
+      "path": "Harbin_Sophia_Square.blend",
+      "bytes": 39024129,
+      "sha256": "823aeffb20d945ba25a1a7607bfa2ab5e7c32e9bebc9f2b2e50e7446aee67670"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5928,
+      "sha256": "2efd24b3e3d78b036fd51aa677065f87ceba23578fb095b296b6aab9a46671d4"
+    },
+    {
+      "path": "REFERENCES.md",
+      "bytes": 5687,
+      "sha256": "f96b07e5e5f96e92006ce262c9220d70b19749a6d2c7b70a0ba30a5e36125440"
+    },
+    {
+      "path": "assets/textures/brick_diff.jpg",
+      "bytes": 694500,
+      "sha256": "9c58254c099b2d211478f50a427fcdde622af24249ff2e94da41fb836f8c857f"
+    },
+    {
+      "path": "assets/textures/brick_nor_gl.jpg",
+      "bytes": 955430,
+      "sha256": "9bfd45e24720d851017c1e1678b70219c72239b2ac6b25e11d57d458bdab8503"
+    },
+    {
+      "path": "assets/textures/brick_rough.jpg",
+      "bytes": 286623,
+      "sha256": "cd865623c1422926848024e877103e9dfe857b2ca8221fce49264b74c9ff48b1"
+    },
+    {
+      "path": "assets/textures/paving_diff.jpg",
+      "bytes": 883696,
+      "sha256": "b523617cd1add687f12caac776c29ef7bf943fa1b70bcc1adaab20e4277ca0da"
+    },
+    {
+      "path": "assets/textures/paving_nor_gl.jpg",
+      "bytes": 609931,
+      "sha256": "f5c7a2c797e229cba4d79c8015bf70255cc4ebc3407751159b9e7f059189ceb5"
+    },
+    {
+      "path": "assets/textures/paving_rough.jpg",
+      "bytes": 260901,
+      "sha256": "ebf144c38f6fc97b233327d6a5dd774be6cdcd7c909ff2aa40db0c521520b9c7"
+    },
+    {
+      "path": "assets/textures/sky.hdr",
+      "bytes": 5451493,
+      "sha256": "5244534e9cf5b606f2ff513aa00ddb161b0a4826ffd88a0d3bd03ac29247d198"
+    },
+    {
+      "path": "game/Sophia_Collision.glb",
+      "bytes": 262676,
+      "sha256": "a649c6c531b7480c053c0549685fdb98101a8e47980c49a6df01b7c892bbb2af"
+    },
+    {
+      "path": "game/Sophia_Square.glb",
+      "bytes": 141464448,
+      "sha256": "2b6723415cbe0800bbb8044911db18daff53f7809c82839d6442db25ddaf9c56"
+    },
+    {
+      "path": "game/colliders.json",
+      "bytes": 40494,
+      "sha256": "8ec6dbda64890639c621bc0e011989032c77b79e0d4229ae5e343a33443e1fd4"
+    },
+    {
+      "path": "game/export_validation.json",
+      "bytes": 1552,
+      "sha256": "c91bff6b7e25768e1ea01740338fab94cee3b2939d84a1ad48c66a2b0be5536e"
+    },
+    {
+      "path": "game/map_metadata.json",
+      "bytes": 751,
+      "sha256": "a58239cdfadc63c1a6333866db361d356927c7dbe186fc7fa2e66a9cec3adb5d"
+    },
+    {
+      "path": "game/route_validation.json",
+      "bytes": 178,
+      "sha256": "b105d1dc6927a155ff433eb0ba7ed62f4d017378c4b85ca76e922b96295e9b40"
+    },
+    {
+      "path": "preview.html",
+      "bytes": 3287,
+      "sha256": "4beb5384e01fb86ebb001999d1bc434c3c0498b9574a3bcbd3b8e073f95306b8"
+    },
+    {
+      "path": "references/brick_asset.json",
+      "bytes": 29937,
+      "sha256": "30bc50ce0b0b7e702cc481ee2d0783a2440d366f24fe6fb157d36accccdde504"
+    },
+    {
+      "path": "references/category.json",
+      "bytes": 9702,
+      "sha256": "13384c64f63a35e52b6eb6d1d3af2292c554b415ed10089b420fad6663ed0eaa"
+    },
+    {
+      "path": "references/commons.json",
+      "bytes": 11252,
+      "sha256": "85ebaa5b9d5792d406af9f17f360613e397599b797a0a8ce2cd3bc39941e676f"
+    },
+    {
+      "path": "references/front_small.jpg",
+      "bytes": 291066,
+      "sha256": "444af21107c6bff932b4428d449606777480f9023ae163612112637b623c6950"
+    },
+    {
+      "path": "references/map_aligned.json",
+      "bytes": 73912,
+      "sha256": "864393fa37a5cfb8e125a520f19512c5b1f1de193a1a194285a725d4a8708e65"
+    },
+    {
+      "path": "references/map_local.json",
+      "bytes": 40001,
+      "sha256": "ce1c1323df539a7c057db3a3f956cebaa1f69cf39baa520f15a4d61f5a96ae08"
+    },
+    {
+      "path": "references/osm.xml",
+      "bytes": 178049,
+      "sha256": "6f1cfe896a56fcb1cc3b188971a02f14dbf8ad0988a405f93b65ec027a0bd75a"
+    },
+    {
+      "path": "references/paving_asset.json",
+      "bytes": 25536,
+      "sha256": "ca10e7017822adde3ce1b67499fd702730eb36ebaa302844b954841c1e6cf62a"
+    },
+    {
+      "path": "references/rear.jpg",
+      "bytes": 3138423,
+      "sha256": "898d4e3810e44bfefb1b755c3b0a1a96aa5ee9781f028ff03905f5acd39de919"
+    },
+    {
+      "path": "references/side_small.jpg",
+      "bytes": 548074,
+      "sha256": "e2f78e87b54a4e8cdab4c9f104ffdeb3a2b83bcc67900ce1e7b0701bc66a1ad9"
+    },
+    {
+      "path": "references/sky_asset.json",
+      "bytes": 1947,
+      "sha256": "a7cbb453c0269ac0996e43edaa7995d52b72f89830f4c7d7f813569f6647832c"
+    },
+    {
+      "path": "references/west.jpg",
+      "bytes": 412539,
+      "sha256": "5e9011192e64b14bc1f28f4d80b3b6352c84dccd4e699d20177389e675a59fe2"
+    },
+    {
+      "path": "references/west_metadata.json",
+      "bytes": 7377,
+      "sha256": "2def73a5e58d1a3a631dbeaedd6995db5b50f0aa3f905b974a066565a3ac3e42"
+    },
+    {
+      "path": "references/west_oblique.jpg",
+      "bytes": 374865,
+      "sha256": "bfa30b654109566cc607cab38f7230ea5abad115e22dd3b9ab51e9310aa455fe"
+    },
+    {
+      "path": "renders/01_Hero.png",
+      "bytes": 4026820,
+      "sha256": "a7bdfb939b07ff2421ce5b2c5284a4eb508852e3ae056237d7697698b94d0fb1"
+    },
+    {
+      "path": "renders/02_Eye_Level.png",
+      "bytes": 3893669,
+      "sha256": "f6fc7a428c56b6ee6688d853a31f76568165e7b6d2cd35bed5417c5387ec193a"
+    },
+    {
+      "path": "renders/03_East.png",
+      "bytes": 3432374,
+      "sha256": "9edac26df6648250a1cf94509d8b4e2e1d6fa810ef32bf7fb3f31400f0b0b4cd"
+    },
+    {
+      "path": "renders/04_Overview.png",
+      "bytes": 4496336,
+      "sha256": "5ece83b36bd1442a4267d9f71d0c68c46a5e13285abcd3bcf1ce082503458932"
+    },
+    {
+      "path": "renders/05_Detail.png",
+      "bytes": 5009808,
+      "sha256": "f459bc77aba264889c45377f3388693ccd642ba78c193ab8948da04569c3b749"
+    },
+    {
+      "path": "renders/render_validation.json",
+      "bytes": 813,
+      "sha256": "de34a821b4133ef63b747124d9fd1dc1ba10655c02877f1b97897ae7ec281e4b"
+    },
+    {
+      "path": "scene_stats.json",
+      "bytes": 292,
+      "sha256": "dffef4c9afa0d357c3c993d99ad7fca3fa26af6f4ac9c413e184120084defc5c"
+    },
+    {
+      "path": "scripts/build_scene.py",
+      "bytes": 48625,
+      "sha256": "02ccb43ea618b7d41c553e948de1720b5d60ac3f0cf4fa34eb33ef38838cc8bd"
+    },
+    {
+      "path": "scripts/deliver_pipeline.py",
+      "bytes": 933,
+      "sha256": "28bc34452f105e6937b75cb1a4c799ed677f17793f5b6c59f72d22846fcb8081"
+    },
+    {
+      "path": "scripts/export_game.py",
+      "bytes": 4924,
+      "sha256": "3f7e2c129dba607bc921b4f55b7d5ab5c0c7b7196d12a3ba42aa9e94e27a153c"
+    },
+    {
+      "path": "scripts/finalize_render.py",
+      "bytes": 1975,
+      "sha256": "9078325342cec1619a87d480c6df33dcaa68bf209d911ce88258094ad06fdedf"
+    },
+    {
+      "path": "scripts/render_scene.py",
+      "bytes": 1537,
+      "sha256": "6fde098b5fd0df3e7faddf5cc06478437bd6ea58aeca2f796e136a66f679cc40"
+    },
+    {
+      "path": "scripts/verify_game.py",
+      "bytes": 1378,
+      "sha256": "a7537c3bcbea8ccadd41f7fb916ad8aeb01efa472a9270e2bea26efdacd18d2a"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1090,
+      "sha256": "aebd02c8d46e9c123d134865f06a746a4e0bc3ed22a152b6cb75f2a719c224c2"
+    }
+  ]
+}

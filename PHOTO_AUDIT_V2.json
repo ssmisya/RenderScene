@@ -1,0 +1,97 @@
+{
+  "revision": "v2",
+  "new_reference_photos": 32,
+  "reference_index": "references/v2/reference_index.json",
+  "map_source": "references/osm.xml",
+  "reviewed_areas": [
+    {
+      "area": "west door and archivolts",
+      "references": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        20,
+        21,
+        22
+      ],
+      "changes": [
+        "paired arched heads",
+        "paneled double door",
+        "cross relief",
+        "radial masonry UVs",
+        "unequal stepped rings",
+        "dentils"
+      ],
+      "remaining": "Carved motifs and dimensions are approximations, not measured profiles."
+    },
+    {
+      "area": "night illumination",
+      "references": [
+        5,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        25
+      ],
+      "changes": [
+        "independent night scene",
+        "facade and drum projectors",
+        "night-only glass",
+        "commercial and plaza lights"
+      ],
+      "remaining": "Luminance and fixture positions are artist-calibrated from photos, not photometric measurements."
+    },
+    {
+      "area": "north square and streets",
+      "references": [
+        16,
+        18,
+        23,
+        24,
+        25
+      ],
+      "changes": [
+        "sage arcade",
+        "setback upper floors",
+        "clock landmark",
+        "enclosed kiosks",
+        "road boundary correction"
+      ],
+      "remaining": "Upper building geometry, clocks, rides, shop positions and transient props remain inferred."
+    },
+    {
+      "area": "east elevation",
+      "references": [
+        26,
+        27,
+        29,
+        30
+      ],
+      "changes": [
+        "tower support connection",
+        "transept return windows"
+      ],
+      "remaining": "Apse and tower profiles remain photo-interpreted."
+    }
+  ],
+  "validation_reports": [
+    "validation_v2.json",
+    "game/route_validation.json",
+    "game/export_validation.json",
+    "renders/v2/render_validation.json"
+  ],
+  "not_claimed": [
+    "survey precision",
+    "photogrammetric reconstruction",
+    "indistinguishable photorealism",
+    "game-engine FPS validation"
+  ]
+}
