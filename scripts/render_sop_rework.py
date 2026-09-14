@@ -6,7 +6,7 @@ R=Path(__file__).resolve().parents[1];D=R/'renders/sop_rework';D.mkdir(exist_ok=
 assets={p:hashlib.sha256((R/p).read_bytes()).hexdigest() for p in ['Harbin_Sophia_Square.blend','game/Sophia_Square.glb','game/Sophia_Collision.glb']}
 pref=bpy.context.preferences.addons['cycles'].preferences;pref.compute_device_type='METAL';pref.get_devices()
 for d in pref.devices:d.use=d.type=='METAL'
-views=[('gallery',(-86,28,2.0),(-61,38,4.0),42),('market',(-93,16.4,1.7),(-113.9,18.45,3.5),32)]
+views=[('gallery_north',(-29,60,2.0),(-63,87,5.0),32),('gallery',(-86,28,2.0),(-61,38,4.0),42),('market',(-93,16.4,1.7),(-113.9,18.45,3.5),32)]
 records=[]
 for mode in ['DAY','NIGHT']:
  s=next(s for s in bpy.data.scenes if s.get('lighting_mode')==mode);bpy.context.window.scene=s

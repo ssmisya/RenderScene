@@ -1,10 +1,14 @@
 {
   "review_date": "2026-09-14",
   "recorded_review_date": "2026-09-14",
-  "reviewed_photos": 79,
+  "reviewed_photos": 95,
   "eligible_recent_photos": [
     "brick_gallery_2025",
-    "market_front_20250621"
+    "market_front_20250621",
+    "zol_50479524",
+    "zol_50962487",
+    "zol_50962488",
+    "zol_50962489"
   ],
   "rejected": [
     {
@@ -676,18 +680,88 @@
       "reasons": [
         "outside recent 24-month window"
       ]
+    },
+    {
+      "id": "zol_50479523",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
+    },
+    {
+      "id": "zol_50479522",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
+    },
+    {
+      "id": "zol_50479525",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
+    },
+    {
+      "id": "zol_50479526",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
+    },
+    {
+      "id": "zol_50479527",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
+    },
+    {
+      "id": "zol_50962485",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
+    },
+    {
+      "id": "zol_50962482",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
+    },
+    {
+      "id": "zol_50962483",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
+    },
+    {
+      "id": "zol_50962486",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
+    },
+    {
+      "id": "zol_50962490",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
+    },
+    {
+      "id": "zol_50962484",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
+    },
+    {
+      "id": "zol_50962491",
+      "reasons": [
+        "not reviewed or outside architecture scope"
+      ]
     }
   ],
   "source_groups": [
     "Dahua Harbin self-photographed",
-    "张澍 / 黑龙江日报"
+    "张澍 / 黑龙江日报",
+    "彤鑫 / ZOL",
+    "斌文 / ZOL"
   ],
   "integrity_errors": [],
   "coverage_gaps": [
-    "gallery.left_oblique",
-    "gallery.right_oblique",
-    "gallery.back",
-    "gallery.materials",
     "gallery.night",
     "market.corner",
     "market.left_oblique",
@@ -725,7 +799,7 @@
     "schema_v2": true,
     "scope_locked": true,
     "ten_recent_distinct_photos": false,
-    "three_independent_sources": false,
+    "three_independent_sources": true,
     "source_integrity": true,
     "coverage_complete": false,
     "nonempty_detail_inventory": true,

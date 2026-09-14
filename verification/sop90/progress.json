@@ -33,7 +33,7 @@
     "schema_v2": true,
     "scope_locked": true,
     "ten_recent_distinct_photos": false,
-    "three_independent_sources": false,
+    "three_independent_sources": true,
     "source_integrity": true,
     "coverage_complete": false,
     "nonempty_detail_inventory": true,

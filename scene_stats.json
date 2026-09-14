@@ -1,13 +1,13 @@
 {
   "revision": "v2.2.1-demo",
-  "night_objects": 1907,
+  "night_objects": 1918,
   "night_lights": 514,
   "packed_image_count": 14,
   "packed_font_count": 1,
-  "objects": 1394,
-  "render_meshes": 994,
-  "vertices": 2038215,
-  "polygons": 1542102,
+  "objects": 1405,
+  "render_meshes": 1005,
+  "vertices": 2099283,
+  "polygons": 1588066,
   "collision_proxies": 347,
   "cameras": [
     "01_HERO_West_square",

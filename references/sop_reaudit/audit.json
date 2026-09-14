@@ -20,8 +20,8 @@
     }
   ],
   "assets": {
-    "Harbin_Sophia_Square.blend": "974f5c4a45cdbf575ef7c2d3dafdd3f1efee1eca400373a84f5e83aab5ecfb61",
-    "game/Sophia_Square.glb": "9304c7fa954b12bc5a17afed8e0540266e64673b5a386a4ddff30303e25c9f27",
+    "Harbin_Sophia_Square.blend": "e348208a65f321232991eed95aab547da500e97001a55c38f835aed192e0eb1f",
+    "game/Sophia_Square.glb": "ac8d2209274f9050ed4389656d812c858ac5623da61aacf49034851cca81cdc5",
     "game/Sophia_Collision.glb": "1536b504f6060e40fc221c841e10bf7d3dcff95f084aaba7824e9404ed18b27e"
   },
   "coverage": [
@@ -39,18 +39,25 @@
       "required": true,
       "photo_ids": [
         "gallery2018_2",
-        "gallery2018_3"
+        "gallery2018_3",
+        "zol_50479524",
+        "zol_50962487"
       ]
     },
     {
       "id": "gallery.right_oblique",
       "required": true,
-      "photo_ids": []
+      "photo_ids": [
+        "zol_50962489"
+      ]
     },
     {
       "id": "gallery.back",
       "required": true,
-      "photo_ids": []
+      "photo_ids": [
+        "zol_50479524",
+        "zol_50962489"
+      ]
     },
     {
       "id": "gallery.entry",
@@ -63,13 +70,18 @@
       "id": "gallery.roof",
       "required": true,
       "photo_ids": [
-        "brick_gallery_2025"
+        "brick_gallery_2025",
+        "zol_50479524",
+        "zol_50962487"
       ]
     },
     {
       "id": "gallery.materials",
       "required": true,
-      "photo_ids": []
+      "photo_ids": [
+        "zol_50479524",
+        "zol_50962487"
+      ]
     },
     {
       "id": "gallery.night",
@@ -173,7 +185,8 @@
       "photo_ids": [
         "brick_gallery_2025",
         "gallery2018_2",
-        "gallery2018_3"
+        "gallery2018_3",
+        "zol_50479524"
       ],
       "current_model": "端面重做五层深檐口、阴缝、齿饰和小山花，截面仍未匹配实拍。",
       "expected_from_photos": "多道深色厚檐与明显阴影层次。",
@@ -195,11 +208,14 @@
         "gallery2018_2",
         "gallery2018_3",
         "gallery_2019",
-        "baidu_gallery_201905"
+        "baidu_gallery_201905",
+        "zol_50479524",
+        "zol_50962487",
+        "zol_50962489"
       ],
-      "current_model": "新增南侧 L 接点的抬高屋顶体块、檐口及圆拱小窗；与前部坡屋顶的高差、位置仍待多机位校准。",
+      "current_model": "根据2025-05-29及2026-06-28照片，重做北侧绿色双孔菱格高窗、退台坡屋顶、八个圆拱屋顶窗及顶部檐口；南侧体量另行保留。高度、位置仍待多机位校准。",
       "expected_from_photos": "屋顶有独立后退体量，历史斜照可见坡屋顶与装饰；当前空白山花不符。",
-      "implementation_objects": "SOP90_Gallery_raised_roof_block",
+      "implementation_objects": "SOP90_Gallery_north_lattice_clerestory; SOP90_Gallery_raised_roof_block",
       "next_action": "用近期高位/侧面照片确认高屋顶位于哪一段，再修复体块与后部接合。",
       "comparisons": [],
       "rework_evidence": [
@@ -215,17 +231,19 @@
       "photo_ids": [
         "brick_gallery_2025",
         "gallery2018_2",
-        "gallery2018_3"
+        "gallery2018_3",
+        "zol_50479524",
+        "zol_50962487"
       ],
-      "current_model": "端头柱面增加凸出分段、窄条与无灰缝扫描面材质；侧翼柱仍有通用铺砖，不能判全体通过。",
+      "current_model": "北侧柱头补齿状砖砌挑檐，拱板增加突出金属顶饰和铆钉；现有砌筑仍需近距离对照。",
       "expected_from_photos": "柱身大块分段、凹凸边框与仿清水砖组合；不是仅贴砖。",
-      "implementation_objects": "SOP_Gallery_terminal_twin_arches",
+      "implementation_objects": "SOP90_Gallery_north_corbel_and_arch_crest",
       "next_action": "核实并统一各类柱的实际砌筑和构件截面。",
       "comparisons": [],
       "rework_evidence": [
         "renders/sop_rework/cameras.json",
-        "verification/sop_reaudit/native_rework_validation.json",
-        "verification/sop_reaudit/runtime_rework_validation.json"
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
       ]
     },
     {
@@ -237,7 +255,8 @@
         "gallery2018_2",
         "gallery2018_3",
         "gallery_yx2022_detail",
-        "gallery_night_trip_2024"
+        "gallery_night_trip_2024",
+        "zol_50479524"
       ],
       "current_model": "区分端头双灯和廊内单个六边笼灯；按历史近照增加托臂、框架和夜间光源。近期灯具状态及数量未确认。",
       "expected_from_photos": "2025照片中柱侧可见深色灯臂和白色灯罩。",
@@ -277,7 +296,9 @@
       "photo_ids": [
         "brick_gallery_2025",
         "gallery2018_2",
-        "gallery2018_3"
+        "gallery2018_3",
+        "zol_50479524",
+        "zol_50962488"
       ],
       "current_model": "OSM轮廓加估算3/4/7/3开间。",
       "expected_from_photos": "近期全周视角缺失。",
@@ -294,7 +315,8 @@
         "gallery2018_2",
         "gallery2018_3",
         "gallery_yx2022_detail",
-        "gallery_night_trip_2024"
+        "gallery_night_trip_2024",
+        "zol_50479524"
       ],
       "current_model": "增加朝广场侧的外鼓栏杆、卷草细铁件、矮墙和内侧笼灯。地下出入口及真实落地关系仍未全部重建。",
       "expected_from_photos": "实际构造的落点、截面、材质未证实。",
@@ -484,13 +506,19 @@
         "yiwu_front",
         "huaren_front",
         "eagle_02",
-        "market2017_preview"
+        "market2017_preview",
+        "zol_50962488"
       ],
-      "current_model": "27米估高和固定世界坐标字架。",
+      "current_model": "新一百上部改为实体背墙、错缝玻璃板和上下退台，屋顶字架随上层立面重新落位。楼高和退台距离仍是估值，未通过尺寸验收。",
       "expected_from_photos": "近期照片不足以校准整个楼体和屋顶字架。",
-      "implementation_objects": "V221_New100_roof_support",
+      "implementation_objects": "SOP90_New100_stepped_curtain_wall; SOP90_New100_roof_letter_support",
       "next_action": "取得带尺寸锚点的整楼照片及至少两个斜角。",
-      "comparisons": []
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
+      ]
     },
     {
       "id": "M10",
@@ -549,10 +577,10 @@
   "release_status": "REWORK_REQUIRED",
   "runtime_report": {
     "file": "verification/sop90/runtime_validation.json",
-    "sha256": "f7fc476dcb9c2ea5aee75e15b5440c4aed4ca0e6ce89e3b1e23d60da198d75f3"
+    "sha256": "52acc7ac57f76332bf7c89fec761babc537dfde6720c2ffaf130e1df909f48eb"
   },
   "blender_report": {
     "file": "verification/sop90/native_validation.json",
-    "sha256": "8f44f97a813aa55eb9f361a7b5ce6cdb089890653c0bc421599dbd9a29f849a3"
+    "sha256": "ea4d0ae31be16350745539001406c7c374c38198f0df7f0ffc7bd3eb7fc5060c"
   }
 }

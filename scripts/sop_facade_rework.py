@@ -45,6 +45,9 @@ for x,y,normal in [(-64,37.5,(-1,0)),(-64.8,72,(0,-1))]:
   for du in [-1.39,1.39]:fbox(F,u+du,3.03,.30,.055,2.10,.095,'Iron dark green')
  GROUP='SOP_Gallery_terminal_lanterns'
  for u in [-3.8,0,3.8]:pier_lantern(F,u)
+ # May 2025 side photo shows the northern end has a taller lattice clerestory.
+ # Its distinct roof is constructed by sop90_gallery_rework, not copied here.
+ if normal==(0,-1):continue
  GROUP='SOP_Gallery_layered_cornice_and_hip_roof'
  for z,w,h,dep,mat in [(5.92,8.03,.22,.85,'Gallery aged coping'),(6.10,8.25,.12,1.05,'Gallery cornice shadow'),(6.23,8.44,.12,1.20,'Gallery aged coping'),(6.36,8.63,.10,1.38,'Gallery cornice shadow'),(6.49,8.79,.16,1.53,'Gallery aged coping')]:
   fbox(F,0,z,.13,w,h,dep,mat)

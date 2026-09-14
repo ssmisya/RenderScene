@@ -1,56 +1,64 @@
 {
   "status": "REWORK_IN_PROGRESS_NOT_ACCEPTED",
   "assets": {
-    "Harbin_Sophia_Square.blend": "974f5c4a45cdbf575ef7c2d3dafdd3f1efee1eca400373a84f5e83aab5ecfb61",
-    "game/Sophia_Square.glb": "9304c7fa954b12bc5a17afed8e0540266e64673b5a386a4ddff30303e25c9f27",
+    "Harbin_Sophia_Square.blend": "e348208a65f321232991eed95aab547da500e97001a55c38f835aed192e0eb1f",
+    "game/Sophia_Square.glb": "ac8d2209274f9050ed4389656d812c858ac5623da61aacf49034851cca81cdc5",
     "game/Sophia_Collision.glb": "1536b504f6060e40fc221c841e10bf7d3dcff95f084aaba7824e9404ed18b27e"
   },
   "native": {
     "file": "verification/sop90/native_validation.json",
-    "sha256": "8f44f97a813aa55eb9f361a7b5ce6cdb089890653c0bc421599dbd9a29f849a3"
+    "sha256": "ea4d0ae31be16350745539001406c7c374c38198f0df7f0ffc7bd3eb7fc5060c"
   },
   "runtime": {
     "file": "verification/sop90/runtime_validation.json",
-    "sha256": "f7fc476dcb9c2ea5aee75e15b5440c4aed4ca0e6ce89e3b1e23d60da198d75f3"
+    "sha256": "52acc7ac57f76332bf7c89fec761babc537dfde6720c2ffaf130e1df909f48eb"
   },
   "app_zip": {
     "file": "builds/review/SophiaWalk.zip",
-    "sha256": "b67473de77ac7d0ef69aadeef04aa11ad88bf342ed8a48e5019ebf29c8cc752c"
+    "sha256": "3c40d242e15ff928f39b9abf837a83a4e7e67bb01163b42488dbbdb2c935563c"
   },
   "audit": {
     "file": "references/sop_reaudit/audit.json",
-    "sha256": "7c84fbce9e9017ad17e0a7920fc819e624d6f400d91ba5e748ac6f624c0af249"
+    "sha256": "6bd16cb93bc78368371fc148f6897f275914aa6d075c630a36ba2ab2216b5dca"
   },
   "sources": {
     "file": "references/sop_reaudit/sources.json",
-    "sha256": "813a9ac52396934d01f936f81d5c48b5c0f3c5782f7a6a6c8a54b6cc4256693e"
+    "sha256": "55b29f6304455bb3b0640cf5f5f11b5c881f4227b63bbf3dcb2d232bdbb53568"
   },
   "renders": [
     {
       "file": "renders/sop_rework/DAY_gallery.png",
-      "sha256": "07a01951c17cb376c166f63b0c2674675afe5ab309c3e9dc34bf004b685465a2"
+      "sha256": "307c1e5d14936cde67fc0b2d694595d9f83b77565a8af61b15ba0c436644e472"
+    },
+    {
+      "file": "renders/sop_rework/DAY_gallery_north.png",
+      "sha256": "9b758c7f462d42853046f63b39580fafd28434219d4418e02cf696afd07103dd"
     },
     {
       "file": "renders/sop_rework/DAY_market.png",
-      "sha256": "2a1e091ef9d99ea0b36ac2cf50ba5e7af9dd79164b2ef6e03d710b77107fda00"
+      "sha256": "4cbfb4e1527ec8482ebb5a7d88a52c907d1b657d7725aef2357440b5384a5437"
     },
     {
       "file": "renders/sop_rework/NIGHT_gallery.png",
-      "sha256": "44612d97382c230299e434b1b40de3ed71e1b20ff8043ead5825340796c61451"
+      "sha256": "a4f6f9bf2befa7715733ccd2862d6b6fafff53bf4ca3383dcc367272b466656b"
+    },
+    {
+      "file": "renders/sop_rework/NIGHT_gallery_north.png",
+      "sha256": "5a9446659bf75cb825b84a51593ee06a34a96ac8d3feb03ad65a998812d31847"
     },
     {
       "file": "renders/sop_rework/NIGHT_market.png",
-      "sha256": "1c9322b049c7bdd9b52e3f9466c0d2d80951882811b05847df6a6a0f61d04fe2"
+      "sha256": "0f558f15f2970893e34503fb8f08cf454449ff11ae43fc1c020d6bf8ceb5b5f5"
     }
   ],
   "cameras": {
     "file": "renders/sop_rework/cameras.json",
-    "sha256": "99c4f6aa949c9c0b0eb296707db0f0ee2471a3ab8eff3e8848da62efc024bc70"
+    "sha256": "2c06a4ed9996ec59fc5cb0ad09c4ab8f7a729441d691855c1364e3a4c9b4c1cf"
   },
   "game_images": [
     {
       "file": "verification/sop90/game_day_north.png",
-      "sha256": "ee1696d6ade88fe2a990e62ba61b1e1310d3bb391f7db5d3109624002134fb68"
+      "sha256": "96e9f42fe7bdab80646c40bc534ccffc5d8a873fddd1fb93bf32bc0f73f92daa"
     },
     {
       "file": "verification/sop90/game_day_portal.png",
@@ -62,35 +70,35 @@
     },
     {
       "file": "verification/sop90/game_gallery_front.png",
-      "sha256": "c14038062b21cc92493901d189834bfdb95ff166849e35cb0163c78b0f47a0b7"
+      "sha256": "99fb8ec81a5b439331835e1c097d98eb64a3940ea9ceb5afdd28dbfe42b40ea1"
     },
     {
       "file": "verification/sop90/game_gallery_landing.png",
-      "sha256": "4488eb4e36f32f5916cfdba8361fd033d0a4d7788645377737aad5c0f49510f1"
+      "sha256": "bc83d1203dcbb9aad9d18df4367da93ef0104e58e828667c333e63d029e2ab3b"
     },
     {
       "file": "verification/sop90/game_gallery_ramp.png",
-      "sha256": "6f52e51242c590fa21ebd4609cd84b86737e49bd11a1af9e00d3ab1f4d55cdf8"
+      "sha256": "7b7fe52817caf3ad83bf2a766ea699d23a2c51131d159618cb65005f5fa0b1f1"
     },
     {
       "file": "verification/sop90/game_market_entry.png",
-      "sha256": "34cc9dc2cdef09e4ba985dd5893724553560a35c95eb66484f76b1dd380466fb"
+      "sha256": "27c9cca3242c3ab16fb715b039cd0bfed1f5d0111fac0b113f13c46928376fc0"
     },
     {
       "file": "verification/sop90/game_market_front.png",
-      "sha256": "a7036b3ceed2ef0bfca648ec9ef7a0c79e78c4c2a1ffff71baaa23d834e61519"
+      "sha256": "09780f8b8d575b14e0c3e0c48b84dc3f8078201ed389d4d6125dbbb4dbd7eaf7"
     },
     {
       "file": "verification/sop90/game_market_night.png",
-      "sha256": "a083f00910bf0ac0d37dab46d1ffaf5c33aea3a7934381b92b0cefe1fcb2b3cc"
+      "sha256": "5770893a2437d2578e9de35552109b386ff7b0ac6b95bfd81138a5a660069623"
     },
     {
       "file": "verification/sop90/game_night_flashlight.png",
-      "sha256": "623eaaf682671caa28837d2b8a31ca9d498825942300236eb7c1a318fd86d661"
+      "sha256": "52f87054c9c3e7eb01c76e96e52aa566622af822ea91223eb70ef90bbb63fae8"
     },
     {
       "file": "verification/sop90/game_night_spawn.png",
-      "sha256": "3cf43ab079d72272d0e2fa30657480433b8475806bb928a944ecc4af2e3a9e5c"
+      "sha256": "a5f8cf27f15743f30c59b8ac4815398aace56f894a4cb8d3350a34758009f3d2"
     }
   ],
   "progress": {
@@ -128,7 +136,7 @@
       "schema_v2": true,
       "scope_locked": true,
       "ten_recent_distinct_photos": false,
-      "three_independent_sources": false,
+      "three_independent_sources": true,
       "source_integrity": true,
       "coverage_complete": false,
       "nonempty_detail_inventory": true,

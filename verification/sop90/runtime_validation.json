@@ -1,9 +1,9 @@
 {
   "all_checks_pass": true,
   "assets": {
-    "Harbin_Sophia_Square.blend": "974f5c4a45cdbf575ef7c2d3dafdd3f1efee1eca400373a84f5e83aab5ecfb61",
+    "Harbin_Sophia_Square.blend": "e348208a65f321232991eed95aab547da500e97001a55c38f835aed192e0eb1f",
     "game/Sophia_Collision.glb": "1536b504f6060e40fc221c841e10bf7d3dcff95f084aaba7824e9404ed18b27e",
-    "game/Sophia_Square.glb": "9304c7fa954b12bc5a17afed8e0540266e64673b5a386a4ddff30303e25c9f27"
+    "game/Sophia_Square.glb": "ac8d2209274f9050ed4389656d812c858ac5623da61aacf49034851cca81cdc5"
   },
   "checks": {
     "aim_narrows_fov": true,
@@ -30,14 +30,14 @@
   "engine": "4.7.2-stable (official)",
   "entry_position": "(-20.30018, 0.645218, -0.000001)",
   "exported_application": true,
-  "frame_time_p95_ms": 9.25925925925926,
+  "frame_time_p95_ms": 9.09090909090909,
   "gallery_pier_position": "(-64.80094, -0.019808, -37.50712)",
   "gallery_position": "(-62.45297, 1.030096, -35.60002)",
-  "gallery_ramp_position": "(-66.04997, 1.030075, -35.90681)",
-  "mean_fps": 110.581670645763,
+  "gallery_ramp_position": "(-66.04998, 1.030828, -35.97015)",
+  "mean_fps": 111.27031945658,
   "measured_frames": 600,
-  "measured_seconds": 5.42585400000005,
-  "meshes": 1028,
+  "measured_seconds": 5.39227354545459,
+  "meshes": 1039,
   "renderer": "forward_plus",
   "step_assists": 19,
   "viewport": "(1440.0, 900.0)",

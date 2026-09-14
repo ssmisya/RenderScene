@@ -21,7 +21,7 @@ for ob in middle:
  hit,point,normal,index=ob.ray_cast(Vector((-2,0,0)),direction,distance=4)
  ray_hits.append({'object':ob.name,'hit':hit,'position':list(ob.matrix_world@point) if hit else None})
 checks['middle_collision_meshes_solid']=all(r['hit'] for r in ray_hits)
-for prefix in ['SOP_Gallery_terminal_twin_arches','SOP_Market_canopy_seams_and_soffit','SOP90_Market_observed_portals','SOP90_Market_gift_shop','SOP90_Gallery_interior_lamps_and_guards']:
+for prefix in ['SOP_Gallery_terminal_twin_arches','SOP_Market_canopy_seams_and_soffit','SOP90_Market_observed_portals','SOP90_Market_gift_shop','SOP90_Gallery_interior_lamps_and_guards','SOP90_Gallery_north_lattice_clerestory']:
  obs=[o for o in s.objects if o.type=='MESH' and o.name.startswith(prefix)]
  checks[prefix+'_has_geometry']=bool(obs) and all(len(o.data.polygons)>0 for o in obs)
 letters=[o for o in s.objects if o.name.startswith('SOP90_Daoli_sign_')]

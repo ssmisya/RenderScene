@@ -2306,5 +2306,588 @@
     "license": "Reference-only local inspection; no redistribution or texture use",
     "redistribute_original": false,
     "texture_use": false
+  },
+  {
+    "id": "zol_50479523",
+    "file": "references/sop_reaudit/local/zol_50479523.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d19_142283.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/0E/04/ChMkLWirxqmIbKsdABJ4K67IvtMAAC6RgJdMFQAEnhD656.jpg",
+    "author": "斌文 bj3nxa",
+    "source_group": "斌文 / ZOL",
+    "publication_date": "2025-08-25",
+    "capture_date": "2025-05-29",
+    "capture_time_local": "15:16:21.626",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post lists each image P1 with device and capture time 2025-05-29 15:16:21.626. Public article successfully loaded without CAPTCHA on 2026-09-14.",
+      "file": "references/sop_reaudit/local/zol_20250529_caption.txt",
+      "sha256": "43086e7e52d24218b3f3862bc4fd2332c41ecfcf71c3f2be075def75e8aaaf45"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      900
+    ],
+    "sha256": "39a5d8ad41883ced958b3dab4dff63057a2320c2f05eb50bbcce0a1b1bac4f77",
+    "original_photo_id": "zol_photo_50479523",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church / steel gallery / street monument. Retained for future broader scene review; not counted toward current brick gallery and market exterior quota.",
+    "position_orientation": "See original image and caption",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50479522",
+    "file": "references/sop_reaudit/local/zol_50479522.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d19_142283.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/0E/04/ChMkLWirxqiIHw6DABTC6WzS3LYAAC6RgJHQ0wAFMMB256.jpg",
+    "author": "斌文 bj3nxa",
+    "source_group": "斌文 / ZOL",
+    "publication_date": "2025-08-25",
+    "capture_date": "2025-05-29",
+    "capture_time_local": "15:31:49.426",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post lists each image P2 with device and capture time 2025-05-29 15:31:49.426. Public article successfully loaded without CAPTCHA on 2026-09-14.",
+      "file": "references/sop_reaudit/local/zol_20250529_caption.txt",
+      "sha256": "43086e7e52d24218b3f3862bc4fd2332c41ecfcf71c3f2be075def75e8aaaf45"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      2131
+    ],
+    "sha256": "64b1741a6356fac0bd538658577b8803ac8c89a9dd36e992d9fd285404c60919",
+    "original_photo_id": "zol_photo_50479522",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church / steel gallery / street monument. Retained for future broader scene review; not counted toward current brick gallery and market exterior quota.",
+    "position_orientation": "See original image and caption",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50479524",
+    "file": "references/sop_reaudit/local/zol_50479524.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d19_142283.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/0E/04/ChMkLWirxq6IWFA6ACPEsndLASQAAC6RgKWregAI8TK864.jpg",
+    "author": "斌文 bj3nxa",
+    "source_group": "斌文 / ZOL",
+    "publication_date": "2025-08-25",
+    "capture_date": "2025-05-29",
+    "capture_time_local": "15:18:55.597",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post lists each image P3 with device and capture time 2025-05-29 15:18:55.597. Public article successfully loaded without CAPTCHA on 2026-09-14.",
+      "file": "references/sop_reaudit/local/zol_20250529_caption.txt",
+      "sha256": "43086e7e52d24218b3f3862bc4fd2332c41ecfcf71c3f2be075def75e8aaaf45"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "dimensions": [
+      1200,
+      676
+    ],
+    "sha256": "4ba94f54717775fedfac69dc73da3d0146fda6c6f1746c07cdbb0bfe9b523ae8",
+    "original_photo_id": "zol_photo_50479524",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "gallery.left_oblique",
+      "gallery.roof",
+      "gallery.materials",
+      "gallery.back"
+    ],
+    "observations": "P3 recent side view: high roof block uses green metal frame with two diamond-lattice panels per visible face and opaque corner; dormers sit in lower roof slopes; continuous low-wing arches, brick piers, underground access and circular rail in foreground. Colors heavily saturated, use for geometry rather than albedo calibration.",
+    "position_orientation": "From square looking toward northern brick gallery and steel tower",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50479525",
+    "file": "references/sop_reaudit/local/zol_50479525.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d19_142283.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/0E/04/ChMkLWirxrmIfn8tACQIhogLc94AAC6RgLnNGsAJAie633.jpg",
+    "author": "斌文 bj3nxa",
+    "source_group": "斌文 / ZOL",
+    "publication_date": "2025-08-25",
+    "capture_date": "2025-05-29",
+    "capture_time_local": "15:37:38.333",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post lists each image P4 with device and capture time 2025-05-29 15:37:38.333. Public article successfully loaded without CAPTCHA on 2026-09-14.",
+      "file": "references/sop_reaudit/local/zol_20250529_caption.txt",
+      "sha256": "43086e7e52d24218b3f3862bc4fd2332c41ecfcf71c3f2be075def75e8aaaf45"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      900
+    ],
+    "sha256": "9a628068b8e4df1de678d80b00acf76d1f6683a9da4bc9bf0f718629e160c390",
+    "original_photo_id": "zol_photo_50479525",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church / steel gallery / street monument. Retained for future broader scene review; not counted toward current brick gallery and market exterior quota.",
+    "position_orientation": "See original image and caption",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50479526",
+    "file": "references/sop_reaudit/local/zol_50479526.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d19_142283.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/0E/04/ChMkLWirxrmISbPKACKkSiEgAsQAAC6RgMLPQkAIqRi087.jpg",
+    "author": "斌文 bj3nxa",
+    "source_group": "斌文 / ZOL",
+    "publication_date": "2025-08-25",
+    "capture_date": "2025-05-29",
+    "capture_time_local": "15:38:24.500",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post lists each image P5 with device and capture time 2025-05-29 15:38:24.500. Public article successfully loaded without CAPTCHA on 2026-09-14.",
+      "file": "references/sop_reaudit/local/zol_20250529_caption.txt",
+      "sha256": "43086e7e52d24218b3f3862bc4fd2332c41ecfcf71c3f2be075def75e8aaaf45"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sha256": "649d3c887a49eb768c169016e17bbf458ebb92e753f47ae58004a3bdf24ade41",
+    "original_photo_id": "zol_photo_50479526",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church / steel gallery / street monument. Retained for future broader scene review; not counted toward current brick gallery and market exterior quota.",
+    "position_orientation": "See original image and caption",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50479527",
+    "file": "references/sop_reaudit/local/zol_50479527.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d19_142283.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/0E/04/ChMkLmirxrqIIDxqACAI18rifooAAC6RgNAOWIAIAjv872.jpg",
+    "author": "斌文 bj3nxa",
+    "source_group": "斌文 / ZOL",
+    "publication_date": "2025-08-25",
+    "capture_date": "2025-05-29",
+    "capture_time_local": "15:54:41.481",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post lists each image P6 with device and capture time 2025-05-29 15:54:41.481. Public article successfully loaded without CAPTCHA on 2026-09-14.",
+      "file": "references/sop_reaudit/local/zol_20250529_caption.txt",
+      "sha256": "43086e7e52d24218b3f3862bc4fd2332c41ecfcf71c3f2be075def75e8aaaf45"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      2133
+    ],
+    "sha256": "fd36bb949bc13ed7e45c38cfaf291a67327abab99d4018870a5d041311601e2c",
+    "original_photo_id": "zol_photo_50479527",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church / steel gallery / street monument. Retained for future broader scene review; not counted toward current brick gallery and market exterior quota.",
+    "position_orientation": "See original image and caption",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50962485",
+    "file": "references/sop_reaudit/local/zol_50962485.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d167_488196.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/00/07/ChMkLWpGGG6IDs6DAAjAkkmvmPoAAJBPABkFMYACMCq876.jpg",
+    "author": "彤鑫",
+    "source_group": "彤鑫 / ZOL",
+    "publication_date": "2026-07-02",
+    "capture_date": "2026-06-27",
+    "capture_time_local": "19:35:47.32",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post P1 provides Nikon Z7 II capture time and focal length. Caption saved from public page.",
+      "file": "references/sop_reaudit/local/zol_202606_caption.txt",
+      "sha256": "7db49beba1d995c54717ec2d6ba68994627fa86bded0aa1c12729e23ce719157"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      674
+    ],
+    "sha256": "0a452bbbf3d43f598658ad2c01d34badf6f6cabfd903a01bd52ad8933c90e7a4",
+    "original_photo_id": "zol_photo_50962485",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church or unrelated building; excluded from brick gallery / market quota.",
+    "position_orientation": "See original and caption; north gallery side/reverse ends where present",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50962482",
+    "file": "references/sop_reaudit/local/zol_50962482.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d167_488196.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/00/07/ChMkLWpGGGeIcG9mAAaucdZ2okMAAJBPAA0cqQABq6J578.jpg",
+    "author": "彤鑫",
+    "source_group": "彤鑫 / ZOL",
+    "publication_date": "2026-07-02",
+    "capture_date": "2026-06-27",
+    "capture_time_local": "19:25:55.14",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post P2 provides Nikon Z7 II capture time and focal length. Caption saved from public page.",
+      "file": "references/sop_reaudit/local/zol_202606_caption.txt",
+      "sha256": "7db49beba1d995c54717ec2d6ba68994627fa86bded0aa1c12729e23ce719157"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      674
+    ],
+    "sha256": "7fbbeef73755340f1c168789493f00a01f9bab5a361e9c37ac76c89765f4ceed",
+    "original_photo_id": "zol_photo_50962482",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church or unrelated building; excluded from brick gallery / market quota.",
+    "position_orientation": "See original and caption; north gallery side/reverse ends where present",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50962483",
+    "file": "references/sop_reaudit/local/zol_50962483.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d167_488196.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/00/07/ChMkLWpGGGeIGMA3AAgukJT9bGQAAJBPAA7IS0ACC6o201.jpg",
+    "author": "彤鑫",
+    "source_group": "彤鑫 / ZOL",
+    "publication_date": "2026-07-02",
+    "capture_date": "2026-06-27",
+    "capture_time_local": "19:07:08.32",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post P3 provides Nikon Z7 II capture time and focal length. Caption saved from public page.",
+      "file": "references/sop_reaudit/local/zol_202606_caption.txt",
+      "sha256": "7db49beba1d995c54717ec2d6ba68994627fa86bded0aa1c12729e23ce719157"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      674
+    ],
+    "sha256": "2835ad6dfbe58b5143db4a8efc439300061519a0dde04704854090a67f970526",
+    "original_photo_id": "zol_photo_50962483",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church or unrelated building; excluded from brick gallery / market quota.",
+    "position_orientation": "See original and caption; north gallery side/reverse ends where present",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50962486",
+    "file": "references/sop_reaudit/local/zol_50962486.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d167_488196.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/00/07/ChMkLWpGGG6IOtIJAAqBnvtlQRMAAJBPABtFtUACoG2896.jpg",
+    "author": "彤鑫",
+    "source_group": "彤鑫 / ZOL",
+    "publication_date": "2026-07-02",
+    "capture_date": "2026-06-27",
+    "capture_time_local": "19:37:42.94",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post P4 provides Nikon Z7 II capture time and focal length. Caption saved from public page.",
+      "file": "references/sop_reaudit/local/zol_202606_caption.txt",
+      "sha256": "7db49beba1d995c54717ec2d6ba68994627fa86bded0aa1c12729e23ce719157"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      674
+    ],
+    "sha256": "1a68445345121cea5a8fa65a681a8c8b676372a1ee493bc9d9986323ac8dceb6",
+    "original_photo_id": "zol_photo_50962486",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church or unrelated building; excluded from brick gallery / market quota.",
+    "position_orientation": "See original and caption; north gallery side/reverse ends where present",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50962487",
+    "file": "references/sop_reaudit/local/zol_50962487.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d167_488196.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/00/07/ChMkLWpGGG-ISn0dAAtFxMYqMZ0AAJBPAB86fkAC0Xc731.jpg",
+    "author": "彤鑫",
+    "source_group": "彤鑫 / ZOL",
+    "publication_date": "2026-07-02",
+    "capture_date": "2026-06-28",
+    "capture_time_local": "05:14:38.78",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post P5 provides Nikon Z7 II capture time and focal length. Caption saved from public page.",
+      "file": "references/sop_reaudit/local/zol_202606_caption.txt",
+      "sha256": "7db49beba1d995c54717ec2d6ba68994627fa86bded0aa1c12729e23ce719157"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "dimensions": [
+      1200,
+      674
+    ],
+    "sha256": "ea2212eb10203e2ae7d0f14c81e8421886b58e7b4076b275867eaea2a8fca3fc",
+    "original_photo_id": "zol_photo_50962487",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "gallery.left_oblique",
+      "gallery.roof",
+      "gallery.materials"
+    ],
+    "observations": "Clear northern gallery side: two diamond clerestory openings on each face, eight semicircular dormers, broad layered cornices, brick/quoin piers with toothed corbels, deep arch plates with crest, suspended hexagonal white lanterns, curved iron balustrade and stone pedestal lamps. Confirms persistent structure also photographed May 2025.",
+    "position_orientation": "See original and caption; north gallery side/reverse ends where present",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50962488",
+    "file": "references/sop_reaudit/local/zol_50962488.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d167_488196.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/00/07/ChMkLWpGGHOIbd7sAAkQCs3Bm-QAAJBPACK1IYACRAi609.jpg",
+    "author": "彤鑫",
+    "source_group": "彤鑫 / ZOL",
+    "publication_date": "2026-07-02",
+    "capture_date": "2026-06-28",
+    "capture_time_local": "05:31:20.63",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post P6 provides Nikon Z7 II capture time and focal length. Caption saved from public page.",
+      "file": "references/sop_reaudit/local/zol_202606_caption.txt",
+      "sha256": "7db49beba1d995c54717ec2d6ba68994627fa86bded0aa1c12729e23ce719157"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "dimensions": [
+      1200,
+      674
+    ],
+    "sha256": "afb9e4d027a39366efae089a0dbb6c983b7dc003431125d2dd20fe83de85d2c0",
+    "original_photo_id": "zol_photo_50962488",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "gallery.position"
+    ],
+    "observations": "Wide square facing market and gallery; north gallery relationship to steel gallery, surrounding commercial facades, plaza props. Building-specific details limited by distance.",
+    "position_orientation": "See original and caption; north gallery side/reverse ends where present",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50962489",
+    "file": "references/sop_reaudit/local/zol_50962489.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d167_488196.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/00/07/ChMkLWpGGHOIZvZiAAkks16k-AMAAJBPACUJqwACSTL255.jpg",
+    "author": "彤鑫",
+    "source_group": "彤鑫 / ZOL",
+    "publication_date": "2026-07-02",
+    "capture_date": "2026-06-28",
+    "capture_time_local": "05:39:29.49",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post P7 provides Nikon Z7 II capture time and focal length. Caption saved from public page.",
+      "file": "references/sop_reaudit/local/zol_202606_caption.txt",
+      "sha256": "7db49beba1d995c54717ec2d6ba68994627fa86bded0aa1c12729e23ce719157"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "dimensions": [
+      1200,
+      674
+    ],
+    "sha256": "6ea2236d019c6050ed93833a97dd0835db3cbbcb17e1e1888ebea055e8d357b6",
+    "original_photo_id": "zol_photo_50962489",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "gallery.right_oblique",
+      "gallery.back",
+      "gallery.stairs"
+    ],
+    "observations": "Reverse end of brick gallery against church: small triangular pediment with circular inset, two round dormers, deep cornice, two open arches and broad ground-level iron shelter over descending underground entrance; stone stairs to left. Not the street-side elevated entry.",
+    "position_orientation": "See original and caption; north gallery side/reverse ends where present",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50962490",
+    "file": "references/sop_reaudit/local/zol_50962490.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d167_488196.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/00/07/ChMkLWpGGHSIZvf1AAgU5MQpJJoAAJBPACdT1kACBT8300.jpg",
+    "author": "彤鑫",
+    "source_group": "彤鑫 / ZOL",
+    "publication_date": "2026-07-02",
+    "capture_date": "2026-06-28",
+    "capture_time_local": "05:50:00.22",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post P8 provides Nikon Z7 II capture time and focal length. Caption saved from public page.",
+      "file": "references/sop_reaudit/local/zol_202606_caption.txt",
+      "sha256": "7db49beba1d995c54717ec2d6ba68994627fa86bded0aa1c12729e23ce719157"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      674
+    ],
+    "sha256": "132941c6b72dfe3c11f33cb8a1fd2c4aed95dc6bf7113adc13668d79905b6549",
+    "original_photo_id": "zol_photo_50962490",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church or unrelated building; excluded from brick gallery / market quota.",
+    "position_orientation": "See original and caption; north gallery side/reverse ends where present",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50962484",
+    "file": "references/sop_reaudit/local/zol_50962484.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d167_488196.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/00/07/ChMkLWpGGGiIYc1FAApjvkPxOGUAAJBPABDwuQACmPW708.jpg",
+    "author": "彤鑫",
+    "source_group": "彤鑫 / ZOL",
+    "publication_date": "2026-07-02",
+    "capture_date": "2026-06-27",
+    "capture_time_local": "19:01:44.75",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post P9 provides Nikon Z7 II capture time and focal length. Caption saved from public page.",
+      "file": "references/sop_reaudit/local/zol_202606_caption.txt",
+      "sha256": "7db49beba1d995c54717ec2d6ba68994627fa86bded0aa1c12729e23ce719157"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      1800
+    ],
+    "sha256": "53f24780739d60b41324ac200c6d8fb4a8dbe4806738a9b4463a667872a87823",
+    "original_photo_id": "zol_photo_50962484",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church or unrelated building; excluded from brick gallery / market quota.",
+    "position_orientation": "See original and caption; north gallery side/reverse ends where present",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "zol_50962491",
+    "file": "references/sop_reaudit/local/zol_50962491.jpg",
+    "source_url": "https://bbs.zol.com.cn/dcbbs/d167_488196.html",
+    "image_url": "https://newbbs-fd.zol-img.com.cn/t_s1200x5000/g8/M00/00/07/ChMkLWpGGHuIY3b8ABaHJJDpSggAAJBPACodX4AFoc8349.jpg",
+    "author": "彤鑫",
+    "source_group": "彤鑫 / ZOL",
+    "publication_date": "2026-07-02",
+    "capture_date": "2026-06-27",
+    "capture_time_local": "19:28:15.43",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Original post P10 provides Nikon Z7 II capture time and focal length. Caption saved from public page.",
+      "file": "references/sop_reaudit/local/zol_202606_caption.txt",
+      "sha256": "7db49beba1d995c54717ec2d6ba68994627fa86bded0aa1c12729e23ce719157"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "dimensions": [
+      1200,
+      1435
+    ],
+    "sha256": "027de847c17b2491152cc8427ed6f9c1133676df944e572c44e30d3e8dbb69e7",
+    "original_photo_id": "zol_photo_50962491",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "outside_current_target"
+    ],
+    "observations": "Church or unrelated building; excluded from brick gallery / market quota.",
+    "position_orientation": "See original and caption; north gallery side/reverse ends where present",
+    "license": "Local reference-only inspection; no original redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
   }
 ]

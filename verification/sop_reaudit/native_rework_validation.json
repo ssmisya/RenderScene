@@ -1,6 +1,6 @@
 {
   "status": "TECHNICAL_CHECK_ONLY_NOT_PHOTO_ACCEPTANCE",
-  "source_scene_sha256": "974f5c4a45cdbf575ef7c2d3dafdd3f1efee1eca400373a84f5e83aab5ecfb61",
+  "source_scene_sha256": "e348208a65f321232991eed95aab547da500e97001a55c38f835aed192e0eb1f",
   "checks": {
     "inherited_native_validation": true,
     "two_terminal_middle_colliders": true,
@@ -13,6 +13,7 @@
     "SOP90_Market_observed_portals_has_geometry": true,
     "SOP90_Market_gift_shop_has_geometry": true,
     "SOP90_Gallery_interior_lamps_and_guards_has_geometry": true,
+    "SOP90_Gallery_north_lattice_clerestory_has_geometry": true,
     "five_native_contour_letters_with_portable_uv": true,
     "shop_recess_not_occluded_by_old_wall": true,
     "transverse_ramp_has_continuous_sloped_collision": true
@@ -22,7 +23,7 @@
     "scenes": {
       "DAY": {
         "name": "01_DAY_白天",
-        "objects": 1394,
+        "objects": 1405,
         "lights": 1,
         "artificial_lights": 0,
         "emissive_meshes": 0,
@@ -36,7 +37,7 @@
       },
       "NIGHT": {
         "name": "02_NIGHT_夜晚",
-        "objects": 1907,
+        "objects": 1918,
         "lights": 514,
         "artificial_lights": 514,
         "emissive_meshes": 10,

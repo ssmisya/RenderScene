@@ -1,14 +1,14 @@
 {
   "Sophia_Square.glb": {
-    "size_bytes": 285576356,
+    "size_bytes": 295389732,
     "header_valid": true,
-    "meshes": 1028,
-    "materials": 106,
+    "meshes": 1039,
+    "materials": 113,
     "images": 16,
     "external_uris": [],
     "pigeon_meshes": [],
     "revision": "2.2.1-demo",
-    "imported_meshes": 1028,
+    "imported_meshes": 1039,
     "loaded_images": [
       {
         "name": "brick_diff",

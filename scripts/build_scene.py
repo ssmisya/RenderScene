@@ -514,6 +514,7 @@ exec(compile((ROOT/'scripts/sop_facade_rework.py').read_text(),str(ROOT/'scripts
 exec(compile((ROOT/'scripts/sop90_gallery_rework.py').read_text(),str(ROOT/'scripts/sop90_gallery_rework.py'),'exec'))
 exec(compile((ROOT/'scripts/sop90_market_rework.py').read_text(),str(ROOT/'scripts/sop90_market_rework.py'),'exec'))
 exec(compile((ROOT/'scripts/sop90_sign_rework.py').read_text(),str(ROOT/'scripts/sop90_sign_rework.py'),'exec'))
+exec(compile((ROOT/'scripts/sop90_new100_rework.py').read_text(),str(ROOT/'scripts/sop90_new100_rework.py'),'exec'))
 
 # --- Convert geometry buffers into editable native mesh datablocks. ---
 for (collection,group,mat),(verts,faces,smooth,uvs) in B.items():

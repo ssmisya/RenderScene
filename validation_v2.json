@@ -3,7 +3,7 @@
   "scenes": {
     "DAY": {
       "name": "01_DAY_白天",
-      "objects": 1394,
+      "objects": 1405,
       "lights": 1,
       "artificial_lights": 0,
       "emissive_meshes": 0,
@@ -17,7 +17,7 @@
     },
     "NIGHT": {
       "name": "02_NIGHT_夜晚",
-      "objects": 1907,
+      "objects": 1918,
       "lights": 514,
       "artificial_lights": 514,
       "emissive_meshes": 10,
