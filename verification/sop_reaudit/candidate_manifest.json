@@ -1,0 +1,23 @@
+{
+  "status": "UNVERIFIED",
+  "gameplay_validation": "NOT_RUN",
+  "native_source_overwritten": false,
+  "files": {
+    "verification/sop_reaudit/local/Gallery_rework_candidate.blend": {
+      "bytes": 132830068,
+      "sha256": "5216ca437e176066701304a8c6161d257e427a25ed2a1e9c7b109d1930a7d294"
+    },
+    "verification/sop_reaudit/gallery_candidate.png": {
+      "bytes": 1326690,
+      "sha256": "7c67280791ee33420424dc384976d72f3097083567d4c39d7f1dca517c2ab194"
+    },
+    "verification/sop_reaudit/gallery_baseline.png": {
+      "bytes": 1311195,
+      "sha256": "1a49311598cfa35b9d4bbf32183a766adf6f2586c804b471090a794f501dc8c4"
+    },
+    "verification/sop_reaudit/gallery_camera.json": {
+      "bytes": 815,
+      "sha256": "ac17c072f16b65c4500637a8f3596f46dfc02dcd661c5dd4f60dc8b765d7caa7"
+    }
+  }
+}

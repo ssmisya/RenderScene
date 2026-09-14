@@ -1,0 +1,1350 @@
+[
+  {
+    "id": "brick_gallery_2025",
+    "file": "references/v2_2/brick_gallery_2025.jpg",
+    "image_url": "https://q7.itc.cn/q_70/images03/20250921/644caacbe54e47ae917d264483535e19.jpeg",
+    "source_url": "https://www.sohu.com/a/937208491_350855",
+    "capture_date": "2025",
+    "capture_date_precision": "year",
+    "date_basis": "author caption, not EXIF",
+    "author": "大话哈尔滨 / article self-photographed figures",
+    "license": "reference only; no texture redistribution permission established",
+    "reviewed": true,
+    "sha256": "3b233a45eecfba665b3d92aecdf4ceee098b046493d4a007ad0ccda5eaedfcf2",
+    "dimensions": [
+      375,
+      190
+    ],
+    "review_date": "2026-09-13",
+    "usable_for_architecture": true,
+    "coverage": [
+      "gallery.front",
+      "gallery.entry",
+      "gallery.roof"
+    ],
+    "observations": "Two front arch bays separated by masonry pier, layered projecting cornice, roof behind pediment; small source cannot establish all dimensions.",
+    "texture_use": false,
+    "source_group": "Dahua Harbin self-photographed",
+    "redistribute_original": false,
+    "download_date": "2026-09-13",
+    "position_orientation": "Photo viewpoint uncalibrated; see coverage and observations",
+    "original_photo_id": "3b233a45eecfba665b3d92aecdf4ceee098b046493d4a007ad0ccda5eaedfcf2",
+    "dedup_review": "DISTINCT",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Figure 70 explicitly dates this photograph to 2025 and credits self-photography. Year-only date uses Jan 1 conservatively.",
+      "file": "references/sop_reaudit/local/gallery_date_evidence.txt",
+      "sha256": "850161ee866f03b0f55f2ee62c4fa2f76fbc6cd1c82aed0482ae6ba59f52e4b6"
+    }
+  },
+  {
+    "id": "gallery2018_2",
+    "file": "references/v2_2_1/local/gallery2018_2.jpg",
+    "source_url": "https://www.sohu.com/a/242708406_100104079",
+    "image_url": "https://5b0988e595225.cdn.sohucs.com/images/20180723/d33435e76b5147c082070d8aa5b04144.jpeg",
+    "author": "郑武华",
+    "capture_date": null,
+    "publication_date": "2018-07-23",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "745ebfa668f16e8b1efa28a6abf7f783783805baccaa114a3473bdeb1e44bc47",
+    "dimensions": [
+      600,
+      400
+    ],
+    "license": "Local reference only; not distributed or used as textures",
+    "limitation": "Historical/undated auxiliary reference; not eligible for recent-photo threshold",
+    "download_date": "2026-09-14",
+    "source_group": "郑武华",
+    "position_orientation": "Photo viewpoint uncalibrated; see coverage and observations",
+    "original_photo_id": "745ebfa668f16e8b1efa28a6abf7f783783805baccaa114a3473bdeb1e44bc47",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "gallery.front",
+      "gallery.left_oblique"
+    ],
+    "observations": "Historical oblique view shows paired terminal bays, pier-mounted lanterns, deep cornice and hip roof; date too old/unconfirmed for recent quota.",
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "No original capture-date evidence; publication date does not qualify."
+    }
+  },
+  {
+    "id": "gallery2018_3",
+    "file": "references/v2_2_1/local/gallery2018_3.jpg",
+    "source_url": "https://www.sohu.com/a/242708406_100104079",
+    "image_url": "https://5b0988e595225.cdn.sohucs.com/images/20180723/154f21fe995f40fa98424bbb8064bea9.jpeg",
+    "author": "郑武华",
+    "capture_date": null,
+    "publication_date": "2018-07-23",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "b5851e4eaeef9be79f2962218d4607a4828364f2f99880597aa5c4912925f5de",
+    "dimensions": [
+      600,
+      400
+    ],
+    "license": "Local reference only; not distributed or used as textures",
+    "limitation": "Historical/undated auxiliary reference; not eligible for recent-photo threshold",
+    "download_date": "2026-09-14",
+    "source_group": "郑武华",
+    "position_orientation": "Photo viewpoint uncalibrated; see coverage and observations",
+    "original_photo_id": "b5851e4eaeef9be79f2962218d4607a4828364f2f99880597aa5c4912925f5de",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "gallery.front",
+      "gallery.left_oblique"
+    ],
+    "observations": "Historical oblique view shows paired terminal bays, pier-mounted lanterns, deep cornice and hip roof; date too old/unconfirmed for recent quota.",
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "No original capture-date evidence; publication date does not qualify."
+    }
+  },
+  {
+    "id": "gallery2018_0",
+    "file": "references/v2_2_1/local/gallery2018_0.jpg",
+    "source_url": "https://www.sohu.com/a/242708406_100104079",
+    "image_url": "https://5b0988e595225.cdn.sohucs.com/images/20180723/6bc376718f8b4f9992153732d23ac03d.jpeg",
+    "author": "郑武华",
+    "capture_date": null,
+    "publication_date": "2018-07-23",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "sha256": "3cd4cb17293cc9eb73d0616e0c42eef702252073cdde143704beb414cd5e4fd6",
+    "dimensions": [
+      600,
+      400
+    ],
+    "license": "Local reference only; not distributed or used as textures",
+    "limitation": "Historical/undated auxiliary reference; not eligible for recent-photo threshold",
+    "download_date": "2026-09-14",
+    "source_group": "郑武华",
+    "position_orientation": "Photo viewpoint uncalibrated; see coverage and observations",
+    "original_photo_id": "3cd4cb17293cc9eb73d0616e0c42eef702252073cdde143704beb414cd5e4fd6",
+    "dedup_review": "DISTINCT",
+    "coverage": [],
+    "observations": "CORRECTION: this image shows steel tower/gallery, not the target brick gallery. Excluded from this focused batch.",
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "No original capture-date evidence; publication date does not qualify."
+    }
+  },
+  {
+    "id": "gallery2018_1",
+    "file": "references/v2_2_1/local/gallery2018_1.jpg",
+    "source_url": "https://www.sohu.com/a/242708406_100104079",
+    "image_url": "https://5b0988e595225.cdn.sohucs.com/images/20180723/162614f4615f45c19356ee246bc99e8b.jpeg",
+    "author": "郑武华",
+    "capture_date": null,
+    "publication_date": "2018-07-23",
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "sha256": "572b90073c480fc5725329b119a2582b0b89061dea821fa6cf8b72c332982fd5",
+    "dimensions": [
+      600,
+      899
+    ],
+    "license": "Local reference only; not distributed or used as textures",
+    "limitation": "Historical/undated auxiliary reference; not eligible for recent-photo threshold",
+    "download_date": "2026-09-14",
+    "source_group": "郑武华",
+    "position_orientation": "Photo viewpoint uncalibrated; see coverage and observations",
+    "original_photo_id": "572b90073c480fc5725329b119a2582b0b89061dea821fa6cf8b72c332982fd5",
+    "dedup_review": "DISTINCT",
+    "coverage": [],
+    "observations": "CORRECTION: this image shows steel tower/gallery, not the target brick gallery. Excluded from this focused batch.",
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "No original capture-date evidence; publication date does not qualify."
+    }
+  },
+  {
+    "id": "market2017_preview",
+    "file": "references/v2_2_1/local/market2017_preview.jpg",
+    "source_url": "https://sucai.redocn.com/jianzhu_7900119.html",
+    "image_url": "https://img.redocn.com/sheying/20170223/haerbinxinyibaishangchang_7900119.jpg",
+    "author": "648463860 / 红动中国",
+    "capture_date": null,
+    "publication_date": "2017-02-23 image URL; capture unconfirmed",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "52d57cb38c6b80257d2d8173ed2a012631c6a409785905f74b7382d6dfd1da7f",
+    "dimensions": [
+      600,
+      427
+    ],
+    "license": "Local reference only; not distributed or used as textures",
+    "limitation": "Historical/undated auxiliary reference; not eligible for recent-photo threshold",
+    "download_date": "2026-09-14",
+    "source_group": "648463860 / 红动中国",
+    "position_orientation": "Photo viewpoint uncalibrated; see coverage and observations",
+    "original_photo_id": "52d57cb38c6b80257d2d8173ed2a012631c6a409785905f74b7382d6dfd1da7f",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "market.roof"
+    ],
+    "observations": "Historical whole-building auxiliary, cannot verify current frontage",
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "No original capture-date evidence; publication date does not qualify."
+    }
+  },
+  {
+    "id": "trip_1_0",
+    "file": "references/v2_2_1/local/trip_1_0.jpg",
+    "source_url": "https://www.trip.com/moments/detail/harbin-151-124880310/",
+    "image_url": "https://ak-d.tripcdn.com/images/1mi34224x8wmt4z2sA7E7.jpg?proc=source/trip",
+    "author": "ㅣ愛亂跑的小芮ㅣ",
+    "capture_date": null,
+    "publication_date": "2024-09-28",
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "No original capture-date evidence; publication date does not qualify."
+    },
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "4fb22d4898da2d2fac015c5e95f0f3543717e63322efebab6daf4cc53d53120d",
+    "dimensions": [
+      1280,
+      1281
+    ],
+    "license": "Local reference only; no texture reuse or redistribution",
+    "limitation": "Exact camera and dimensions are uncalibrated",
+    "download_date": "2026-09-14",
+    "source_group": "ㅣ愛亂跑的小芮ㅣ",
+    "position_orientation": "Photo viewpoint uncalibrated; see coverage and observations",
+    "original_photo_id": "4fb22d4898da2d2fac015c5e95f0f3543717e63322efebab6daf4cc53d53120d",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "market.corner",
+      "market.entrance",
+      "market.roof"
+    ],
+    "observations": "Rounded corner entrance with blank panel field, roof lettering and separate adjoining retail bays. This is not the straight window-strip entrance. Current model conflates or omits this entrance."
+  },
+  {
+    "id": "market_front_20250621",
+    "file": "references/v2_2_1/local/market_front_20250621.jpg",
+    "source_url": "https://news.sina.cn/znl/2025-06-26/detail-infckxsm3536939.d.html",
+    "image_url": "https://k.sinaimg.cn/n/spider20250626/105/w2048h1257/20250626/11d9-00d7a2149d8b73588e2f915e5313b2df.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+    "author": "张澍 / 黑龙江日报",
+    "capture_date": "2025-06-21",
+    "publication_date": "2025-06-25",
+    "date_evidence": {
+      "kind": "dated_visit",
+      "detail": "June 21 market visit described by reporter; exterior photograph part of same report.",
+      "file": "references/sop_reaudit/local/market_date_evidence.txt",
+      "sha256": "4bc56a8107fb8c97de364efe8b867139fc3bdb68acb5edaeee8d3ae79655c601"
+    },
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "671d9af7f015878c17de96788c09ebf71390000e39eaabbc5a59daf380914c34",
+    "dimensions": [
+      700,
+      430
+    ],
+    "license": "Local reference only; no texture reuse or redistribution",
+    "limitation": "Exact camera and dimensions are uncalibrated",
+    "download_date": "2026-09-14",
+    "source_group": "张澍 / 黑龙江日报",
+    "position_orientation": "Photo viewpoint uncalibrated; see coverage and observations",
+    "original_photo_id": "671d9af7f015878c17de96788c09ebf71390000e39eaabbc5a59daf380914c34",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "market.straight_front",
+      "market.entrance",
+      "market.materials"
+    ],
+    "observations": "Five custom green glyphs, canopy tube joints and support brackets, shallow recessed multi-door entrance with active retail fascia and side merchandise; no tall uniform double-height glass doors as model."
+  },
+  {
+    "id": "zx_front",
+    "file": "references/sop_reaudit/local/zx_front.jpg",
+    "source_url": "https://www.hljzx.gov.cn/contents/65/12341.html",
+    "image_url": "https://www.hljzx.gov.cn/upload/images/2025/11/f8653db027834c1c.jpg",
+    "author": "哈尔滨市道里区政协 / 姜峰",
+    "source_group": "哈尔滨市道里区政协 / 姜峰",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "c482b157d3b750c16e962dc2978cb7a20f547a4ab84ade2da189607c211a1a0f",
+    "dimensions": [
+      1280,
+      881
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Interior inspection only. Excluded from facade quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "c482b157d3b750c16e962dc2978cb7a20f547a4ab84ade2da189607c211a1a0f",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "zx_inside",
+    "file": "references/sop_reaudit/local/zx_inside.jpg",
+    "source_url": "https://www.hljzx.gov.cn/contents/65/12341.html",
+    "image_url": "https://www.hljzx.gov.cn/upload/images/2025/11/80aa7d9d97078fd8.jpg",
+    "author": "哈尔滨市道里区政协 / 姜峰",
+    "source_group": "哈尔滨市道里区政协 / 姜峰",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "b4fc17643cf3d82867014f8c26b54f667a75f060a72c4c9573c735777bf9fcbc",
+    "dimensions": [
+      1280,
+      847
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Meeting room. Excluded.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "b4fc17643cf3d82867014f8c26b54f667a75f060a72c4c9573c735777bf9fcbc",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "night_thumb",
+    "file": "references/sop_reaudit/local/night_thumb.jpg",
+    "source_url": "https://www.sohu.com/a/933701084_789298",
+    "image_url": "https://q4.itc.cn/q_70/images03/20250910/28bc7d81fcdf4385b4acc1bda8ced5d9.jpeg",
+    "author": "搜狐原视频发布者（未确认拍摄身份）",
+    "source_group": "搜狐原视频发布者（未确认拍摄身份）",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "ebde21acbde169ae3dd9dfdf690b6df5511da66cce960c08ec25505f0152778b",
+    "dimensions": [
+      720,
+      1280
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Video cover, not independent dated architecture photograph. Distant market night view insufficient for fixture positions.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "ebde21acbde169ae3dd9dfdf690b6df5511da66cce960c08ec25505f0152778b",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "yiwu_front",
+    "file": "references/sop_reaudit/local/yiwu_front.jpg",
+    "source_url": "https://yiwutrip.tw/daoli-market/",
+    "image_url": "https://cdn.yiwutrip.tw/wp-content/uploads/道里菜市場.jpg",
+    "author": "依武享生活",
+    "source_group": "依武享生活",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "22c67a04c5a71c316fe04955f3baec3bad42e8fb1036a6581f474ce3b3621971",
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "coverage": [
+      "market.corner",
+      "market.entrance"
+    ],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "2026-01-05 publication; EXIF only image editing date. Collage has useful corner facade but does not qualify as dated original.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "22c67a04c5a71c316fe04955f3baec3bad42e8fb1036a6581f474ce3b3621971",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "huaren_front",
+    "file": "references/sop_reaudit/local/huaren_front.jpg",
+    "source_url": "https://www.52hrtt.com/akl/n/w/info/A1768873824499",
+    "image_url": "https://picture01.52hrttpic.com/image/infoImage/202601/22/ad3bad053ed3849d4a883bb4162b6958d.jpg",
+    "author": "华人头条-埃德蒙顿（原摄影者未确认）",
+    "source_group": "华人头条-埃德蒙顿（原摄影者未确认）",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "083821fa4fa09154956980dc3ca0a81d5bd11a65e9cdb9a9c71ab4c0a7f15e92",
+    "dimensions": [
+      1080,
+      809
+    ],
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "coverage": [
+      "market.corner",
+      "market.entrance"
+    ],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Curved corner with large LED screen; capture unconfirmed, Photoshop modification date cannot establish installation epoch.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "083821fa4fa09154956980dc3ca0a81d5bd11a65e9cdb9a9c71ab4c0a7f15e92",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_00",
+    "file": "references/sop_reaudit/local/eagle_00.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "3d75f3bd2c4a17b1f4e19231b03ab3b5b30cec48aa2a0a8f2b8c809a4efa5815",
+    "dimensions": [
+      632,
+      627
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "3d75f3bd2c4a17b1f4e19231b03ab3b5b30cec48aa2a0a8f2b8c809a4efa5815",
+    "dedup_review": "DERIVED_COLLAGE"
+  },
+  {
+    "id": "eagle_01",
+    "file": "references/sop_reaudit/local/eagle_01.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-28.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "fc6488ee7d36274d54cc807da9ff3b775e49122d6e835a719a937f620cc70056",
+    "dimensions": [
+      625,
+      617
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "fc6488ee7d36274d54cc807da9ff3b775e49122d6e835a719a937f620cc70056",
+    "dedup_review": "DERIVED_COLLAGE"
+  },
+  {
+    "id": "eagle_02",
+    "file": "references/sop_reaudit/local/eagle_02.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-1-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "970ca1edc8f1497a802d51112ffee614219783e292c3f21b9a76b6968e32e14c",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "coverage": [
+      "market.corner",
+      "market.roof"
+    ],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Only coarse rounded-corner mass is visible behind foreground people; no capture EXIF.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "970ca1edc8f1497a802d51112ffee614219783e292c3f21b9a76b6968e32e14c",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_03",
+    "file": "references/sop_reaudit/local/eagle_03.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-2-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "7fd6aba31abc677b52c34a27b478b35c0f178f965e38860ba0e243d78c52da17",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "7fd6aba31abc677b52c34a27b478b35c0f178f965e38860ba0e243d78c52da17",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_04",
+    "file": "references/sop_reaudit/local/eagle_04.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-3-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "69ddc72abdbfbbad78879f83187584800f5369101e3fbfd1da834a0d4d3209c6",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "69ddc72abdbfbbad78879f83187584800f5369101e3fbfd1da834a0d4d3209c6",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_05",
+    "file": "references/sop_reaudit/local/eagle_05.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-4-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "515cd34d83304fd2a0d30371d1fdccb72e060ee0bb36a670706bd8f2ff9598ca",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "515cd34d83304fd2a0d30371d1fdccb72e060ee0bb36a670706bd8f2ff9598ca",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_06",
+    "file": "references/sop_reaudit/local/eagle_06.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-5-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "33b3bbf0161ad863b9971275d53e59418cc04ba68483687c54ac08d1d97c291b",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "33b3bbf0161ad863b9971275d53e59418cc04ba68483687c54ac08d1d97c291b",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_07",
+    "file": "references/sop_reaudit/local/eagle_07.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-6-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "04c060121ad0ca32338fe17eabf3eeddb08fe9fb6fb55d1bf060458f872f542e",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "04c060121ad0ca32338fe17eabf3eeddb08fe9fb6fb55d1bf060458f872f542e",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_08",
+    "file": "references/sop_reaudit/local/eagle_08.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-7-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "e8d05dad7904f132d88a674eff5b065bd0df66e6c353518085dd96e674014861",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "e8d05dad7904f132d88a674eff5b065bd0df66e6c353518085dd96e674014861",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_09",
+    "file": "references/sop_reaudit/local/eagle_09.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-23-1024x511.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "e994cf318dca1e0ad220d76a8881cae2852c1918f47397dd56c6167badc56149",
+    "dimensions": [
+      1024,
+      511
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "e994cf318dca1e0ad220d76a8881cae2852c1918f47397dd56c6167badc56149",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_10",
+    "file": "references/sop_reaudit/local/eagle_10.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-24-1024x508.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "f1efebf5a1a57db1a8fc22c3a0017f62aaa19980f8b64369bc48f4da0bbf85ae",
+    "dimensions": [
+      1024,
+      508
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "f1efebf5a1a57db1a8fc22c3a0017f62aaa19980f8b64369bc48f4da0bbf85ae",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_11",
+    "file": "references/sop_reaudit/local/eagle_11.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-25-1024x513.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "d159fe1ebdc7bee179648e7ca915431cba16d4ccd9bee14a32bde2fd6a147cfc",
+    "dimensions": [
+      1024,
+      513
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "d159fe1ebdc7bee179648e7ca915431cba16d4ccd9bee14a32bde2fd6a147cfc",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_12",
+    "file": "references/sop_reaudit/local/eagle_12.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-26-1024x513.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "4b2f7156aed54b0de027374f4ee199da55da6937e63547ed5f36f04822c1a313",
+    "dimensions": [
+      1024,
+      513
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "4b2f7156aed54b0de027374f4ee199da55da6937e63547ed5f36f04822c1a313",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_13",
+    "file": "references/sop_reaudit/local/eagle_13.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-27-1024x510.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "fdc1e1044060b3bb9c7751594959d6ceb30679282764c26fad83838b42033e8b",
+    "dimensions": [
+      1024,
+      510
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "fdc1e1044060b3bb9c7751594959d6ceb30679282764c26fad83838b42033e8b",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_14",
+    "file": "references/sop_reaudit/local/eagle_14.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-8-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "38baafcbd17cfc9cd10ddf8dd7a83f1cc9308f698a7448f1728cef05eb969e20",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "38baafcbd17cfc9cd10ddf8dd7a83f1cc9308f698a7448f1728cef05eb969e20",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_15",
+    "file": "references/sop_reaudit/local/eagle_15.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-9-1024x619.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "629da54f56e3b0cae540be4ed076060ead027bd45e6d334a02255c5ffa21784d",
+    "dimensions": [
+      1024,
+      619
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "629da54f56e3b0cae540be4ed076060ead027bd45e6d334a02255c5ffa21784d",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_16",
+    "file": "references/sop_reaudit/local/eagle_16.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-10-1024x663.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "3a015e60e8dd3041685298e12d1667a261d679aac015d5f31aed1080efc83513",
+    "dimensions": [
+      1024,
+      663
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "3a015e60e8dd3041685298e12d1667a261d679aac015d5f31aed1080efc83513",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_17",
+    "file": "references/sop_reaudit/local/eagle_17.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-11-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "b07aeecb46dd60f378caeabd27a79787ae82c4ab272ea3236d8dab769942e882",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "b07aeecb46dd60f378caeabd27a79787ae82c4ab272ea3236d8dab769942e882",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_18",
+    "file": "references/sop_reaudit/local/eagle_18.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-12-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "bd494a770076f10b807892df6fa482435bd0b04c1073c62c3d67b3f7c42ecadb",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "bd494a770076f10b807892df6fa482435bd0b04c1073c62c3d67b3f7c42ecadb",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_19",
+    "file": "references/sop_reaudit/local/eagle_19.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-13-1024x640.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "2b9a50a44dc8b6d537fb1dfe05795f9d92b83a6511df0505113dc423c2e83aa6",
+    "dimensions": [
+      1024,
+      640
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "2b9a50a44dc8b6d537fb1dfe05795f9d92b83a6511df0505113dc423c2e83aa6",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_20",
+    "file": "references/sop_reaudit/local/eagle_20.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-14-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "e47b0807c1a91626cdf135dd8e26dcedcabdd7da25732ce4ded1f645bb7e02ef",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "e47b0807c1a91626cdf135dd8e26dcedcabdd7da25732ce4ded1f645bb7e02ef",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_21",
+    "file": "references/sop_reaudit/local/eagle_21.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-15-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "6fc242b5a1535f436d8d61fdfeb98f7e94d33cf166311b7788b9f0df148fe46a",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "6fc242b5a1535f436d8d61fdfeb98f7e94d33cf166311b7788b9f0df148fe46a",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_22",
+    "file": "references/sop_reaudit/local/eagle_22.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-16-1024x594.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "4fd0dc60ef3e09d2fadb32a68c69ca99e203e67aa00ac463c175675d6fb783dd",
+    "dimensions": [
+      1024,
+      594
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "4fd0dc60ef3e09d2fadb32a68c69ca99e203e67aa00ac463c175675d6fb783dd",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_23",
+    "file": "references/sop_reaudit/local/eagle_23.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-17-1024x682.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "7ed0d3ceb3387bf9a6bb4714fab35565c4204121c02c9503546c3c815efd269c",
+    "dimensions": [
+      1024,
+      682
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "7ed0d3ceb3387bf9a6bb4714fab35565c4204121c02c9503546c3c815efd269c",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_24",
+    "file": "references/sop_reaudit/local/eagle_24.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-18-1024x621.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "c470ea51e752df1c11c188c53ffbd91007ced6cd8680c70455b2bb3b1c3adfeb",
+    "dimensions": [
+      1024,
+      621
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "c470ea51e752df1c11c188c53ffbd91007ced6cd8680c70455b2bb3b1c3adfeb",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_25",
+    "file": "references/sop_reaudit/local/eagle_25.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-19-1024x667.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "f8920c58103a0a7d19d9eb6e7332843e95d962473fad87005c4433ffd89cf7fc",
+    "dimensions": [
+      1024,
+      667
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "f8920c58103a0a7d19d9eb6e7332843e95d962473fad87005c4433ffd89cf7fc",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_26",
+    "file": "references/sop_reaudit/local/eagle_26.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-20-1024x558.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "3448cf98bca42f8ee6bfa7c89c75c57de5e9774ff9938cdfdd483e0da7641182",
+    "dimensions": [
+      1024,
+      558
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "3448cf98bca42f8ee6bfa7c89c75c57de5e9774ff9938cdfdd483e0da7641182",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_27",
+    "file": "references/sop_reaudit/local/eagle_27.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-21-1024x768.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "ec7307e9ade52692aaf80757f0f13cd08653ea8e578202292541996941884803",
+    "dimensions": [
+      1024,
+      768
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "ec7307e9ade52692aaf80757f0f13cd08653ea8e578202292541996941884803",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "eagle_28",
+    "file": "references/sop_reaudit/local/eagle_28.jpg",
+    "source_url": "https://www.unieagle.com.tw/travel/?p=21986",
+    "image_url": "https://www.unieagle.com.tw/travel/wp-content/uploads/2025/02/%E9%81%93%E8%A3%A1%E8%8F%9C%E5%B8%82%E5%A0%B4-%E9%81%93%E9%87%8C%E8%8F%9C%E5%B8%82%E5%9C%BA-22-1024x622.jpg",
+    "author": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "source_group": "帶家人去旅行 / 遊樂不踩雷の小編",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "dd1a7520dfc15cbe145322795e81858fba171a9627c1feaf47ff3e95627721e3",
+    "dimensions": [
+      1024,
+      622
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Food/interior or derived collage, excluded from exterior quota.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "dd1a7520dfc15cbe145322795e81858fba171a9627c1feaf47ff3e95627721e3",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "ctrip25_0",
+    "file": "references/sop_reaudit/local/ctrip25_0.jpg",
+    "source_url": "https://you.ctrip.com/travels/Harbin151/4171663.html",
+    "image_url": "https://dimg04.c-ctrip.com/images/1mf5k12000nvy3a0rBEB9_W_640_0_Q90.jpg?proc=autoorient",
+    "author": "携程游记4171663（作者未确认）",
+    "source_group": "携程游记4171663（作者未确认）",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "26b349741c638530373cbd588733d7db2a0809c660f8edfd0235680df072ef33",
+    "dimensions": [
+      600,
+      394
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Interior/food/map; excluded. Article says July 2025 but winter clothing in market image contradicts same-visit assumption; do not infer image capture from itinerary.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "26b349741c638530373cbd588733d7db2a0809c660f8edfd0235680df072ef33",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "ctrip25_1",
+    "file": "references/sop_reaudit/local/ctrip25_1.jpg",
+    "source_url": "https://you.ctrip.com/travels/Harbin151/4171663.html",
+    "image_url": "https://dimg04.c-ctrip.com/images/1mf3312000nvy38ujCA56_W_640_0_Q90.jpg?proc=autoorient",
+    "author": "携程游记4171663（作者未确认）",
+    "source_group": "携程游记4171663（作者未确认）",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "7295ad7a2c7f32be295747d688bcd2c4a1b3c8d98bda1f83b8917b68102f2cdc",
+    "dimensions": [
+      640,
+      315
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Interior/food/map; excluded. Article says July 2025 but winter clothing in market image contradicts same-visit assumption; do not infer image capture from itinerary.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "7295ad7a2c7f32be295747d688bcd2c4a1b3c8d98bda1f83b8917b68102f2cdc",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "ctrip25_2",
+    "file": "references/sop_reaudit/local/ctrip25_2.jpg",
+    "source_url": "https://you.ctrip.com/travels/Harbin151/4171663.html",
+    "image_url": "https://dimg04.c-ctrip.com/images/1mf2512000nvy39th2AE5_W_640_0_Q90.jpg?proc=autoorient",
+    "author": "携程游记4171663（作者未确认）",
+    "source_group": "携程游记4171663（作者未确认）",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "1649bdda69bee632387331fe17ab11ef5b2afb5a05da35d2cb5150b194148232",
+    "dimensions": [
+      640,
+      637
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Interior/food/map; excluded. Article says July 2025 but winter clothing in market image contradicts same-visit assumption; do not infer image capture from itinerary.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "1649bdda69bee632387331fe17ab11ef5b2afb5a05da35d2cb5150b194148232",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "ctrip_aux_0",
+    "file": "references/sop_reaudit/local/ctrip_aux_0.jpg",
+    "source_url": "https://you.ctrip.com/travels/haerbin151/4158207.html",
+    "image_url": "https://dimg04.c-ctrip.com/images/1mf2q12000itsmrp0699D_W_640_0_Q90.jpg?proc=autoorient",
+    "author": "携程游记4158207（作者未确认）",
+    "source_group": "携程游记4158207（作者未确认）",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "94b273fcd1a2113fe032dc67703165db4d04ffc3cdc2f326eb4973ad1975f32d",
+    "dimensions": [
+      640,
+      810
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Cathedral portrait; target gallery not visible. June travel year unknown, March 2025 publication cannot imply June 2025 capture.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "94b273fcd1a2113fe032dc67703165db4d04ffc3cdc2f326eb4973ad1975f32d",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "ctrip_aux_1",
+    "file": "references/sop_reaudit/local/ctrip_aux_1.jpg",
+    "source_url": "https://you.ctrip.com/travels/haerbin151/4158207.html",
+    "image_url": "https://dimg04.c-ctrip.com/images/1mf1b12000itsmt0qA44B_W_640_0_Q90.jpg?proc=autoorient",
+    "author": "携程游记4158207（作者未确认）",
+    "source_group": "携程游记4158207（作者未确认）",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "9e44eff6e8e961ddd1dd60b86807a0e7dc669ee603e1f88b1244f92073bb7df0",
+    "dimensions": [
+      640,
+      822
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Cathedral portrait; target gallery not visible. June travel year unknown, March 2025 publication cannot imply June 2025 capture.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "9e44eff6e8e961ddd1dd60b86807a0e7dc669ee603e1f88b1244f92073bb7df0",
+    "dedup_review": "DISTINCT"
+  },
+  {
+    "id": "ctrip_aux_2",
+    "file": "references/sop_reaudit/local/ctrip_aux_2.jpg",
+    "source_url": "https://you.ctrip.com/travels/haerbin151/4158207.html",
+    "image_url": "https://dimg04.c-ctrip.com/images/1mf1s12000itsmsa521D8_W_640_0_Q90.jpg?proc=autoorient",
+    "author": "携程游记4158207（作者未确认）",
+    "source_group": "携程游记4158207（作者未确认）",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication/upload/image editing date is not original capture date."
+    },
+    "download_date": "2026-09-14",
+    "sha256": "782169351cfc6f56068c8914f1e04040f69bb0e8167027d1d48be4988bb13f24",
+    "dimensions": [
+      640,
+      731
+    ],
+    "reviewed": true,
+    "usable_for_architecture": false,
+    "coverage": [],
+    "position_orientation": "Uncalibrated photo; no camera pose recovered",
+    "observations": "Cathedral portrait; target gallery not visible. June travel year unknown, March 2025 publication cannot imply June 2025 capture.",
+    "license": "Local visual audit only; no texture reuse or redistribution permission",
+    "original_photo_id": "782169351cfc6f56068c8914f1e04040f69bb0e8167027d1d48be4988bb13f24",
+    "dedup_review": "DISTINCT"
+  }
+]

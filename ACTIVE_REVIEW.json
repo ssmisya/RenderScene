@@ -1,0 +1,7 @@
+{
+  "batch": "sop_reaudit",
+  "status": "REWORK_REQUIRED",
+  "subject": "艺术砖廊与道里菜市场",
+  "supersedes_acceptance_of": "v2.2.1-demo",
+  "release_allowed": false
+}

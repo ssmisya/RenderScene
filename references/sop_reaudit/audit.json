@@ -1,0 +1,480 @@
+{
+  "schema_version": 2,
+  "review_date": "2026-09-14",
+  "scope": "用户截图涉及的艺术砖廊（含入口、两翼及相连地面）与道里菜市场朝广场立面、转角、侧面、屋顶和入口；不缩减为两个门头。",
+  "target_epoch": "2025年常设外部结构；不得把2026年照片里的变化直接拼入，需确认同一位置和拍摄时序。",
+  "coverage_complete": false,
+  "current_epoch_verified": false,
+  "time_conflicts": [
+    {
+      "id": "TIME-MARKET-LED",
+      "photos": [
+        "trip_1_0",
+        "yiwu_front",
+        "huaren_front",
+        "eagle_02"
+      ],
+      "finding": "圆角显示屏/店招在不同来源中不一致，拍摄日期未确认；不可合并。"
+    }
+  ],
+  "assets": {
+    "Harbin_Sophia_Square.blend": "8e4bd25aaa11ad044b46c0248d88e7f50087a5d7e645fc5a6373e5975c591f59",
+    "game/Sophia_Square.glb": "6a29e4d45cae94185140b1b890e5178819297bb6f99240c68cd857937494dd27",
+    "game/Sophia_Collision.glb": "cde58b9b772b55653a49b1bb7b6e11a51f6f78f5e8bf126f9d2ec0a18b934dc8"
+  },
+  "coverage": [
+    {
+      "id": "gallery.front",
+      "required": true,
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3"
+      ]
+    },
+    {
+      "id": "gallery.left_oblique",
+      "required": true,
+      "photo_ids": [
+        "gallery2018_2",
+        "gallery2018_3"
+      ]
+    },
+    {
+      "id": "gallery.right_oblique",
+      "required": true,
+      "photo_ids": []
+    },
+    {
+      "id": "gallery.back",
+      "required": true,
+      "photo_ids": []
+    },
+    {
+      "id": "gallery.entry",
+      "required": true,
+      "photo_ids": [
+        "brick_gallery_2025"
+      ]
+    },
+    {
+      "id": "gallery.roof",
+      "required": true,
+      "photo_ids": [
+        "brick_gallery_2025"
+      ]
+    },
+    {
+      "id": "gallery.materials",
+      "required": true,
+      "photo_ids": []
+    },
+    {
+      "id": "gallery.night",
+      "required": true,
+      "photo_ids": []
+    },
+    {
+      "id": "market.straight_front",
+      "required": true,
+      "photo_ids": [
+        "market_front_20250621"
+      ]
+    },
+    {
+      "id": "market.corner",
+      "required": true,
+      "photo_ids": [
+        "trip_1_0",
+        "yiwu_front",
+        "huaren_front",
+        "eagle_02"
+      ]
+    },
+    {
+      "id": "market.left_oblique",
+      "required": true,
+      "photo_ids": []
+    },
+    {
+      "id": "market.right_oblique",
+      "required": true,
+      "photo_ids": []
+    },
+    {
+      "id": "market.side",
+      "required": true,
+      "photo_ids": []
+    },
+    {
+      "id": "market.entrance",
+      "required": true,
+      "photo_ids": [
+        "trip_1_0",
+        "market_front_20250621",
+        "yiwu_front",
+        "huaren_front"
+      ]
+    },
+    {
+      "id": "market.roof",
+      "required": true,
+      "photo_ids": [
+        "market2017_preview",
+        "trip_1_0",
+        "eagle_02"
+      ]
+    },
+    {
+      "id": "market.materials",
+      "required": true,
+      "photo_ids": [
+        "market_front_20250621"
+      ]
+    },
+    {
+      "id": "market.night",
+      "required": true,
+      "photo_ids": []
+    },
+    {
+      "id": "street.layout",
+      "required": true,
+      "photo_ids": []
+    }
+  ],
+  "items": [
+    {
+      "id": "G01",
+      "subject": "端部柱与拱口",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3"
+      ],
+      "current_model": "端部没有中间柱，单跨敞开。",
+      "expected_from_photos": "2025正面可辨两组拱口及中间实体柱。",
+      "implementation_objects": "V22_Brick_gallery_L_plan / V221_Gallery_roof_joinery",
+      "next_action": "重建已确认南端两跨；其他端部不得无证据复制。",
+      "comparisons": [],
+      "candidate_evidence": [
+        "verification/sop_reaudit/gallery_candidate.png",
+        "verification/sop_reaudit/gallery_camera.json"
+      ],
+      "candidate_status": "TOPOLOGY_CANDIDATE; not dimensionally calibrated, not integrated into gameplay"
+    },
+    {
+      "id": "G02",
+      "subject": "檐口层次与出挑",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3"
+      ],
+      "current_model": "简化平条、单排齿饰，比例未标定。",
+      "expected_from_photos": "多道深色厚檐与明显阴影层次。",
+      "implementation_objects": "V221_Gallery_roof_joinery",
+      "next_action": "近景恢复檐口截面并进行相机对照。",
+      "comparisons": []
+    },
+    {
+      "id": "G03",
+      "subject": "屋顶体量与山花装饰",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3"
+      ],
+      "current_model": "局部简单两坡顶、空白三角山花。",
+      "expected_from_photos": "屋顶有独立后退体量，历史斜照可见坡屋顶与装饰；当前空白山花不符。",
+      "implementation_objects": "V221_Gallery_roof_joinery",
+      "next_action": "取得近期屋顶斜照，校准屋顶与山花浮雕。",
+      "comparisons": []
+    },
+    {
+      "id": "G04",
+      "subject": "柱面砌筑与分段",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3"
+      ],
+      "current_model": "通用砖扫描材质整面重复。",
+      "expected_from_photos": "柱身大块分段、凹凸边框与仿清水砖组合；不是仅贴砖。",
+      "implementation_objects": "Gallery red sandstone",
+      "next_action": "按可见柱身线脚几何分区；实测砖/分段尺度。",
+      "comparisons": []
+    },
+    {
+      "id": "G05",
+      "subject": "柱上灯具",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3"
+      ],
+      "current_model": "未建图中成组附墙灯。",
+      "expected_from_photos": "2025照片中柱侧可见深色灯臂和白色灯罩。",
+      "implementation_objects": "05_STREET_PROPS",
+      "next_action": "补近照确定灯具数量、位置和夜间投光。",
+      "comparisons": []
+    },
+    {
+      "id": "G06",
+      "subject": "台阶、坡道与栏杆布局",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3"
+      ],
+      "current_model": "居中等宽楼梯和双侧斜扶手。",
+      "expected_from_photos": "照片含偏置楼梯/斜向栏杆关系；无法证明当前对称布局。",
+      "implementation_objects": "V221_Gallery_landings_and_rails",
+      "next_action": "取得无遮挡入口、侧面及标高测量，不能以可走通替代。",
+      "comparisons": []
+    },
+    {
+      "id": "G07",
+      "subject": "两翼间距与全部开间",
+      "status": "UNVERIFIED",
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3"
+      ],
+      "current_model": "OSM轮廓加估算3/4/7/3开间。",
+      "expected_from_photos": "近期全周视角缺失。",
+      "implementation_objects": "V22_Brick_gallery_L_plan",
+      "next_action": "四方向全景和至少一个尺寸锚点。",
+      "comparisons": []
+    },
+    {
+      "id": "G08",
+      "subject": "栏杆与地面连接",
+      "status": "UNVERIFIED",
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3"
+      ],
+      "current_model": "游戏构造已连接，运行可登阶。",
+      "expected_from_photos": "实际构造的落点、截面、材质未证实。",
+      "implementation_objects": "V221_Gallery_landings_and_rails",
+      "next_action": "用真实栏杆细节照对照，不能用旧游戏截图作原照。",
+      "comparisons": []
+    },
+    {
+      "id": "G09",
+      "subject": "夜景灯位与色温",
+      "status": "UNVERIFIED",
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3"
+      ],
+      "current_model": "通用广场灯光。",
+      "expected_from_photos": "缺少该棚廊近期夜间照片。",
+      "implementation_objects": "game/lighting_v2.json",
+      "next_action": "日夜同机位、光源安装近照。",
+      "comparisons": []
+    },
+    {
+      "id": "M01",
+      "subject": "直面入口与转角入口区分",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "market_front_20250621",
+        "trip_1_0",
+        "yiwu_front",
+        "huaren_front",
+        "eagle_02"
+      ],
+      "current_model": "只在一条长直边中间创建入口，转角无对应门厅。",
+      "expected_from_photos": "照片明确显示有窗带的直面门头、无窗带的圆角门头两类不同视角/位置。",
+      "implementation_objects": "V221_Daoli_entries",
+      "next_action": "地图定位每张照片与入口，分别建模，禁止把圆角照套在直边。",
+      "comparisons": []
+    },
+    {
+      "id": "M02",
+      "subject": "绿色招牌定制字形",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "market_front_20250621",
+        "trip_1_0",
+        "yiwu_front",
+        "huaren_front",
+        "eagle_02"
+      ],
+      "current_model": "系统字体，笔画形态不符。",
+      "expected_from_photos": "招牌是可辨识的定制字形，五字轮廓各有特征。",
+      "implementation_objects": "V221_Daoli_letter_*",
+      "next_action": "轮廓比对，取得授权矢量/足够清晰原图后建字，不用替代字体判通过。",
+      "comparisons": []
+    },
+    {
+      "id": "M03",
+      "subject": "八杂市标识",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "market_front_20250621",
+        "trip_1_0",
+        "yiwu_front",
+        "huaren_front",
+        "eagle_02"
+      ],
+      "current_model": "近似三拱图案，比例和文字布局有差异。",
+      "expected_from_photos": "屋檐、三拱及八杂市文字组合比例可辨。",
+      "implementation_objects": "V221_Bazashi_*",
+      "next_action": "按清晰图逐特征校准。",
+      "comparisons": []
+    },
+    {
+      "id": "M04",
+      "subject": "入口门组",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "market_front_20250621"
+      ],
+      "current_model": "五组均匀大型玻璃门片，双高度横分。",
+      "expected_from_photos": "深色金属框门厅与售卖口不等宽组合；前景有人遮挡。",
+      "implementation_objects": "V221_Daoli_entries",
+      "next_action": "校准门扇宽高、分组、位置；遮挡段补图。",
+      "comparisons": []
+    },
+    {
+      "id": "M05",
+      "subject": "沿街门面与售卖口",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "market_front_20250621",
+        "trip_1_0",
+        "yiwu_front",
+        "huaren_front",
+        "eagle_02"
+      ],
+      "current_model": "通用连续深色玻璃幕墙。",
+      "expected_from_photos": "独立店招、窗口、广告板，不能替换成重复幕墙。",
+      "implementation_objects": "V221_Daoli_cladding",
+      "next_action": "2025同时间段整条沿街照片，逐店复原；2026更新需时间冲突核验。",
+      "comparisons": []
+    },
+    {
+      "id": "M06",
+      "subject": "雨棚轮廓及管件",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "market_front_20250621"
+      ],
+      "current_model": "分段弧面有大致外轮廓，通用拉杆与薄支撑。",
+      "expected_from_photos": "圆管边缘接头、下吊顶网格、真实支撑构造更复杂。",
+      "implementation_objects": "V221_Daoli_entries",
+      "next_action": "近景截面、支架、接头逐项建模。",
+      "comparisons": []
+    },
+    {
+      "id": "M07",
+      "subject": "板块与窗带数量",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "market_front_20250621",
+        "trip_1_0",
+        "yiwu_front",
+        "huaren_front",
+        "eagle_02"
+      ],
+      "current_model": "算法每4列插一窗，每行统一板高。",
+      "expected_from_photos": "真实窗带、板缝有对应布局，不同立面不能统一套用。",
+      "implementation_objects": "V221_Daoli_cladding",
+      "next_action": "同机位全立面计数并保存标注。",
+      "comparisons": []
+    },
+    {
+      "id": "M08",
+      "subject": "圆角半径和转折",
+      "status": "UNVERIFIED",
+      "photo_ids": [
+        "trip_1_0",
+        "yiwu_front",
+        "huaren_front",
+        "eagle_02"
+      ],
+      "current_model": "沿OSM分段轮廓挤出，半径和板块弧长估算。",
+      "expected_from_photos": "照片有连续曲面与实际分缝。",
+      "implementation_objects": "OSM_338426095 / V221_Daoli_cladding",
+      "next_action": "校准摄影或现场尺寸，匹配左右两面。",
+      "comparisons": []
+    },
+    {
+      "id": "M09",
+      "subject": "楼高与屋顶退界、字架",
+      "status": "UNVERIFIED",
+      "photo_ids": [
+        "trip_1_0",
+        "yiwu_front",
+        "huaren_front",
+        "eagle_02",
+        "market2017_preview"
+      ],
+      "current_model": "27米估高和固定世界坐标字架。",
+      "expected_from_photos": "近期照片不足以校准整个楼体和屋顶字架。",
+      "implementation_objects": "V221_New100_roof_support",
+      "next_action": "取得带尺寸锚点的整楼照片及至少两个斜角。",
+      "comparisons": []
+    },
+    {
+      "id": "M10",
+      "subject": "显示屏与年度状态",
+      "status": "UNVERIFIED",
+      "photo_ids": [
+        "huaren_front",
+        "yiwu_front",
+        "trip_1_0"
+      ],
+      "current_model": "未建圆角大屏，混用跨年辅助照。",
+      "expected_from_photos": "部分照片有大屏，另一些无；无法确认拍摄时序和具体入口朝向。",
+      "implementation_objects": "V221_Daoli_cladding",
+      "next_action": "确认拍摄日和位置后解决时序/立面冲突，不自动拼贴。",
+      "comparisons": []
+    },
+    {
+      "id": "M11",
+      "subject": "夜间门头、营业灯",
+      "status": "UNVERIFIED",
+      "photo_ids": [
+        "night_thumb"
+      ],
+      "current_model": "单个新增入口光源。",
+      "expected_from_photos": "远景视频封面不能核验灯位或昼夜开关。",
+      "implementation_objects": "game/lighting_v2.json",
+      "next_action": "同入口近期夜景及灯具近照。",
+      "comparisons": []
+    },
+    {
+      "id": "S01",
+      "subject": "道路、路缘、隔离栏和出入口关系",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3",
+        "trip_1_0",
+        "yiwu_front",
+        "huaren_front",
+        "eagle_02"
+      ],
+      "current_model": "通用道路横断面与单一标高。",
+      "expected_from_photos": "照片存在街缘、栏杆、入口地坪关系；当前未按实景校准。",
+      "implementation_objects": "04_GROUND_ROADS / 05_STREET_PROPS",
+      "next_action": "将两建筑与兆麟街连接关系作为同一套控制点校验。",
+      "comparisons": []
+    }
+  ],
+  "release_status": "REWORK_REQUIRED"
+}

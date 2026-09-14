@@ -1,3 +1,5 @@
+> 实景验收重审中：V2.2.1 不代表修正完成。正式构建默认被门禁拦截；本地QA可用 `python3 scripts/build_demo.py --preview`，输出仅在 `builds/review/`。详见 `verification/sop_reaudit/README.md`。
+
 > V2.2.1 更新：修复棚廊 / 菜市场，新增棚廊登阶检查。最新报告与定点游戏截图在根目录 `verification/v2_2_1/`、`renders/v2_2_1/`；发布包为 `SophiaWalk_macOS_v2.2.1_demo.zip`。下文 V2.2 原始报告仍作为历史记录。
 
 # 索菲亚广场 · 持枪漫游 V2.2 Demo

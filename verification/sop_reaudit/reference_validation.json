@@ -1,0 +1,473 @@
+{
+  "review_date": "2026-09-14",
+  "recorded_review_date": "2026-09-14",
+  "reviewed_photos": 48,
+  "eligible_recent_photos": [
+    "brick_gallery_2025",
+    "market_front_20250621"
+  ],
+  "rejected": [
+    {
+      "id": "gallery2018_2",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound"
+      ]
+    },
+    {
+      "id": "gallery2018_3",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound"
+      ]
+    },
+    {
+      "id": "gallery2018_0",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "gallery2018_1",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "market2017_preview",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound"
+      ]
+    },
+    {
+      "id": "trip_1_0",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound"
+      ]
+    },
+    {
+      "id": "zx_front",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "zx_inside",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "night_thumb",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "yiwu_front",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound"
+      ]
+    },
+    {
+      "id": "huaren_front",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound"
+      ]
+    },
+    {
+      "id": "eagle_00",
+      "reasons": [
+        "crop/repost duplication review incomplete",
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_01",
+      "reasons": [
+        "crop/repost duplication review incomplete",
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_02",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound"
+      ]
+    },
+    {
+      "id": "eagle_03",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_04",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_05",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_06",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_07",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_08",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_09",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_10",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_11",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_12",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_13",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_14",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_15",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_16",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_17",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_18",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_19",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_20",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_21",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_22",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_23",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_24",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_25",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_26",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_27",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "eagle_28",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "ctrip25_0",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "ctrip25_1",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "ctrip25_2",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "ctrip_aux_0",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "ctrip_aux_1",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "ctrip_aux_2",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    }
+  ],
+  "source_groups": [
+    "Dahua Harbin self-photographed",
+    "张澍 / 黑龙江日报"
+  ],
+  "integrity_errors": [],
+  "coverage_gaps": [
+    "gallery.left_oblique",
+    "gallery.right_oblique",
+    "gallery.back",
+    "gallery.materials",
+    "gallery.night",
+    "market.corner",
+    "market.left_oblique",
+    "market.right_oblique",
+    "market.side",
+    "market.roof",
+    "market.night",
+    "street.layout"
+  ],
+  "open_items": [
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "G09",
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "S01"
+  ],
+  "unproven_matches": [],
+  "checks": {
+    "schema_v2": true,
+    "scope_locked": true,
+    "ten_recent_distinct_photos": false,
+    "three_independent_sources": false,
+    "source_integrity": true,
+    "coverage_complete": false,
+    "nonempty_detail_inventory": true,
+    "zero_unresolved_differences": false,
+    "matches_have_evidence": true,
+    "every_eligible_photo_compared": false,
+    "asset_hashes_current": true,
+    "current_epoch_verified": false,
+    "no_time_conflicts": false
+  },
+  "accuracy_gate": "NOT_ACCEPTED",
+  "note": "Record integrity and stated observations are checked; passing is not a survey certificate."
+}
