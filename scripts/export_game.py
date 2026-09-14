@@ -10,7 +10,7 @@ for ob in s.objects:
  ob.select_set(False)
  if ob.type=='MESH' and not ob.hide_render:
   for mod in list(ob.modifiers):
-   if ob.name.startswith('SOP_') and mod.type=='BEVEL':
+   if ob.name.startswith(('SOP_','SOP90_')) and mod.type=='BEVEL':
     bpy.context.view_layer.objects.active=ob
     bpy.ops.object.modifier_apply(modifier=mod.name)
    else:ob.modifiers.remove(mod)

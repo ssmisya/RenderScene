@@ -26,25 +26,33 @@ def local_solid(F,u,z,d,w,h,depth,mat,name=None):
 # The landing is continuous behind the top riser, so stairs no longer finish in empty space.
 for x,y,normal in [(-64,37.5,(-1,0)),(-64.8,72,(0,-1))]:
  F=frame((x,y,0),normal)
+ # June/September 2025 street-side photo: steps align with the right arch.
+ # The second pavilion has no equivalent recent view, so retain its estimate.
+ offset_entry=(normal==(-1,0))
+ stair_u=-1.9 if offset_entry else 0
+ stair_w=3.15 if offset_entry else 6.4
  for k in range(7):
   d=5.20-k*.34;top=.15*(k+1)
-  local_solid(F,0,top/2,d,6.4,top,.34,'Granite foundation','gallery repaired tread')
-  fbox(F,0,top-.013,d+.151,6.4,.026,.038,'Painted plaster')
-  for u in [-2.4,-1.2,0,1.2,2.4]:fbox(F,u,top+.001,d,.007,.002,.30,'Grate')
- local_solid(F,0,.525,1.495,6.4,1.05,2.99,'Granite foundation','gallery connected landing')
+  local_solid(F,stair_u,top/2,d,stair_w,top,.34,'Granite foundation','gallery repaired tread')
+  fbox(F,stair_u,top-.013,d+.151,stair_w,.026,.038,'Painted plaster')
+  for u in [stair_u+j for j in ([-.8,.8] if offset_entry else [-2.4,-1.2,0,1.2,2.4])]:fbox(F,u,top+.001,d,.007,.002,.30,'Grate')
+ local_solid(F,stair_u,.525,1.495,stair_w,1.05,2.99,'Granite foundation','gallery connected landing')
  local_solid(F,0,.525,-1.6,6.4,1.05,3.2,'Granite foundation','gallery inner landing')
  for side in [-1,1]:
-  u=side*3.03
+  u=stair_u+side*(stair_w/2-.17)
   def rail_z(d):return 1.12+(5.2-d)*(.9/2.04)
-  path([F(u,1.12,5.5),F(u,1.12,5.2),F(u,2.02,3.16),F(u,2.02,2.6),F(u,2.02,.3)],.036,'Iron dark green',10)
-  for d in [5.18,4.68,4.18,3.68,3.18,2.60,1.45,.35]:
+  ramp_side=offset_entry and side==1
+  rail_pts=[F(u,1.12,5.5),F(u,1.12,5.2),F(u,2.02,3.16)]
+  if not ramp_side:rail_pts.extend([F(u,2.02,2.6),F(u,2.02,.3)])
+  path(rail_pts,.036,'Iron dark green',10)
+  for d in ([5.18,4.68,4.18,3.68,3.18] if ramp_side else [5.18,4.68,4.18,3.68,3.18,2.60,1.45,.35]):
    k=max(0,min(6,int((5.37-d)/.34)));floor=.15*(k+1) if d>2.99 else 1.05
    top=rail_z(d) if d>=3.16 else 2.02
    beam(F(u,floor+.03,d),F(u,top,d),.028,'Iron dark green',10)
    fbox(F,u,floor+.027,d,.15,.054,.15,'Iron dark green')
-  path([F(u,.38,5.18),F(u,1.28,3.16),F(u,1.28,.3)],.018,'Iron dark green',8)
+  path([F(u,.38,5.18),F(u,1.28,3.16)]+([] if ramp_side else [F(u,1.28,.3)]),.018,'Iron dark green',8)
   # Guard infill follows the slope; every vertical reaches the lower and upper rails.
-  for k in range(20):
+  for k in range(9 if ramp_side else 20):
    d=5.16-k*.245;top=rail_z(d) if d>=3.16 else 2.02
    beam(F(u,top-.73,d),F(u,top-.025,d),.012,'Iron dark green',6)
  # Three-dimensional, layered pediment, integrated with the cornice rather than floating.
@@ -86,7 +94,21 @@ ACTIVE='03_OSM_BUILDINGS';GROUP='V221_Daoli_cladding'
 outline=next(o['aligned_xy'] for o in mapdata if o['id']=='338426095')
 # OSM has the closing point twice; omit it to avoid zero length roof / facade edges.
 outline=outline[:-1] if outline[0]==outline[-1] else outline
-poly=extrude_poly(outline,0,27,'Market panel joint')
+poly=list(outline)
+if sum(poly[i][0]*poly[(i+1)%len(poly)][1]-poly[(i+1)%len(poly)][0]*poly[i][1] for i in range(len(poly)))<0:poly.reverse()
+# The source shows recessed/open doorways. A solid extrusion behind them would
+# occlude every modeled return, so split the actual exterior wall at the portal.
+for a,b in zip(poly,poly[1:]+poly[:1]):
+ dx=b[0]-a[0];dy=b[1]-a[1];length=math.hypot(dx,dy)
+ if length<.05:continue
+ n=(dy/length,-dx/length);mid=((a[0]+b[0])/2,(a[1]+b[1])/2)
+ FF=frame((*mid,0),n)
+ spans=[(-length/2,length/2,0,27)]
+ if length>25 and n[0]>.8 and mid[1]<40:
+  spans=[(-length/2,-9.1,0,27),(9.1,length/2,0,27),(-9.1,9.1,4.65,27),(-9.1,9.1,0,.55)]
+ for left,right,bottom,top in spans:
+  add([FF(left,bottom),FF(right,bottom),FF(right,top),FF(left,top)],[(0,3,2,1)],'Market panel joint')
+add([(x,y,27) for x,y in poly],[tuple(range(len(poly)))],'Market panel joint')
 market_frames=[]
 for pa,pb in zip(poly,poly[1:]+poly[:1]):
  dx=pb[0]-pa[0];dy=pb[1]-pa[1];L=math.hypot(dx,dy)
@@ -105,10 +127,11 @@ for pa,pb in zip(poly,poly[1:]+poly[:1]):
    fbox(F,u,z,.055,step-.023,1.797,.16,mat)
    if mat=='Market blue curtain glass':
     for du in [-step/2+.035,step/2-.035]:fbox(F,u+du,z,.15,.055,1.82,.09,'Window lead')
-  # Dark recessed shop glazing behind framed ground-floor entrance bays.
-  fbox(F,u,2.55,.085,step-.11,4.68,.08,'Cool shop glazing')
-  fbox(F,u-step/2+.04,2.55,.18,.08,4.83,.16,'Market canopy metal')
-  fbox(F,u,1.25,.16,step,.065,.10,'Market canopy metal')
+  # Leave the reworked 18.2 m portal genuinely open, including its shop returns.
+  if not (long and normal[0]>.8 and (pa[1]+pb[1])/2<40 and abs(u)<9.1+step/2):
+   fbox(F,u,2.55,.085,step-.11,4.68,.08,'Cool shop glazing')
+   fbox(F,u-step/2+.04,2.55,.18,.08,4.83,.16,'Market canopy metal')
+   fbox(F,u,1.25,.16,step,.065,.10,'Market canopy metal')
  for z,h,d in [(5.06,.11,.22),(18.35,.17,.17),(24.0,.18,.15),(26.90,.17,.28)]:
   fbox(F,0,z,.10,L,h,d,'Market canopy metal')
  if long and normal[0]>.8:market_frames.append((F,normal,L))

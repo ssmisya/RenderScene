@@ -398,7 +398,7 @@ func run_qa() -> void:
 	await get_tree().create_timer(.8).timeout
 	await save_capture("gallery_front")
 	# Traverse an actual arch opening, then independently challenge the middle pier.
-	player.position=Vector3(-72,.18,-39.4)
+	player.position=Vector3(-72,.18,-35.6)
 	player.rotation.y=-PI/2
 	player.pitch=.10
 	await get_tree().create_timer(.5).timeout
@@ -417,6 +417,18 @@ func run_qa() -> void:
 	ev=InputEventKey.new();ev.physical_keycode=KEY_W;ev.pressed=false;Input.parse_input_event(ev)
 	checks["gallery_middle_pier_blocks"]=player.position.x < -64.6 and player.position.x > -66.0
 	report["gallery_pier_position"]=str(player.position)
+	# Walk the new transverse ramp from its public pavement end to the shared landing.
+	player.position=Vector3(-66.05,.18,-43.0)
+	player.rotation.y=PI
+	player.velocity=Vector3.ZERO
+	await get_tree().create_timer(.5).timeout
+	ev=InputEventKey.new();ev.physical_keycode=KEY_W;ev.pressed=true;Input.parse_input_event(ev)
+	await get_tree().create_timer(1.85).timeout
+	ev=InputEventKey.new();ev.physical_keycode=KEY_W;ev.pressed=false;Input.parse_input_event(ev)
+	await get_tree().create_timer(.2).timeout
+	checks["gallery_transverse_ramp_reaches_landing"]=player.position.y>1.0 and player.position.z> -37.2
+	report["gallery_ramp_position"]=str(player.position)
+	await save_capture("gallery_ramp")
 	player.position=Vector3(-70,.18,-20)
 	player.rotation.y=PI/2
 	player.pitch=.24

@@ -511,6 +511,9 @@ exec(compile((ROOT/'scripts/v2_details.py').read_text(),str(ROOT/'scripts/v2_det
 exec(compile((ROOT/'scripts/v22_street_refinements.py').read_text(),str(ROOT/'scripts/v22_street_refinements.py'),'exec'))
 exec(compile((ROOT/'scripts/v221_targeted_repairs.py').read_text(),str(ROOT/'scripts/v221_targeted_repairs.py'),'exec'))
 exec(compile((ROOT/'scripts/sop_facade_rework.py').read_text(),str(ROOT/'scripts/sop_facade_rework.py'),'exec'))
+exec(compile((ROOT/'scripts/sop90_gallery_rework.py').read_text(),str(ROOT/'scripts/sop90_gallery_rework.py'),'exec'))
+exec(compile((ROOT/'scripts/sop90_market_rework.py').read_text(),str(ROOT/'scripts/sop90_market_rework.py'),'exec'))
+exec(compile((ROOT/'scripts/sop90_sign_rework.py').read_text(),str(ROOT/'scripts/sop90_sign_rework.py'),'exec'))
 
 # --- Convert geometry buffers into editable native mesh datablocks. ---
 for (collection,group,mat),(verts,faces,smooth,uvs) in B.items():
@@ -520,7 +523,7 @@ for (collection,group,mat),(verts,faces,smooth,uvs) in B.items():
   poly.use_smooth=sm
   for idx,co in zip(poly.loop_indices,coords):uv.data[idx].uv=co
  ob['role']='render_geometry';ob['source_confidence']='photo-informed approximate'
- if group.startswith('SOP_'):
+ if group.startswith(('SOP_','SOP90_')):
   ob['review_status']='REWORK_REQUIRED; estimated dimensions, not photo-accepted'
   if mat in ['Gallery dressed red stone','Gallery aged coping','Market canopy metal','Market door bronze']:
    be=ob.modifiers.new('Construction edge highlights','BEVEL');be.width=.008;be.segments=2;be.limit_method='ANGLE'
@@ -535,6 +538,8 @@ for idx,c in enumerate(collision):
   bpy.ops.mesh.primitive_cube_add(size=1,location=c['center']);ob=bpy.context.object;ob.scale=c['size'];ob.rotation_euler.z=c.get('rotation_z',0)
  elif c['type']=='cylinder':
   bpy.ops.mesh.primitive_cylinder_add(vertices=16,radius=c['radius'],depth=c['height'],location=c['center']);ob=bpy.context.object
+ elif c['type']=='mesh':
+  me=bpy.data.meshes.new('collision');me.from_pydata(c['vertices'],[],c['faces']);me.update();ob=bpy.data.objects.new('collision',me);COLS['07_COLLISION'].objects.link(ob)
  elif c['type']=='polygon':
   ps=c['points'];nn=len(ps);verts=[(x,y,z) for z in [0,c['height']] for x,y in ps];faces=[tuple(range(nn-1,-1,-1)),tuple(range(nn,2*nn))]+[(i,(i+1)%nn,(i+1)%nn+nn,i+nn) for i in range(nn)]
   me=bpy.data.meshes.new('collision');me.from_pydata(verts,[],faces);me.update();ob=bpy.data.objects.new('collision',me);COLS['07_COLLISION'].objects.link(ob)

@@ -17,9 +17,9 @@
       1000
     ],
     "assets": {
-      "Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
-      "game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9",
-      "game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94"
+      "Harbin_Sophia_Square.blend": "974f5c4a45cdbf575ef7c2d3dafdd3f1efee1eca400373a84f5e83aab5ecfb61",
+      "game/Sophia_Square.glb": "9304c7fa954b12bc5a17afed8e0540266e64673b5a386a4ddff30303e25c9f27",
+      "game/Sophia_Collision.glb": "1536b504f6060e40fc221c841e10bf7d3dcff95f084aaba7824e9404ed18b27e"
     },
     "render": "renders/sop_rework/DAY_gallery.png",
     "status": "INSPECTION_ONLY_NOT_CAMERA_MATCHED"
@@ -42,9 +42,9 @@
       1000
     ],
     "assets": {
-      "Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
-      "game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9",
-      "game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94"
+      "Harbin_Sophia_Square.blend": "974f5c4a45cdbf575ef7c2d3dafdd3f1efee1eca400373a84f5e83aab5ecfb61",
+      "game/Sophia_Square.glb": "9304c7fa954b12bc5a17afed8e0540266e64673b5a386a4ddff30303e25c9f27",
+      "game/Sophia_Collision.glb": "1536b504f6060e40fc221c841e10bf7d3dcff95f084aaba7824e9404ed18b27e"
     },
     "render": "renders/sop_rework/DAY_market.png",
     "status": "INSPECTION_ONLY_NOT_CAMERA_MATCHED"
@@ -67,9 +67,9 @@
       1000
     ],
     "assets": {
-      "Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
-      "game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9",
-      "game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94"
+      "Harbin_Sophia_Square.blend": "974f5c4a45cdbf575ef7c2d3dafdd3f1efee1eca400373a84f5e83aab5ecfb61",
+      "game/Sophia_Square.glb": "9304c7fa954b12bc5a17afed8e0540266e64673b5a386a4ddff30303e25c9f27",
+      "game/Sophia_Collision.glb": "1536b504f6060e40fc221c841e10bf7d3dcff95f084aaba7824e9404ed18b27e"
     },
     "render": "renders/sop_rework/NIGHT_gallery.png",
     "status": "INSPECTION_ONLY_NOT_CAMERA_MATCHED"
@@ -92,9 +92,9 @@
       1000
     ],
     "assets": {
-      "Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
-      "game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9",
-      "game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94"
+      "Harbin_Sophia_Square.blend": "974f5c4a45cdbf575ef7c2d3dafdd3f1efee1eca400373a84f5e83aab5ecfb61",
+      "game/Sophia_Square.glb": "9304c7fa954b12bc5a17afed8e0540266e64673b5a386a4ddff30303e25c9f27",
+      "game/Sophia_Collision.glb": "1536b504f6060e40fc221c841e10bf7d3dcff95f084aaba7824e9404ed18b27e"
     },
     "render": "renders/sop_rework/NIGHT_market.png",
     "status": "INSPECTION_ONLY_NOT_CAMERA_MATCHED"

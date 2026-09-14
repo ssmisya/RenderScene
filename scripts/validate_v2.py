@@ -45,7 +45,15 @@ def hit(p,c):
   dx=p[0]-c['center'][0];dy=p[1]-c['center'][1];a=c.get('rotation_z',0);x=dx*math.cos(a)+dy*math.sin(a);y=-dx*math.sin(a)+dy*math.cos(a)
   return abs(x)<c['size'][0]/2+radius and abs(y)<c['size'][1]/2+radius
  if c['type']=='cylinder':return math.hypot(p[0]-c['center'][0],p[1]-c['center'][1])<c['radius']+radius
- poly=c['points'];return in_poly(p,poly) or any(segdist(p,a,b)<radius for a,b in zip(poly,poly[1:]+poly[:1]))
+ if c['type']=='mesh':
+  # Conservative projected hull for the general route clearance pass.
+  # Ramp walkability is independently exercised in the exported game.
+  from mathutils.geometry import convex_hull_2d
+  ps=list(dict.fromkeys((v[0],v[1]) for v in c['vertices']))
+  poly=[ps[i] for i in convex_hull_2d([Vector(v) for v in ps])]
+ elif c['type']=='polygon':poly=c['points']
+ else:raise ValueError('Unknown collision type: '+c['type'])
+ return in_poly(p,poly) or any(segdist(p,a,b)<radius for a,b in zip(poly,poly[1:]+poly[:1]))
 samples=[]
 for a,b in zip(route,route[1:]):
  count=max(1,math.ceil(math.dist(a,b)/.35))
@@ -54,7 +62,7 @@ hits=[]
 for i,p in enumerate(samples):
  for c in coll:
   if hit(p,c):hits.append({'sample':i,'position':p,'obstacle':c['name']})
-route_report={'route_samples':len(samples),'capsule_radius_m':radius,'route_collision_intersections':hits,'method':'2D expanded box/cylinder and polygon boundary clearance; ground excluded. Not a game-engine physics test.'}
+route_report={'route_samples':len(samples),'capsule_radius_m':radius,'route_collision_intersections':hits,'method':'2D expanded box/cylinder, polygon and mesh projected convex-hull boundary clearance; ground excluded. Not a game-engine physics test.'}
 json.dump(route_report,open(R/'game/route_validation.json','w'),indent=2)
 if hits:errors.append('walking_route_intersection')
 # The revised southern plaza boundary leaves the mapped Toulong centreline outside the paving.

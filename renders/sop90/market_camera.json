@@ -1,0 +1,25 @@
+{
+  "position": [
+    -107.7553939819336,
+    18.000621795654297,
+    2.8744308948516846
+  ],
+  "rotation": [
+    1.6070243120193481,
+    -0.019515136256814003,
+    1.5037388801574707
+  ],
+  "lens_mm": 14.0,
+  "resolution": [
+    2209,
+    1356
+  ],
+  "assets": {
+    "Harbin_Sophia_Square.blend": "974f5c4a45cdbf575ef7c2d3dafdd3f1efee1eca400373a84f5e83aab5ecfb61",
+    "game/Sophia_Square.glb": "9304c7fa954b12bc5a17afed8e0540266e64673b5a386a4ddff30303e25c9f27",
+    "game/Sophia_Collision.glb": "1536b504f6060e40fc221c841e10bf7d3dcff95f084aaba7824e9404ed18b27e"
+  },
+  "status": "DIAGNOSTIC_NOT_ACCEPTED",
+  "lighting": "Saved afternoon scene; not source matched",
+  "fit_file": "verification/sop90/market_camera_fit.json"
+}

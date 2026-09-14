@@ -225,9 +225,9 @@
   },
   {
     "id": "market_front_20250621",
-    "file": "references/v2_2_1/local/market_front_20250621.jpg",
-    "source_url": "https://news.sina.cn/znl/2025-06-26/detail-infckxsm3536939.d.html",
-    "image_url": "https://k.sinaimg.cn/n/spider20250626/105/w2048h1257/20250626/11d9-00d7a2149d8b73588e2f915e5313b2df.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+    "file": "references/sop_reaudit/local/market_primary_20250621.jpg",
+    "source_url": "https://www.hrbtv.net/folder137/2025-06-25/1052325.html",
+    "image_url": "https://www.hljnews.cn/whly/pic/2025-06/25/848611_bece0b25-0899-4455-be86-73431263b2fa.jpg",
     "author": "张澍 / 黑龙江日报",
     "capture_date": "2025-06-21",
     "publication_date": "2025-06-25",
@@ -239,10 +239,10 @@
     },
     "reviewed": true,
     "usable_for_architecture": true,
-    "sha256": "671d9af7f015878c17de96788c09ebf71390000e39eaabbc5a59daf380914c34",
+    "sha256": "4440f3b741b8f942dd0c81c4cff0bc4c4ec0fa8194e8790145f2071eb0550fad",
     "dimensions": [
-      700,
-      430
+      4418,
+      2712
     ],
     "license": "Local reference only; no texture reuse or redistribution",
     "limitation": "Exact camera and dimensions are uncalibrated",
@@ -256,7 +256,19 @@
       "market.entrance",
       "market.materials"
     ],
-    "observations": "Five custom green glyphs, canopy tube joints and support brackets, shallow recessed multi-door entrance with active retail fascia and side merchandise; no tall uniform double-height glass doors as model."
+    "observations": "Full 4418×2712 reporter original replaces the same 700×430 thumbnail; same original photo identity, counted once. Visible custom dotted green lettering, gold roof/three-arch logo, canopy pipe gaps and soffit grid, bronze unequal entrance posts, Madieer window, narrow price pegboards around recessed 东北冰箱贴 礼品店, security cameras and exhaust elbow. Pedestrians hide lower door leaves; dimensions and exact leaf count remain unverified.",
+    "prior_variants": [
+      {
+        "file": "references/v2_2_1/local/market_front_20250621.jpg",
+        "sha256": "671d9af7f015878c17de96788c09ebf71390000e39eaabbc5a59daf380914c34",
+        "dimensions": [
+          700,
+          430
+        ],
+        "image_url": "https://k.sinaimg.cn/n/spider20250626/105/w2048h1257/20250626/11d9-00d7a2149d8b73588e2f915e5313b2df.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+      }
+    ],
+    "review_date": "2026-09-14"
   },
   {
     "id": "zx_front",
@@ -2153,5 +2165,146 @@
     "original_file": "references/sop_reaudit/local/meipian_24.heic",
     "original_sha256": "602dbd4209b876fc5dffff0e1126ddebd20030525c0268777b7b10627063212a",
     "conversion": "HEIC decoded with macOS sips; no geometric edits"
+  },
+  {
+    "id": "gallery_yx2022_detail",
+    "file": "references/sop_reaudit/local/gallery_yx2022_0.jpg",
+    "source_url": "https://bbs.youxiake.com/y/1043958.html",
+    "image_url": "https://img3.youxiake.com/bbs/travel/202203/12/yxktravel_article_1ftti7426l76idhq3u1i4nv3a6c.jpg?imageView2/2/w/1880|imageMogr2/strip/quality/90",
+    "author": "Shirley Photography / 游侠客",
+    "source_group": "Shirley Photography / 游侠客",
+    "publication_date": "2022-03-12",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication timestamp alone is not capture-date proof."
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "dimensions": [
+      1500,
+      2316
+    ],
+    "sha256": "65a9832cb366fd8c0485840c5f1631c42c3a6d7f56048738b8ff2d6d85311d27",
+    "original_photo_id": "65a9832cb366fd8c0485840c5f1631c42c3a6d7f56048738b8ff2d6d85311d27",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "gallery.materials",
+      "gallery.left_oblique"
+    ],
+    "observations": "Interior close view: broad solid arch fascia, impost moldings, laid red brick rather than uniform dressed stone, curved belly iron guards with scrolls; historical reference only.",
+    "position_orientation": "Uncalibrated; see observations and coverage",
+    "license": "Reference-only local inspection; no photograph texture or original redistribution",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "gallery_night_trip_2024",
+    "file": "references/sop_reaudit/local/gallery_night_trip.jpg",
+    "source_url": "https://hk.trip.com/moments/detail/harbin-151-120082550/",
+    "image_url": "https://ak-d.tripcdn.com/images/1mi4n224x8ty7g7qs1C10.jpg?proc=source%2Ftrip",
+    "author": "Jeremyy Teh",
+    "source_group": "Jeremyy Teh",
+    "publication_date": "2024-02-04",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication timestamp alone is not capture-date proof."
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "dimensions": [
+      1439,
+      1440
+    ],
+    "sha256": "8318f32809075f7791ba42610e9ab7f9d1d021407774ee68eddb5c3e18ac13fb",
+    "original_photo_id": "8318f32809075f7791ba42610e9ab7f9d1d021407774ee68eddb5c3e18ac13fb",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "gallery.materials",
+      "gallery.night",
+      "gallery.back"
+    ],
+    "observations": "Interior night close view: single cage wall lanterns on brick piers, upper spandrel grid above uninterrupted arch openings, curved guards and stairs down below grade. Publication predates the recent window; capture unknown. Do not count as recent or infer today's light placement.",
+    "position_orientation": "Uncalibrated; see observations and coverage",
+    "license": "Reference-only local inspection; no photograph texture or original redistribution",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "market_xinhua_202501",
+    "file": "references/sop_reaudit/local/market_xinhua_202501.jpg",
+    "source_url": "https://app.xinhuanet.com/news/article.html?articleId=0d27c006363a6a6266cb76149d6a91ce",
+    "image_url": "https://xhsc.app.xinhuanet.com/cms/article/image/acde55343a90455a96d55467f6438ca0.jpg",
+    "author": "张启明 / 新华社",
+    "source_group": "张启明 / 新华社",
+    "publication_date": "2025-01-14",
+    "capture_date": null,
+    "date_evidence": {
+      "kind": "unconfirmed",
+      "detail": "Publication timestamp alone is not capture-date proof."
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "dimensions": [
+      1017,
+      572
+    ],
+    "sha256": "a89137f044336bebb92a01c34335d90b0fcd90d0c52eeec6afac73c2f771cd66",
+    "original_photo_id": "a89137f044336bebb92a01c34335d90b0fcd90d0c52eeec6afac73c2f771cd66",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "market.corner",
+      "market.entrance",
+      "market.right_oblique"
+    ],
+    "observations": "Rounded entrance, blank upper corner cladding, right-hand window band and wall AC units; left Asian Winter Games licensed souvenir banner. Publication Jan 2025, no EXIF capture date; date uncertain so auxiliary only.",
+    "position_orientation": "Uncalibrated; see observations and coverage",
+    "license": "Reference-only local inspection; no photograph texture or original redistribution",
+    "redistribute_original": false,
+    "texture_use": false
+  },
+  {
+    "id": "baidu_gallery_201905",
+    "file": "references/sop_reaudit/local/baidu_gallery_201905.png",
+    "source_url": "https://map.baidu.com/#panoid=09030600121905071359384139Z&panotype=street",
+    "image_url": "https://map.baidu.com/#panoid=09030600121905071359384139Z&panotype=street",
+    "author": "百度地图全景",
+    "source_group": "Baidu street panorama",
+    "publication_date": null,
+    "capture_date": "2019-05",
+    "date_evidence": {
+      "kind": "capture_caption",
+      "detail": "Normal panorama UI time machine shows 2014年06月 and 2019年05月; selected panorama is 2019.05.",
+      "file": "references/sop_reaudit/local/baidu_gallery_201905_caption.txt",
+      "sha256": "09319b7a67bbad87603f4e1a7a6c816767a107f669a7ee4b645b553c0946d284"
+    },
+    "download_date": "2026-09-14",
+    "review_date": "2026-09-14",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "sha256": "a8a7258f657f0fd4629f9812581ee794e2d303ee7596646e45de53ff5473316f",
+    "original_photo_id": "baidu_09030600121905071359384139Z",
+    "dedup_review": "DISTINCT",
+    "coverage": [
+      "gallery.front",
+      "gallery.roof",
+      "street.layout"
+    ],
+    "observations": "Historic panorama: street-side twin arches, raised roof, tower gallery to left, central road barrier, street lamps. Cannot establish 2025 stair/ramp configuration or count toward recent quota. Screenshot preserved unaltered with attribution.",
+    "position_orientation": "兆麟街 looking into square; UI panorama id retained",
+    "license": "Reference-only local inspection; no redistribution or texture use",
+    "redistribute_original": false,
+    "texture_use": false
   }
 ]

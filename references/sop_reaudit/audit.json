@@ -20,9 +20,9 @@
     }
   ],
   "assets": {
-    "Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
-    "game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9",
-    "game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94"
+    "Harbin_Sophia_Square.blend": "974f5c4a45cdbf575ef7c2d3dafdd3f1efee1eca400373a84f5e83aab5ecfb61",
+    "game/Sophia_Square.glb": "9304c7fa954b12bc5a17afed8e0540266e64673b5a386a4ddff30303e25c9f27",
+    "game/Sophia_Collision.glb": "1536b504f6060e40fc221c841e10bf7d3dcff95f084aaba7824e9404ed18b27e"
   },
   "coverage": [
     {
@@ -194,17 +194,18 @@
         "brick_gallery_2025",
         "gallery2018_2",
         "gallery2018_3",
-        "gallery_2019"
+        "gallery_2019",
+        "baidu_gallery_201905"
       ],
-      "current_model": "增加封闭坡屋顶和圆拱小窗；新增2019侧照显示高出低檐的上层屋顶体块，位置与高差尚未重建准确。",
+      "current_model": "新增南侧 L 接点的抬高屋顶体块、檐口及圆拱小窗；与前部坡屋顶的高差、位置仍待多机位校准。",
       "expected_from_photos": "屋顶有独立后退体量，历史斜照可见坡屋顶与装饰；当前空白山花不符。",
-      "implementation_objects": "SOP_Gallery_layered_cornice_and_hip_roof",
+      "implementation_objects": "SOP90_Gallery_raised_roof_block",
       "next_action": "用近期高位/侧面照片确认高屋顶位于哪一段，再修复体块与后部接合。",
       "comparisons": [],
       "rework_evidence": [
         "renders/sop_rework/cameras.json",
-        "verification/sop_reaudit/native_rework_validation.json",
-        "verification/sop_reaudit/runtime_rework_validation.json"
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
       ]
     },
     {
@@ -234,17 +235,19 @@
       "photo_ids": [
         "brick_gallery_2025",
         "gallery2018_2",
-        "gallery2018_3"
+        "gallery2018_3",
+        "gallery_yx2022_detail",
+        "gallery_night_trip_2024"
       ],
-      "current_model": "端头增加双灯附墙灯具、托臂、框条和夜间灯罩/光源；数量及精确形态待标定。",
+      "current_model": "区分端头双灯和廊内单个六边笼灯；按历史近照增加托臂、框架和夜间光源。近期灯具状态及数量未确认。",
       "expected_from_photos": "2025照片中柱侧可见深色灯臂和白色灯罩。",
-      "implementation_objects": "SOP_Gallery_terminal_lanterns",
+      "implementation_objects": "SOP90_Gallery_interior_lamps_and_guards",
       "next_action": "找近景核对灯臂曲线、灯罩造型、数量及位置。",
       "comparisons": [],
       "rework_evidence": [
         "renders/sop_rework/cameras.json",
-        "verification/sop_reaudit/native_rework_validation.json",
-        "verification/sop_reaudit/runtime_rework_validation.json"
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
       ]
     },
     {
@@ -256,11 +259,16 @@
         "gallery2018_2",
         "gallery2018_3"
       ],
-      "current_model": "居中等宽楼梯和双侧斜扶手。",
+      "current_model": "首个临街入口改为右拱台阶、左侧横向斜坡及护栏；新增连续楔形碰撞。第二入口未擅自复制；两处准确标高和坡度仍待验证。",
       "expected_from_photos": "照片含偏置楼梯/斜向栏杆关系；无法证明当前对称布局。",
-      "implementation_objects": "V221_Gallery_landings_and_rails",
-      "next_action": "取得无遮挡入口、侧面及标高测量，不能以可走通替代。",
-      "comparisons": []
+      "implementation_objects": "V221_Gallery_landings_and_rails; SOP90_Gallery_offset_entry_ramp",
+      "next_action": "同实拍机位校准右拱台阶、横向坡道的宽度/标高，并核实第二入口及地下楼梯。",
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
+      ]
     },
     {
       "id": "G07",
@@ -284,13 +292,20 @@
       "photo_ids": [
         "brick_gallery_2025",
         "gallery2018_2",
-        "gallery2018_3"
+        "gallery2018_3",
+        "gallery_yx2022_detail",
+        "gallery_night_trip_2024"
       ],
-      "current_model": "游戏构造已连接，运行可登阶。",
+      "current_model": "增加朝广场侧的外鼓栏杆、卷草细铁件、矮墙和内侧笼灯。地下出入口及真实落地关系仍未全部重建。",
       "expected_from_photos": "实际构造的落点、截面、材质未证实。",
-      "implementation_objects": "V221_Gallery_landings_and_rails",
+      "implementation_objects": "SOP90_Gallery_interior_lamps_and_guards",
       "next_action": "用真实栏杆细节照对照，不能用旧游戏截图作原照。",
-      "comparisons": []
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
+      ]
     },
     {
       "id": "G09",
@@ -335,11 +350,16 @@
         "huaren_front",
         "eagle_02"
       ],
-      "current_model": "系统字体，笔画形态不符。",
+      "current_model": "五个系统字体改为从4418像素原照描取的可编辑实体轮廓，并加入便携式LED灯珠纹理。等高等距安装仍与原照有1.83%画面对角线最大误差，未通过1%检查。",
       "expected_from_photos": "招牌是可辨识的定制字形，五字轮廓各有特征。",
-      "implementation_objects": "V221_Daoli_letter_*",
-      "next_action": "轮廓比对，取得授权矢量/足够清晰原图后建字，不用替代字体判通过。",
-      "comparisons": []
+      "implementation_objects": "SOP90_Daoli_sign_*",
+      "next_action": "根据独立斜视照片校正字形透视、立面曲率与安装位置；同机位对照误差须达标。",
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
+      ]
     },
     {
       "id": "M03",
@@ -352,11 +372,16 @@
         "huaren_front",
         "eagle_02"
       ],
-      "current_model": "近似三拱图案，比例和文字布局有差异。",
+      "current_model": "八杂市金色标识改为原照轮廓实体，包括屋顶轮廓、三拱及文字区域；单照透视未校正，未通过。",
       "expected_from_photos": "屋檐、三拱及八杂市文字组合比例可辨。",
-      "implementation_objects": "V221_Bazashi_*",
-      "next_action": "按清晰图逐特征校准。",
-      "comparisons": []
+      "implementation_objects": "SOP90_Bazashi_*",
+      "next_action": "根据独立斜视照片校正字形透视、立面曲率与安装位置；同机位对照误差须达标。",
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
+      ]
     },
     {
       "id": "M04",
@@ -365,15 +390,15 @@
       "photo_ids": [
         "market_front_20250621"
       ],
-      "current_model": "原等宽五大门组改为较窄的框扇、横楣、踢板和把手；当前六扇为遮挡条件下的估计，非确认门数。",
+      "current_model": "拆除遮挡店内的旧实体墙，重建非等宽框扇、横楣、把手和打开的回转门扇；遮挡处的门宽与开启方向尚未完全确认。",
       "expected_from_photos": "深色金属框门厅与售卖口不等宽组合；前景有人遮挡。",
-      "implementation_objects": "SOP_Market_recessed_entry_and_shops",
+      "implementation_objects": "SOP90_Market_observed_portals",
       "next_action": "补无遮挡门组近照，核实各扇边界、开启方向与宽高。",
       "comparisons": [],
       "rework_evidence": [
         "renders/sop_rework/cameras.json",
-        "verification/sop_reaudit/native_rework_validation.json",
-        "verification/sop_reaudit/runtime_rework_validation.json"
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
       ]
     },
     {
@@ -387,15 +412,15 @@
         "huaren_front",
         "eagle_02"
       ],
-      "current_model": "拆分门厅与右侧店面，增加照片可见寄存价签、挂卡、金属挂钩和小货架；商品与未读清店招仍为简化表达。",
+      "current_model": "右侧两块挂板、中间凹入冰箱贴店、可读价签、左侧饮料窗口和右侧店招分别建模；货架细节为估计，尚无对应机位验收。",
       "expected_from_photos": "独立店招、窗口、广告板，不能替换成重复幕墙。",
-      "implementation_objects": "SOP_Market_recessed_entry_and_shops",
+      "implementation_objects": "SOP90_Market_gift_shop",
       "next_action": "继续逐铺核对开间、招牌、陈列，禁止把通用物件当真实商铺完成。",
       "comparisons": [],
       "rework_evidence": [
         "renders/sop_rework/cameras.json",
-        "verification/sop_reaudit/native_rework_validation.json",
-        "verification/sop_reaudit/runtime_rework_validation.json"
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
       ]
     },
     {
@@ -405,15 +430,15 @@
       "photo_ids": [
         "market_front_20250621"
       ],
-      "current_model": "补雨棚分段管边、接箍、底板纵横拼缝、支撑杆和固定底板；边缘曲线和间距仍为估计。",
+      "current_model": "增加雨棚缺口、双摄像头、右侧排气管和弯头，保留分段接箍及底板拼缝；尺寸、挂点待标定。",
       "expected_from_photos": "圆管边缘接头、下吊顶网格、真实支撑构造更复杂。",
-      "implementation_objects": "SOP_Market_canopy_seams_and_soffit",
+      "implementation_objects": "SOP90_Market_canopy_fittings",
       "next_action": "按原照机位校准雨棚弧度、接缝位置和挂点。",
       "comparisons": [],
       "rework_evidence": [
         "renders/sop_rework/cameras.json",
-        "verification/sop_reaudit/native_rework_validation.json",
-        "verification/sop_reaudit/runtime_rework_validation.json"
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
       ]
     },
     {
@@ -441,7 +466,8 @@
         "trip_1_0",
         "yiwu_front",
         "huaren_front",
-        "eagle_02"
+        "eagle_02",
+        "market_xinhua_202501"
       ],
       "current_model": "沿OSM分段轮廓挤出，半径和板块弧长估算。",
       "expected_from_photos": "照片有连续曲面与实际分缝。",
@@ -475,11 +501,16 @@
         "yiwu_front",
         "trip_1_0"
       ],
-      "current_model": "未建圆角大屏，混用跨年辅助照。",
+      "current_model": "删除错误欢迎词；现为屏幕壳体，原照中的食品广告画面尚未重建，明确保留缺陷。",
       "expected_from_photos": "部分照片有大屏，另一些无；无法确认拍摄时序和具体入口朝向。",
-      "implementation_objects": "V221_Daoli_cladding",
+      "implementation_objects": "SOP90_Market_observed_portals",
       "next_action": "确认拍摄日和位置后解决时序/立面冲突，不自动拼贴。",
-      "comparisons": []
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop90/native_validation.json",
+        "verification/sop90/runtime_validation.json"
+      ]
     },
     {
       "id": "M11",
@@ -505,7 +536,8 @@
         "trip_1_0",
         "yiwu_front",
         "huaren_front",
-        "eagle_02"
+        "eagle_02",
+        "baidu_gallery_201905"
       ],
       "current_model": "通用道路横断面与单一标高。",
       "expected_from_photos": "照片存在街缘、栏杆、入口地坪关系；当前未按实景校准。",
@@ -516,11 +548,11 @@
   ],
   "release_status": "REWORK_REQUIRED",
   "runtime_report": {
-    "file": "verification/sop_reaudit/runtime_rework_validation.json",
-    "sha256": "ba59aa2bb25b26d542ba936419e2a199720e9062140c3252a4c30d2e6b8ba148"
+    "file": "verification/sop90/runtime_validation.json",
+    "sha256": "f7fc476dcb9c2ea5aee75e15b5440c4aed4ca0e6ce89e3b1e23d60da198d75f3"
   },
   "blender_report": {
-    "file": "verification/sop_reaudit/native_rework_validation.json",
-    "sha256": "0badf34a9dcd56dee1554f22b7f2e469492875b1ddecd5d1de02f451b3bccc2d"
+    "file": "verification/sop90/native_validation.json",
+    "sha256": "8f44f97a813aa55eb9f361a7b5ce6cdb089890653c0bc421599dbd9a29f849a3"
   }
 }

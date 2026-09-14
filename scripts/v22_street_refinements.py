@@ -22,10 +22,17 @@ def gallery_run(a,b,width,bays):
     fbox(F,u+du,3.3,.55,.13,3.0,.09,'Carved terracotta')
   for i in range(bays):
    u=-length/2+(i+.5)*length/bays;r=(length/bays-1.0)/2
-   for j in range(3):arc(F,u,4.08,r+j*.09,.07,.12+j*.06,'Gallery aged coping',24)
-   # Photo shows metal tracery within the upper arch, not a solid wall filling the passage.
-   for k in range(1,10):
-    aa=k*pi/10;path([F(u,4.08,.31),F(u+r*.95*cos(aa),4.08+r*.95*sin(aa),.31)],.016,'Iron dark green',6)
+   # Close views show a broad, continuous arch plate; lattice is ABOVE its opening.
+   arc(F,u,4.08,r,.32,.08,'Gallery aged coping',48)
+   for j in [0,1]:arc(F,u,4.08,r+j*.28,.045,.23,'Gallery cornice shadow' if 'Gallery cornice shadow' in M else 'Iron dark green',48)
+   for z in [4.85,5.12,5.39,5.66,5.89]:
+    half=r+.42
+    for side2 in [-1,1]:
+     edge=math.sqrt(max(0,(r+.35)**2-(z-4.08)**2)) if z<4.08+r+.35 else 0
+     if edge<half:beam(F(u+side2*edge,z,.12),F(u+side2*half,z,.12),.026,'Iron dark green',8)
+   for du in [-r*.9,-r*.6,-r*.3,0,r*.3,r*.6,r*.9]:
+    start=4.08+math.sqrt(max(0,(r+.36)**2-du**2))
+    if start<5.93:beam(F(u+du,start,.12),F(u+du,5.93,.12),.024,'Iron dark green',8)
   for z,h,depth in [(6.05,.28,.6),(6.35,.22,.85),(6.57,.12,1.02)]:fbox(F,0,z,.08,length+1.2,h,depth,'Gallery aged coping')
  mid=((a[0]+b[0])/2,(a[1]+b[1])/2)
  box('',(mid[0],mid[1],6.52),(length+.8,width+1.1,.18),'Gallery aged coping',math.atan2(dy,dx))

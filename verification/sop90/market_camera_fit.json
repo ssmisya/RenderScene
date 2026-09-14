@@ -1,0 +1,402 @@
+{
+  "status": "DIAGNOSTIC_NOT_ACCEPTED",
+  "photo_id": "market_front_20250621",
+  "source_sha256": "4440f3b741b8f942dd0c81c4cff0bc4c4ec0fa8194e8790145f2071eb0550fad",
+  "resolution": [
+    4418,
+    2712
+  ],
+  "focal_pixels": 1718.1111111115188,
+  "lens_mm_36mm_sensor": 14.000000000003322,
+  "camera_position_facade": [
+    0.16460378672454357,
+    2.8744310094272842,
+    6.1831666783268355
+  ],
+  "world_to_opencv_rotation": [
+    [
+      0.9992638336249317,
+      0.019513897874808804,
+      -0.03303026792106356
+    ],
+    [
+      0.018293860811806437,
+      -0.999153547055114,
+      -0.03684459341317649
+    ],
+    [
+      -0.033721290986614985,
+      0.03621321853847802,
+      -0.998774988341859
+    ]
+  ],
+  "max_error_percent": 1.8332584494917241,
+  "held_out_max_error_percent": 1.8332584494917241,
+  "landmarks": [
+    {
+      "feature": "道_top",
+      "photo_pixels": [
+        822.0001,
+        314.0
+      ],
+      "world_facade": [
+        -4.4501693099547515,
+        6.529999999999999,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        838.0670373998772,
+        243.32755441284434
+      ],
+      "diagonal_error": 0.013980719475899862,
+      "used_in_fit": true
+    },
+    {
+      "feature": "道_bottom",
+      "photo_pixels": [
+        709.99996,
+        755.000196
+      ],
+      "world_facade": [
+        -4.868269380090498,
+        4.8837323,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        684.195921604197,
+        752.1035580013038
+      ],
+      "diagonal_error": 0.0050089123474094666,
+      "used_in_fit": false
+    },
+    {
+      "feature": "道_left",
+      "photo_pixels": [
+        544.0,
+        710.000176
+      ],
+      "world_facade": [
+        -5.4879524886877835,
+        5.0517188,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        497.7808672832149,
+        698.6678418966669
+      ],
+      "diagonal_error": 0.009179840951692246,
+      "used_in_fit": true
+    },
+    {
+      "feature": "道_right",
+      "photo_pixels": [
+        857.999875,
+        650.000002
+      ],
+      "world_facade": [
+        -4.315781009615385,
+        5.27570135,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        860.2220634449836,
+        630.7747697750526
+      ],
+      "diagonal_error": 0.0037332758363385434,
+      "used_in_fit": false
+    },
+    {
+      "feature": "里_top",
+      "photo_pixels": [
+        1485.000096,
+        257.0
+      ],
+      "world_facade": [
+        -2.0816960750000004,
+        6.529999999999999,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        1571.497986638157,
+        240.65399312637547
+      ],
+      "diagonal_error": 0.01698093169765039,
+      "used_in_fit": true
+    },
+    {
+      "feature": "里_bottom",
+      "photo_pixels": [
+        1271.99998,
+        704.0000640000001
+      ],
+      "world_facade": [
+        -2.866183109375,
+        4.8836828,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        1306.0664856851893,
+        756.2515207272909
+      ],
+      "diagonal_error": 0.01203241263717457,
+      "used_in_fit": false
+    },
+    {
+      "feature": "里_left",
+      "photo_pixels": [
+        1227.0,
+        648.0000640000001
+      ],
+      "world_facade": [
+        -3.031919642857143,
+        5.0899328,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        1256.6064966462209,
+        690.8655380187631
+      ],
+      "diagonal_error": 0.010049418405062483,
+      "used_in_fit": true
+    },
+    {
+      "feature": "里_right",
+      "photo_pixels": [
+        1541.99986,
+        311.000128
+      ],
+      "world_facade": [
+        -1.871763908482143,
+        6.3311156,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        1635.5513471033394,
+        302.3725179751457
+      ],
+      "diagonal_error": 0.018122840654734868,
+      "used_in_fit": false
+    },
+    {
+      "feature": "菜_top",
+      "photo_pixels": [
+        2320.000158,
+        205.0
+      ],
+      "world_facade": [
+        0.27444609012096766,
+        6.529999999999999,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        2322.9790147069166,
+        237.91463424569662
+      ],
+      "diagonal_error": 0.00637524535900027,
+      "used_in_fit": true
+    },
+    {
+      "feature": "菜_bottom",
+      "photo_pixels": [
+        2207.999802,
+        700.0000640000001
+      ],
+      "world_facade": [
+        -0.0981357393145161,
+        4.8833264,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        2192.1029664161024,
+        762.2541731511167
+      ],
+      "diagonal_error": 0.012394279411379714,
+      "used_in_fit": false
+    },
+    {
+      "feature": "菜_left",
+      "photo_pixels": [
+        2013.0,
+        575.0001279999999
+      ],
+      "world_facade": [
+        -0.7468245967741934,
+        5.2991528,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        1984.9282662188193,
+        627.9950350654443
+      ],
+      "diagonal_error": 0.011568458598289692,
+      "used_in_fit": true
+    },
+    {
+      "feature": "菜_right",
+      "photo_pixels": [
+        2461.000077,
+        572.9997599999999
+      ],
+      "world_facade": [
+        0.7434982400201612,
+        5.30580725,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        2469.706685323468,
+        627.8062477273094
+      ],
+      "diagonal_error": 0.010704850045266527,
+      "used_in_fit": false
+    },
+    {
+      "feature": "市_top",
+      "photo_pixels": [
+        3127.000154,
+        202.0
+      ],
+      "world_facade": [
+        2.613024459281437,
+        6.529999999999999,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        3091.4073543441996,
+        235.11349766642698
+      ],
+      "diagonal_error": 0.009377793175468035,
+      "used_in_fit": true
+    },
+    {
+      "feature": "市_bottom",
+      "photo_pixels": [
+        3086.000195,
+        702.000004
+      ],
+      "world_facade": [
+        2.477994654191617,
+        4.8832933999999995,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        3045.3916369312938,
+        767.9372377258429
+      ],
+      "diagonal_error": 0.014938099890266565,
+      "used_in_fit": false
+    },
+    {
+      "feature": "市_left",
+      "photo_pixels": [
+        2874.0,
+        347.999917
+      ],
+      "world_facade": [
+        1.779790419161677,
+        6.04916195,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        2813.91555250844,
+        389.7111778465149
+      ],
+      "diagonal_error": 0.014109518851076313,
+      "used_in_fit": true
+    },
+    {
+      "feature": "市_right",
+      "photo_pixels": [
+        3280.000001,
+        350.999905
+      ],
+      "world_facade": [
+        3.116916170958084,
+        6.03928175,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        3260.448252051912,
+        392.6087275710672
+      ],
+      "diagonal_error": 0.008868380753701261,
+      "used_in_fit": false
+    },
+    {
+      "feature": "场_top",
+      "photo_pixels": [
+        3720.9999980000002,
+        301.0
+      ],
+      "world_facade": [
+        4.550755932397409,
+        6.529999999999999,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        3745.8772836874714,
+        232.72777141903083
+      ],
+      "diagonal_error": 0.014016917674549784,
+      "used_in_fit": true
+    },
+    {
+      "feature": "场_bottom",
+      "photo_pixels": [
+        3893.9999980000002,
+        762.99992
+      ],
+      "world_facade": [
+        5.167278610583153,
+        4.883564,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        3967.226477357107,
+        773.9752438676323
+      ],
+      "diagonal_error": 0.014283308532393136,
+      "used_in_fit": false
+    },
+    {
+      "feature": "场_left",
+      "photo_pixels": [
+        3646.0,
+        494.999778
+      ],
+      "world_facade": [
+        4.283477321814255,
+        5.8386401,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        3657.146545083073,
+        457.82396842514635
+      ],
+      "diagonal_error": 0.007486697522100212,
+      "used_in_fit": true
+    },
+    {
+      "feature": "场_right",
+      "photo_pixels": [
+        3991.00006,
+        593.999827
+      ],
+      "world_facade": [
+        5.512959177105832,
+        5.48583215,
+        0.99
+      ],
+      "render_prediction_pixels": [
+        4084.0307753265242,
+        574.5811104941813
+      ],
+      "diagonal_error": 0.01833258449491724,
+      "used_in_fit": false
+    }
+  ],
+  "limitations": [
+    "Shape outlines were digitized from this same photograph; this is not independent multi-view validation.",
+    "Native glyph size/spacing are estimates; no facade curvature or lens distortion silently added.",
+    "A single front-facing fit cannot prove entry location or whole-building geometry."
+  ]
+}

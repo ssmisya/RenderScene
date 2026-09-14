@@ -1,0 +1,145 @@
+{
+  "status": "REWORK_IN_PROGRESS_NOT_ACCEPTED",
+  "assets": {
+    "Harbin_Sophia_Square.blend": "974f5c4a45cdbf575ef7c2d3dafdd3f1efee1eca400373a84f5e83aab5ecfb61",
+    "game/Sophia_Square.glb": "9304c7fa954b12bc5a17afed8e0540266e64673b5a386a4ddff30303e25c9f27",
+    "game/Sophia_Collision.glb": "1536b504f6060e40fc221c841e10bf7d3dcff95f084aaba7824e9404ed18b27e"
+  },
+  "native": {
+    "file": "verification/sop90/native_validation.json",
+    "sha256": "8f44f97a813aa55eb9f361a7b5ce6cdb089890653c0bc421599dbd9a29f849a3"
+  },
+  "runtime": {
+    "file": "verification/sop90/runtime_validation.json",
+    "sha256": "f7fc476dcb9c2ea5aee75e15b5440c4aed4ca0e6ce89e3b1e23d60da198d75f3"
+  },
+  "app_zip": {
+    "file": "builds/review/SophiaWalk.zip",
+    "sha256": "b67473de77ac7d0ef69aadeef04aa11ad88bf342ed8a48e5019ebf29c8cc752c"
+  },
+  "audit": {
+    "file": "references/sop_reaudit/audit.json",
+    "sha256": "7c84fbce9e9017ad17e0a7920fc819e624d6f400d91ba5e748ac6f624c0af249"
+  },
+  "sources": {
+    "file": "references/sop_reaudit/sources.json",
+    "sha256": "813a9ac52396934d01f936f81d5c48b5c0f3c5782f7a6a6c8a54b6cc4256693e"
+  },
+  "renders": [
+    {
+      "file": "renders/sop_rework/DAY_gallery.png",
+      "sha256": "07a01951c17cb376c166f63b0c2674675afe5ab309c3e9dc34bf004b685465a2"
+    },
+    {
+      "file": "renders/sop_rework/DAY_market.png",
+      "sha256": "2a1e091ef9d99ea0b36ac2cf50ba5e7af9dd79164b2ef6e03d710b77107fda00"
+    },
+    {
+      "file": "renders/sop_rework/NIGHT_gallery.png",
+      "sha256": "44612d97382c230299e434b1b40de3ed71e1b20ff8043ead5825340796c61451"
+    },
+    {
+      "file": "renders/sop_rework/NIGHT_market.png",
+      "sha256": "1c9322b049c7bdd9b52e3f9466c0d2d80951882811b05847df6a6a0f61d04fe2"
+    }
+  ],
+  "cameras": {
+    "file": "renders/sop_rework/cameras.json",
+    "sha256": "99c4f6aa949c9c0b0eb296707db0f0ee2471a3ab8eff3e8848da62efc024bc70"
+  },
+  "game_images": [
+    {
+      "file": "verification/sop90/game_day_north.png",
+      "sha256": "ee1696d6ade88fe2a990e62ba61b1e1310d3bb391f7db5d3109624002134fb68"
+    },
+    {
+      "file": "verification/sop90/game_day_portal.png",
+      "sha256": "77d52cee280b40d41f33019071a82757473d75efa3f7dd6db726cab4fafa785d"
+    },
+    {
+      "file": "verification/sop90/game_day_spawn.png",
+      "sha256": "e5ff0d810db83e5e37687717bb6e1cda9278e5eac8ff4c12d9f56c348a725a01"
+    },
+    {
+      "file": "verification/sop90/game_gallery_front.png",
+      "sha256": "c14038062b21cc92493901d189834bfdb95ff166849e35cb0163c78b0f47a0b7"
+    },
+    {
+      "file": "verification/sop90/game_gallery_landing.png",
+      "sha256": "4488eb4e36f32f5916cfdba8361fd033d0a4d7788645377737aad5c0f49510f1"
+    },
+    {
+      "file": "verification/sop90/game_gallery_ramp.png",
+      "sha256": "6f52e51242c590fa21ebd4609cd84b86737e49bd11a1af9e00d3ab1f4d55cdf8"
+    },
+    {
+      "file": "verification/sop90/game_market_entry.png",
+      "sha256": "34cc9dc2cdef09e4ba985dd5893724553560a35c95eb66484f76b1dd380466fb"
+    },
+    {
+      "file": "verification/sop90/game_market_front.png",
+      "sha256": "a7036b3ceed2ef0bfca648ec9ef7a0c79e78c4c2a1ffff71baaa23d834e61519"
+    },
+    {
+      "file": "verification/sop90/game_market_night.png",
+      "sha256": "a083f00910bf0ac0d37dab46d1ffaf5c33aea3a7934381b92b0cefe1fcb2b3cc"
+    },
+    {
+      "file": "verification/sop90/game_night_flashlight.png",
+      "sha256": "623eaaf682671caa28837d2b8a31ca9d498825942300236eb7c1a318fd86d661"
+    },
+    {
+      "file": "verification/sop90/game_night_spawn.png",
+      "sha256": "3cf43ab079d72272d0e2fa30657480433b8475806bb928a944ecc4af2e3a9e5c"
+    }
+  ],
+  "progress": {
+    "baseline_ids": [
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "G08",
+      "G09",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "M10",
+      "M11",
+      "S01"
+    ],
+    "scope_intact": true,
+    "denominator": 21,
+    "proven_matches": [],
+    "numerator": 0,
+    "percent": 0.0,
+    "required_matches": 19,
+    "remaining_to_90": 19,
+    "prerequisites": {
+      "schema_v2": true,
+      "scope_locked": true,
+      "ten_recent_distinct_photos": false,
+      "three_independent_sources": false,
+      "source_integrity": true,
+      "coverage_complete": false,
+      "nonempty_detail_inventory": true,
+      "matches_have_evidence": true,
+      "every_eligible_photo_compared": false,
+      "asset_hashes_current": true,
+      "current_epoch_verified": false,
+      "no_time_conflicts": false
+    },
+    "milestone_90_pass": false,
+    "full_release_accuracy_gate": "NOT_ACCEPTED",
+    "note": "Missing/NA items remain in the baseline denominator. New independent items expand it. Runtime checks are never photographic matches."
+  }
+}

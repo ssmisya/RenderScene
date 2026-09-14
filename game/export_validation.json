@@ -1,14 +1,14 @@
 {
   "Sophia_Square.glb": {
-    "size_bytes": 255483748,
+    "size_bytes": 285576356,
     "header_valid": true,
-    "meshes": 1000,
-    "materials": 103,
-    "images": 13,
+    "meshes": 1028,
+    "materials": 106,
+    "images": 16,
     "external_uris": [],
     "pigeon_meshes": [],
     "revision": "2.2.1-demo",
-    "imported_meshes": 1000,
+    "imported_meshes": 1028,
     "loaded_images": [
       {
         "name": "brick_diff",
@@ -60,6 +60,27 @@
         ]
       },
       {
+        "name": "green_sign_diff",
+        "size": [
+          128,
+          128
+        ]
+      },
+      {
+        "name": "green_sign_nor_gl",
+        "size": [
+          128,
+          128
+        ]
+      },
+      {
+        "name": "green_sign_rough",
+        "size": [
+          128,
+          128
+        ]
+      },
+      {
         "name": "Historic red brick \u2022 CC0 scan portable color",
         "size": [
           2048,
@@ -105,15 +126,15 @@
     "empty_meshes": []
   },
   "Sophia_Collision.glb": {
-    "size_bytes": 558044,
+    "size_bytes": 614524,
     "header_valid": true,
-    "meshes": 311,
+    "meshes": 347,
     "materials": 0,
     "images": 0,
     "external_uris": [],
     "pigeon_meshes": [],
     "revision": "2.2.1-demo",
-    "imported_meshes": 311,
+    "imported_meshes": 347,
     "loaded_images": [],
     "empty_meshes": []
   }

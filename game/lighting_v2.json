@@ -9852,6 +9852,447 @@
       "spot_degrees": 62
     },
     {
+      "name": "NIGHT_469_street",
+      "type": "SPOT",
+      "position_blender": [
+        -50.5,
+        40.390586853027344,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -50.5,
+        41.3,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_470_street",
+      "type": "SPOT",
+      "position_blender": [
+        -55.0,
+        40.390586853027344,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -55.0,
+        41.3,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_471_street",
+      "type": "SPOT",
+      "position_blender": [
+        -59.5,
+        40.390586853027344,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -59.5,
+        41.3,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_472_street",
+      "type": "SPOT",
+      "position_blender": [
+        -64.0,
+        40.390586853027344,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -64.0,
+        41.3,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_473_street",
+      "type": "SPOT",
+      "position_blender": [
+        -47.609413146972656,
+        37.5,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -46.7,
+        37.5,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_474_street",
+      "type": "SPOT",
+      "position_blender": [
+        -47.609413146972656,
+        41.75,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -46.7,
+        41.75,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_475_street",
+      "type": "SPOT",
+      "position_blender": [
+        -47.609413146972656,
+        46.0,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -46.7,
+        46.0,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_476_street",
+      "type": "SPOT",
+      "position_blender": [
+        -47.609413146972656,
+        50.25,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -46.7,
+        50.25,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_477_street",
+      "type": "SPOT",
+      "position_blender": [
+        -47.609413146972656,
+        54.5,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -46.7,
+        54.5,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_478_street",
+      "type": "SPOT",
+      "position_blender": [
+        -61.80941390991211,
+        72.0,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -60.9,
+        72.0,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_479_street",
+      "type": "SPOT",
+      "position_blender": [
+        -61.80941390991211,
+        76.5857162475586,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -60.9,
+        76.58571428571429,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_480_street",
+      "type": "SPOT",
+      "position_blender": [
+        -61.80941390991211,
+        81.17142486572266,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -60.9,
+        81.17142857142856,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_481_street",
+      "type": "SPOT",
+      "position_blender": [
+        -61.80941390991211,
+        85.75714111328125,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -60.9,
+        85.75714285714285,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_482_street",
+      "type": "SPOT",
+      "position_blender": [
+        -61.80941390991211,
+        90.34285736083984,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -60.9,
+        90.34285714285714,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_483_street",
+      "type": "SPOT",
+      "position_blender": [
+        -61.80941390991211,
+        94.92857360839844,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -60.9,
+        94.92857142857142,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_484_street",
+      "type": "SPOT",
+      "position_blender": [
+        -61.80941390991211,
+        99.5142822265625,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -60.9,
+        99.5142857142857,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_485_street",
+      "type": "SPOT",
+      "position_blender": [
+        -61.80941390991211,
+        104.0999984741211,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -60.9,
+        104.1,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_486_street",
+      "type": "SPOT",
+      "position_blender": [
+        -50.0,
+        107.09058380126953,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -50.0,
+        108.0,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_487_street",
+      "type": "SPOT",
+      "position_blender": [
+        -54.93333435058594,
+        107.09058380126953,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -54.93333333333333,
+        108.0,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_488_street",
+      "type": "SPOT",
+      "position_blender": [
+        -59.86666488647461,
+        107.09058380126953,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -59.86666666666667,
+        108.0,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
+      "name": "NIGHT_489_street",
+      "type": "SPOT",
+      "position_blender": [
+        -64.80000305175781,
+        107.09058380126953,
+        3.439359188079834
+      ],
+      "target_blender": [
+        -64.8,
+        108.0,
+        3.15
+      ],
+      "power_watts": 76.5,
+      "color_linear": [
+        1,
+        0.75,
+        0.4
+      ],
+      "spot_degrees": 62
+    },
+    {
       "name": "NIGHT_West_square_fill",
       "type": "AREA",
       "position_blender": [

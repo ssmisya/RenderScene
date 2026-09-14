@@ -3,7 +3,7 @@
   "scenes": {
     "DAY": {
       "name": "01_DAY_白天",
-      "objects": 1330,
+      "objects": 1394,
       "lights": 1,
       "artificial_lights": 0,
       "emissive_meshes": 0,
@@ -17,10 +17,10 @@
     },
     "NIGHT": {
       "name": "02_NIGHT_夜晚",
-      "objects": 1822,
-      "lights": 493,
-      "artificial_lights": 493,
-      "emissive_meshes": 9,
+      "objects": 1907,
+      "lights": 514,
+      "artificial_lights": 514,
+      "emissive_meshes": 10,
       "cameras": 9,
       "saved_resolution": [
         2400,
@@ -95,6 +95,33 @@
       "path": "//assets/textures/v2/brick_rough.jpg"
     },
     {
+      "name": "green_sign_diff.jpg",
+      "packed": true,
+      "size": [
+        128,
+        128
+      ],
+      "path": "//assets/textures/sop90/green_sign_diff.jpg"
+    },
+    {
+      "name": "green_sign_nor_gl.jpg",
+      "packed": true,
+      "size": [
+        128,
+        128
+      ],
+      "path": "//assets/textures/sop90/green_sign_nor_gl.jpg"
+    },
+    {
+      "name": "green_sign_rough.jpg",
+      "packed": true,
+      "size": [
+        128,
+        128
+      ],
+      "path": "//assets/textures/sop90/green_sign_rough.jpg"
+    },
+    {
       "name": "paving_diff.jpg",
       "packed": true,
       "size": [
@@ -138,14 +165,14 @@
     }
   ],
   "height_m": 53.349998474121094,
-  "collision_proxies": 311,
+  "collision_proxies": 347,
   "plaza_south_edge_m": -35.0,
   "toulong_sample_y_m": -43.1,
   "route": {
     "route_samples": 668,
     "capsule_radius_m": 0.3,
     "route_collision_intersections": [],
-    "method": "2D expanded box/cylinder and polygon boundary clearance; ground excluded. Not a game-engine physics test."
+    "method": "2D expanded box/cylinder, polygon and mesh projected convex-hull boundary clearance; ground excluded. Not a game-engine physics test."
   },
   "errors": [],
   "scope": "Data and actual image-generation checks. No survey accuracy, engine FPS or NavMesh certification."
