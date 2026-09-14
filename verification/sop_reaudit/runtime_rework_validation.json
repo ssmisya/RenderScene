@@ -1,0 +1,43 @@
+{
+	"all_checks_pass": true,
+	"assets": {
+		"Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
+		"game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94",
+		"game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9"
+	},
+	"checks": {
+		"aim_narrows_fov": true,
+		"church_wall_blocks": true,
+		"day_lamps_off": true,
+		"entry_stairs_climbed": true,
+		"eye_height_1_7": true,
+		"flashlight_toggle": true,
+		"gallery_middle_pier_blocks": true,
+		"gallery_stairs_reach_landing": true,
+		"holster_hides_gun": true,
+		"jump_lands": true,
+		"jump_rises": true,
+		"night_lamps_on": true,
+		"pause_releases_mouse": true,
+		"reload_restores_magazine": true,
+		"shot_consumes_round": true,
+		"spawn_grounded": true,
+		"walk_moves_player": true
+	},
+	"collision_shapes": 311,
+	"cpu": "Apple M5",
+	"engine": "4.7.2-stable (official)",
+	"entry_position": "(-20.30018, 0.645218, -0.000001)",
+	"exported_application": true,
+	"frame_time_p95_ms": 8.33333333333333,
+	"gallery_pier_position": "(-64.80133, 1.029712, -37.5)",
+	"gallery_position": "(-62.51635, 1.030081, -39.40001)",
+	"mean_fps": 112.365056589851,
+	"measured_frames": 600,
+	"measured_seconds": 5.33973833333338,
+	"meshes": 1000,
+	"renderer": "forward_plus",
+	"step_assists": 19,
+	"viewport": "(1440.0, 900.0)",
+	"window_pixels": "(1280, 800)"
+}

@@ -5196,6 +5196,36 @@
         0.6
       ],
       "rotation_z": -1.670900923207096
+    },
+    {
+      "name": "gallery terminal middle pier",
+      "type": "box",
+      "center": [
+        -64,
+        37.5,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery terminal middle pier",
+      "type": "box",
+      "center": [
+        -64.8,
+        72,
+        3.1
+      ],
+      "size": [
+        1.0,
+        1.0,
+        6.2
+      ],
+      "rotation_z": 3.141592653589793
     }
   ]
 }

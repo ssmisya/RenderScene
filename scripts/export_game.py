@@ -9,7 +9,11 @@ s=next(sc for sc in bpy.data.scenes if sc.get('lighting_mode')=='DAY');bpy.conte
 for ob in s.objects:
  ob.select_set(False)
  if ob.type=='MESH' and not ob.hide_render:
-  for mod in list(ob.modifiers):ob.modifiers.remove(mod)
+  for mod in list(ob.modifiers):
+   if ob.name.startswith('SOP_') and mod.type=='BEVEL':
+    bpy.context.view_layer.objects.active=ob
+    bpy.ops.object.modifier_apply(modifier=mod.name)
+   else:ob.modifiers.remove(mod)
 # Copy/resample only the transient export datablocks; source .blend stays at 4K.
 export_copies={}
 for mat in bpy.data.materials:

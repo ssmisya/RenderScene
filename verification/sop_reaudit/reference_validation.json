@@ -1,7 +1,7 @@
 {
   "review_date": "2026-09-14",
   "recorded_review_date": "2026-09-14",
-  "reviewed_photos": 48,
+  "reviewed_photos": 75,
   "eligible_recent_photos": [
     "brick_gallery_2025",
     "market_front_20250621"
@@ -402,6 +402,247 @@
     },
     {
       "id": "ctrip_aux_2",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "gallery_2019",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound"
+      ]
+    },
+    {
+      "id": "market_2024_report",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_00",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_01",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_02",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_03",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_04",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_05",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_06",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_07",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_08",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_09",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_10",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_11",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_12",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_13",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_14",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_15",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_16",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_17",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_18",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_19",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_20",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_21",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_22",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_23",
+      "reasons": [
+        "capture date unconfirmed",
+        "capture-date evidence missing or unbound",
+        "not reviewed or outside architecture scope",
+        "missing metadata: coverage"
+      ]
+    },
+    {
+      "id": "meipian_24",
       "reasons": [
         "capture date unconfirmed",
         "capture-date evidence missing or unbound",

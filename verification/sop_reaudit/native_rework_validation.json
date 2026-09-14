@@ -1,0 +1,187 @@
+{
+  "status": "TECHNICAL_CHECK_ONLY_NOT_PHOTO_ACCEPTANCE",
+  "source_scene_sha256": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
+  "checks": {
+    "inherited_native_validation": true,
+    "two_terminal_middle_colliders": true,
+    "new_lamps_have_night_diffusers": true,
+    "old_roof_removed": true,
+    "old_uniform_market_entries_removed": true,
+    "middle_collision_meshes_solid": true,
+    "SOP_Gallery_terminal_twin_arches_has_geometry": true,
+    "SOP_Market_canopy_seams_and_soffit_has_geometry": true,
+    "SOP_Market_recessed_entry_and_shops_has_geometry": true
+  },
+  "scene_checks": {
+    "blender": "5.2.1 LTS",
+    "scenes": {
+      "DAY": {
+        "name": "01_DAY_白天",
+        "objects": 1330,
+        "lights": 1,
+        "artificial_lights": 0,
+        "emissive_meshes": 0,
+        "cameras": 9,
+        "saved_resolution": [
+          2400,
+          1600
+        ],
+        "saved_samples": 192,
+        "camera": "01_HERO_West_square"
+      },
+      "NIGHT": {
+        "name": "02_NIGHT_夜晚",
+        "objects": 1822,
+        "lights": 493,
+        "artificial_lights": 493,
+        "emissive_meshes": 9,
+        "cameras": 9,
+        "saved_resolution": [
+          2400,
+          1600
+        ],
+        "saved_samples": 192,
+        "camera": "01_HERO_West_square"
+      }
+    },
+    "packed_images": [
+      {
+        "name": "brick_diff.jpg",
+        "packed": true,
+        "size": [
+          4096,
+          4096
+        ],
+        "path": "//assets/textures/v2/brick_diff.jpg"
+      },
+      {
+        "name": "brick_disp.jpg",
+        "packed": true,
+        "size": [
+          4096,
+          4096
+        ],
+        "path": "//assets/textures/v2/brick_disp.jpg"
+      },
+      {
+        "name": "brick_face_diff.jpg",
+        "packed": true,
+        "size": [
+          470,
+          165
+        ],
+        "path": "//assets/textures/v2/brick_face_diff.jpg"
+      },
+      {
+        "name": "brick_face_nor_gl.jpg",
+        "packed": true,
+        "size": [
+          470,
+          165
+        ],
+        "path": "//assets/textures/v2/brick_face_nor_gl.jpg"
+      },
+      {
+        "name": "brick_face_rough.jpg",
+        "packed": true,
+        "size": [
+          470,
+          165
+        ],
+        "path": "//assets/textures/v2/brick_face_rough.jpg"
+      },
+      {
+        "name": "brick_nor_gl.jpg",
+        "packed": true,
+        "size": [
+          4096,
+          4096
+        ],
+        "path": "//assets/textures/v2/brick_nor_gl.jpg"
+      },
+      {
+        "name": "brick_rough.jpg",
+        "packed": true,
+        "size": [
+          4096,
+          4096
+        ],
+        "path": "//assets/textures/v2/brick_rough.jpg"
+      },
+      {
+        "name": "paving_diff.jpg",
+        "packed": true,
+        "size": [
+          4096,
+          4096
+        ],
+        "path": "//assets/textures/v2/paving_diff.jpg"
+      },
+      {
+        "name": "paving_nor_gl.jpg",
+        "packed": true,
+        "size": [
+          4096,
+          4096
+        ],
+        "path": "//assets/textures/v2/paving_nor_gl.jpg"
+      },
+      {
+        "name": "paving_rough.jpg",
+        "packed": true,
+        "size": [
+          4096,
+          4096
+        ],
+        "path": "//assets/textures/v2/paving_rough.jpg"
+      },
+      {
+        "name": "sky.hdr",
+        "packed": true,
+        "size": [
+          2048,
+          1024
+        ],
+        "path": "//assets/textures/sky.hdr"
+      }
+    ],
+    "packed_fonts": [
+      {
+        "name": "Heiti TC Medium",
+        "packed": true
+      }
+    ],
+    "height_m": 53.349998474121094,
+    "collision_proxies": 311,
+    "plaza_south_edge_m": -35.0,
+    "toulong_sample_y_m": -43.1,
+    "route": {
+      "route_samples": 668,
+      "capsule_radius_m": 0.3,
+      "route_collision_intersections": [],
+      "method": "2D expanded box/cylinder and polygon boundary clearance; ground excluded. Not a game-engine physics test."
+    },
+    "errors": [],
+    "scope": "Data and actual image-generation checks. No survey accuracy, engine FPS or NavMesh certification."
+  },
+  "collision_rays": [
+    {
+      "object": "COL_309_gallery terminal middle pier",
+      "hit": true,
+      "position": [
+        -64.0,
+        37.0,
+        3.0999999046325684
+      ]
+    },
+    {
+      "object": "COL_310_gallery terminal middle pier",
+      "hit": true,
+      "position": [
+        -64.30000305175781,
+        72.0,
+        3.0999999046325684
+      ]
+    }
+  ]
+}

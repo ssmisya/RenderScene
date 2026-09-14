@@ -41,7 +41,7 @@ for ob in list(scene.objects):
  if ob.type!='MESH' or not ob.data.materials:continue
  mn=ob.data.materials[0].name
  cathedral_glass=mn=='Old glass' and any(c.name=='01_CATHEDRAL' for c in ob.users_collection)
- if mn=='Cream lamp glass' or cathedral_glass:
+ if mn in ['Cream lamp glass','Gallery lamp glass'] or cathedral_glass:
   duplicate=ob.copy();duplicate.data=ob.data.copy();duplicate.name='NIGHT luminous '+ob.name;duplicate.data.materials.clear();duplicate.data.materials.append(nightglass if cathedral_glass else em);nlights.objects.link(duplicate)
   for c in list(ob.users_collection):c.objects.unlink(ob)
   dayglass.objects.link(ob)

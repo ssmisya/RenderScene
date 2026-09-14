@@ -510,6 +510,7 @@ exec(compile((ROOT/'scripts/v2_details.py').read_text(),str(ROOT/'scripts/v2_det
 
 exec(compile((ROOT/'scripts/v22_street_refinements.py').read_text(),str(ROOT/'scripts/v22_street_refinements.py'),'exec'))
 exec(compile((ROOT/'scripts/v221_targeted_repairs.py').read_text(),str(ROOT/'scripts/v221_targeted_repairs.py'),'exec'))
+exec(compile((ROOT/'scripts/sop_facade_rework.py').read_text(),str(ROOT/'scripts/sop_facade_rework.py'),'exec'))
 
 # --- Convert geometry buffers into editable native mesh datablocks. ---
 for (collection,group,mat),(verts,faces,smooth,uvs) in B.items():
@@ -519,6 +520,10 @@ for (collection,group,mat),(verts,faces,smooth,uvs) in B.items():
   poly.use_smooth=sm
   for idx,co in zip(poly.loop_indices,coords):uv.data[idx].uv=co
  ob['role']='render_geometry';ob['source_confidence']='photo-informed approximate'
+ if group.startswith('SOP_'):
+  ob['review_status']='REWORK_REQUIRED; estimated dimensions, not photo-accepted'
+  if mat in ['Gallery dressed red stone','Gallery aged coping','Market canopy metal','Market door bronze']:
+   be=ob.modifiers.new('Construction edge highlights','BEVEL');be.width=.008;be.segments=2;be.limit_method='ANGLE'
  if group.startswith('OSM_'):ob['osm_way_id']=group[4:];ob['source_confidence']='OSM footprint; estimated height and facade'
  # Submillimetre edges catch light without smoothing masonry into plastic.
  if collection=='01_CATHEDRAL' and mat in [brick,'Carved terracotta','Granite foundation']:

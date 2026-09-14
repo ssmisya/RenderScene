@@ -18,4 +18,6 @@ per-detail comparison and rework for every identified discrepancy. Keep provenan
 capture dates, coverage gaps and unresolved differences in machine-readable records.
 Never claim 100% real-world accuracy from procedural geometry or a passing runtime test.
 Run `python3 scripts/validate_references.py --strict` before claiming realism acceptance.
-A playable development demo may be delivered with an explicit failed/pending realism gate.
+With a failed/pending realism gate, use `scripts/build_demo.py --preview` for local
+inspection only. Do not publish a new formal package/tag or claim SOP completion.
+Follow the stricter active SOP; runtime success cannot override photo acceptance.

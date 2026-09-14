@@ -1,0 +1,87 @@
+{
+  "status": "REWORK_REQUIRED",
+  "photo_acceptance": false,
+  "assets": {
+    "Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
+    "game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9",
+    "game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94"
+  },
+  "application": {
+    "file": "builds/review/索菲亚广场 · 持枪漫游.app/Contents/MacOS/索菲亚广场 · 持枪漫游",
+    "sha256": "d2eb043bbc218f6b1e079f80aad88759ecfda2d96b389367d568956d9215a4fe"
+  },
+  "local_preview_zip": {
+    "file": "builds/review/SophiaWalk.zip",
+    "sha256": "e1f0143b5d7922c598e304340aef5b0d96571a84db73d9e1bf3fc42d5d1a2581"
+  },
+  "files": [
+    {
+      "file": "verification/sop_reaudit/native_rework_validation.json",
+      "sha256": "0badf34a9dcd56dee1554f22b7f2e469492875b1ddecd5d1de02f451b3bccc2d"
+    },
+    {
+      "file": "verification/sop_reaudit/runtime_rework_validation.json",
+      "sha256": "ba59aa2bb25b26d542ba936419e2a199720e9062140c3252a4c30d2e6b8ba148"
+    },
+    {
+      "file": "renders/sop_rework/cameras.json",
+      "sha256": "e3d7a47637be326a27d826fee930a51fef9ac18bb6869bffcdf58f732acc0f85"
+    },
+    {
+      "file": "verification/sop_reaudit/game_rework_day_north.png",
+      "sha256": "8878e1ce441831bb859c19fd98affd012eb0d369fe010e3b3b3513e8cd09da95"
+    },
+    {
+      "file": "verification/sop_reaudit/game_rework_day_portal.png",
+      "sha256": "77d52cee280b40d41f33019071a82757473d75efa3f7dd6db726cab4fafa785d"
+    },
+    {
+      "file": "verification/sop_reaudit/game_rework_day_spawn.png",
+      "sha256": "c341c9fa450dd962b409e1ddcad0004def2c91ef2faa3071d6647278faed7a25"
+    },
+    {
+      "file": "verification/sop_reaudit/game_rework_gallery_front.png",
+      "sha256": "669c54f3f3a32c7b4e300ce3f35702f61b5331b05afbc6c0356eeb0895a025a0"
+    },
+    {
+      "file": "verification/sop_reaudit/game_rework_gallery_landing.png",
+      "sha256": "33798ffeb6576761e5e6a9dbbd5c9d8bd03391349c4d38b15704acdc9ccdacda"
+    },
+    {
+      "file": "verification/sop_reaudit/game_rework_market_entry.png",
+      "sha256": "7bcd6df42db9b66eaca03944a7f6454f2951af0123905850a3c5a15dfe7c287a"
+    },
+    {
+      "file": "verification/sop_reaudit/game_rework_market_front.png",
+      "sha256": "938295db87d555dde073f554044496c907a8c91f3685d2d5ad62f8bbc98efc0e"
+    },
+    {
+      "file": "verification/sop_reaudit/game_rework_market_night.png",
+      "sha256": "d6b37762895419ea542efc1b671f209f29b3312480c73f3d4f7f4b0dfd609fb0"
+    },
+    {
+      "file": "verification/sop_reaudit/game_rework_night_flashlight.png",
+      "sha256": "32754fa711fb0e0e22f5d621cf3fc9c8f8835aa8caf4ea2699d431f93d4f8b38"
+    },
+    {
+      "file": "verification/sop_reaudit/game_rework_night_spawn.png",
+      "sha256": "ad80775d7af4f6000e534f3a8cf7e69398c4e77e599ac86b9d56123b1aeb8f81"
+    },
+    {
+      "file": "renders/sop_rework/DAY_market.png",
+      "sha256": "07617948e33ad371542f0e62745c7ae3de2bec3d3f11b5dba44ece23218e1d2a"
+    },
+    {
+      "file": "renders/sop_rework/NIGHT_market.png",
+      "sha256": "e954ade06f7f2e132883a18ff98327f20ce8115e8492f2770f7661d323735e14"
+    },
+    {
+      "file": "renders/sop_rework/NIGHT_gallery.png",
+      "sha256": "2727adf7db54d93edc99f2771b49d2de6613655ddad96c95d9812c39ce7fba74"
+    },
+    {
+      "file": "renders/sop_rework/DAY_gallery.png",
+      "sha256": "439494abcfd552832d74aa70ffb06d513c1bec6324e76736c1d2ddcd6c49be95"
+    }
+  ]
+}

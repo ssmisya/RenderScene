@@ -397,7 +397,8 @@ func run_qa() -> void:
 	player.pitch=.13
 	await get_tree().create_timer(.8).timeout
 	await save_capture("gallery_front")
-	player.position=Vector3(-72,.18,-37.5)
+	# Traverse an actual arch opening, then independently challenge the middle pier.
+	player.position=Vector3(-72,.18,-39.4)
 	player.rotation.y=-PI/2
 	player.pitch=.10
 	await get_tree().create_timer(.5).timeout
@@ -408,6 +409,14 @@ func run_qa() -> void:
 	checks["gallery_stairs_reach_landing"]=player.position.y>1.0 and player.position.x> -68
 	report["gallery_position"]=str(player.position)
 	await save_capture("gallery_landing")
+	player.position=Vector3(-67,1.08,-37.5)
+	player.rotation.y=-PI/2
+	player.velocity=Vector3.ZERO
+	ev=InputEventKey.new();ev.physical_keycode=KEY_W;ev.pressed=true;Input.parse_input_event(ev)
+	await get_tree().create_timer(1.2).timeout
+	ev=InputEventKey.new();ev.physical_keycode=KEY_W;ev.pressed=false;Input.parse_input_event(ev)
+	checks["gallery_middle_pier_blocks"]=player.position.x < -64.6 and player.position.x > -66.0
+	report["gallery_pier_position"]=str(player.position)
 	player.position=Vector3(-70,.18,-20)
 	player.rotation.y=PI/2
 	player.pitch=.24

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "DAY_gallery",
+    "position": [
+      -86.0,
+      28.0,
+      2.0
+    ],
+    "rotation_euler": [
+      1.6449384689331055,
+      5.0414552532629386e-08,
+      -1.190290093421936
+    ],
+    "lens_mm": 42,
+    "resolution": [
+      1600,
+      1000
+    ],
+    "assets": {
+      "Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
+      "game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9",
+      "game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94"
+    },
+    "render": "renders/sop_rework/DAY_gallery.png",
+    "status": "INSPECTION_ONLY_NOT_CAMERA_MATCHED"
+  },
+  {
+    "name": "DAY_market",
+    "position": [
+      -93.0,
+      16.399999618530273,
+      1.7000000476837158
+    ],
+    "rotation_euler": [
+      1.6563005447387695,
+      -4.9028301418729825e-08,
+      1.4730230569839478
+    ],
+    "lens_mm": 32,
+    "resolution": [
+      1600,
+      1000
+    ],
+    "assets": {
+      "Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
+      "game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9",
+      "game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94"
+    },
+    "render": "renders/sop_rework/DAY_market.png",
+    "status": "INSPECTION_ONLY_NOT_CAMERA_MATCHED"
+  },
+  {
+    "name": "NIGHT_gallery",
+    "position": [
+      -86.0,
+      28.0,
+      2.0
+    ],
+    "rotation_euler": [
+      1.6449384689331055,
+      5.0414552532629386e-08,
+      -1.190290093421936
+    ],
+    "lens_mm": 42,
+    "resolution": [
+      1600,
+      1000
+    ],
+    "assets": {
+      "Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
+      "game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9",
+      "game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94"
+    },
+    "render": "renders/sop_rework/NIGHT_gallery.png",
+    "status": "INSPECTION_ONLY_NOT_CAMERA_MATCHED"
+  },
+  {
+    "name": "NIGHT_market",
+    "position": [
+      -93.0,
+      16.399999618530273,
+      1.7000000476837158
+    ],
+    "rotation_euler": [
+      1.6563005447387695,
+      -4.9028301418729825e-08,
+      1.4730230569839478
+    ],
+    "lens_mm": 32,
+    "resolution": [
+      1600,
+      1000
+    ],
+    "assets": {
+      "Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
+      "game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9",
+      "game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94"
+    },
+    "render": "renders/sop_rework/NIGHT_market.png",
+    "status": "INSPECTION_ONLY_NOT_CAMERA_MATCHED"
+  }
+]

@@ -14,13 +14,15 @@
         "huaren_front",
         "eagle_02"
       ],
-      "finding": "圆角显示屏/店招在不同来源中不一致，拍摄日期未确认；不可合并。"
+      "finding": "圆角显示屏/店招在不同来源中不一致，拍摄日期未确认；不可合并。",
+      "additional_evidence": "2024-12-04 哈尔滨日报报道明确记载当年更换外立面电子屏，但不能由此确认每张游客照的拍摄日期。",
+      "source_url": "https://www.hrbtv.net/folder137/2024-12-04/977093.html"
     }
   ],
   "assets": {
-    "Harbin_Sophia_Square.blend": "8e4bd25aaa11ad044b46c0248d88e7f50087a5d7e645fc5a6373e5975c591f59",
-    "game/Sophia_Square.glb": "6a29e4d45cae94185140b1b890e5178819297bb6f99240c68cd857937494dd27",
-    "game/Sophia_Collision.glb": "cde58b9b772b55653a49b1bb7b6e11a51f6f78f5e8bf126f9d2ec0a18b934dc8"
+    "Harbin_Sophia_Square.blend": "674d737be6e99859539503e40115f47199fa56665dfbf4a01d46e0a24898d8ca",
+    "game/Sophia_Square.glb": "7d76bd0217bf23841f7ba4532d6161b9f8228ada7c237197a87ab4a25d28ffe9",
+    "game/Sophia_Collision.glb": "a9372a7c537513850fdb331cad353fcbe1edd37090afef7eb584b0ddaf408c94"
   },
   "coverage": [
     {
@@ -147,22 +149,22 @@
     {
       "id": "G01",
       "subject": "端部柱与拱口",
-      "status": "MISMATCH",
+      "status": "UNVERIFIED",
       "photo_ids": [
         "brick_gallery_2025",
         "gallery2018_2",
         "gallery2018_3"
       ],
-      "current_model": "端部没有中间柱，单跨敞开。",
+      "current_model": "主工程和 GLB 已补两个端头的实体中柱与左右双拱，独立游戏验证中柱阻挡及拱洞通行。",
       "expected_from_photos": "2025正面可辨两组拱口及中间实体柱。",
-      "implementation_objects": "V22_Brick_gallery_L_plan / V221_Gallery_roof_joinery",
-      "next_action": "重建已确认南端两跨；其他端部不得无证据复制。",
+      "implementation_objects": "SOP_Gallery_terminal_twin_arches",
+      "next_action": "按真实机位标定开间、拱高与柱宽；不能仅凭存在中柱验收。",
       "comparisons": [],
-      "candidate_evidence": [
-        "verification/sop_reaudit/gallery_candidate.png",
-        "verification/sop_reaudit/gallery_camera.json"
-      ],
-      "candidate_status": "TOPOLOGY_CANDIDATE; not dimensionally calibrated, not integrated into gameplay"
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop_reaudit/native_rework_validation.json",
+        "verification/sop_reaudit/runtime_rework_validation.json"
+      ]
     },
     {
       "id": "G02",
@@ -173,11 +175,16 @@
         "gallery2018_2",
         "gallery2018_3"
       ],
-      "current_model": "简化平条、单排齿饰，比例未标定。",
+      "current_model": "端面重做五层深檐口、阴缝、齿饰和小山花，截面仍未匹配实拍。",
       "expected_from_photos": "多道深色厚檐与明显阴影层次。",
-      "implementation_objects": "V221_Gallery_roof_joinery",
-      "next_action": "近景恢复檐口截面并进行相机对照。",
-      "comparisons": []
+      "implementation_objects": "SOP_Gallery_layered_cornice_and_hip_roof",
+      "next_action": "核实檐口层数、挑出距离、山花大小。",
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop_reaudit/native_rework_validation.json",
+        "verification/sop_reaudit/runtime_rework_validation.json"
+      ]
     },
     {
       "id": "G03",
@@ -186,13 +193,19 @@
       "photo_ids": [
         "brick_gallery_2025",
         "gallery2018_2",
-        "gallery2018_3"
+        "gallery2018_3",
+        "gallery_2019"
       ],
-      "current_model": "局部简单两坡顶、空白三角山花。",
+      "current_model": "增加封闭坡屋顶和圆拱小窗；新增2019侧照显示高出低檐的上层屋顶体块，位置与高差尚未重建准确。",
       "expected_from_photos": "屋顶有独立后退体量，历史斜照可见坡屋顶与装饰；当前空白山花不符。",
-      "implementation_objects": "V221_Gallery_roof_joinery",
-      "next_action": "取得近期屋顶斜照，校准屋顶与山花浮雕。",
-      "comparisons": []
+      "implementation_objects": "SOP_Gallery_layered_cornice_and_hip_roof",
+      "next_action": "用近期高位/侧面照片确认高屋顶位于哪一段，再修复体块与后部接合。",
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop_reaudit/native_rework_validation.json",
+        "verification/sop_reaudit/runtime_rework_validation.json"
+      ]
     },
     {
       "id": "G04",
@@ -203,26 +216,36 @@
         "gallery2018_2",
         "gallery2018_3"
       ],
-      "current_model": "通用砖扫描材质整面重复。",
+      "current_model": "端头柱面增加凸出分段、窄条与无灰缝扫描面材质；侧翼柱仍有通用铺砖，不能判全体通过。",
       "expected_from_photos": "柱身大块分段、凹凸边框与仿清水砖组合；不是仅贴砖。",
-      "implementation_objects": "Gallery red sandstone",
-      "next_action": "按可见柱身线脚几何分区；实测砖/分段尺度。",
-      "comparisons": []
+      "implementation_objects": "SOP_Gallery_terminal_twin_arches",
+      "next_action": "核实并统一各类柱的实际砌筑和构件截面。",
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop_reaudit/native_rework_validation.json",
+        "verification/sop_reaudit/runtime_rework_validation.json"
+      ]
     },
     {
       "id": "G05",
       "subject": "柱上灯具",
-      "status": "MISMATCH",
+      "status": "UNVERIFIED",
       "photo_ids": [
         "brick_gallery_2025",
         "gallery2018_2",
         "gallery2018_3"
       ],
-      "current_model": "未建图中成组附墙灯。",
+      "current_model": "端头增加双灯附墙灯具、托臂、框条和夜间灯罩/光源；数量及精确形态待标定。",
       "expected_from_photos": "2025照片中柱侧可见深色灯臂和白色灯罩。",
-      "implementation_objects": "05_STREET_PROPS",
-      "next_action": "补近照确定灯具数量、位置和夜间投光。",
-      "comparisons": []
+      "implementation_objects": "SOP_Gallery_terminal_lanterns",
+      "next_action": "找近景核对灯臂曲线、灯罩造型、数量及位置。",
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop_reaudit/native_rework_validation.json",
+        "verification/sop_reaudit/runtime_rework_validation.json"
+      ]
     },
     {
       "id": "G06",
@@ -342,11 +365,16 @@
       "photo_ids": [
         "market_front_20250621"
       ],
-      "current_model": "五组均匀大型玻璃门片，双高度横分。",
+      "current_model": "原等宽五大门组改为较窄的框扇、横楣、踢板和把手；当前六扇为遮挡条件下的估计，非确认门数。",
       "expected_from_photos": "深色金属框门厅与售卖口不等宽组合；前景有人遮挡。",
-      "implementation_objects": "V221_Daoli_entries",
-      "next_action": "校准门扇宽高、分组、位置；遮挡段补图。",
-      "comparisons": []
+      "implementation_objects": "SOP_Market_recessed_entry_and_shops",
+      "next_action": "补无遮挡门组近照，核实各扇边界、开启方向与宽高。",
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop_reaudit/native_rework_validation.json",
+        "verification/sop_reaudit/runtime_rework_validation.json"
+      ]
     },
     {
       "id": "M05",
@@ -359,24 +387,34 @@
         "huaren_front",
         "eagle_02"
       ],
-      "current_model": "通用连续深色玻璃幕墙。",
+      "current_model": "拆分门厅与右侧店面，增加照片可见寄存价签、挂卡、金属挂钩和小货架；商品与未读清店招仍为简化表达。",
       "expected_from_photos": "独立店招、窗口、广告板，不能替换成重复幕墙。",
-      "implementation_objects": "V221_Daoli_cladding",
-      "next_action": "2025同时间段整条沿街照片，逐店复原；2026更新需时间冲突核验。",
-      "comparisons": []
+      "implementation_objects": "SOP_Market_recessed_entry_and_shops",
+      "next_action": "继续逐铺核对开间、招牌、陈列，禁止把通用物件当真实商铺完成。",
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop_reaudit/native_rework_validation.json",
+        "verification/sop_reaudit/runtime_rework_validation.json"
+      ]
     },
     {
       "id": "M06",
       "subject": "雨棚轮廓及管件",
-      "status": "MISMATCH",
+      "status": "UNVERIFIED",
       "photo_ids": [
         "market_front_20250621"
       ],
-      "current_model": "分段弧面有大致外轮廓，通用拉杆与薄支撑。",
+      "current_model": "补雨棚分段管边、接箍、底板纵横拼缝、支撑杆和固定底板；边缘曲线和间距仍为估计。",
       "expected_from_photos": "圆管边缘接头、下吊顶网格、真实支撑构造更复杂。",
-      "implementation_objects": "V221_Daoli_entries",
-      "next_action": "近景截面、支架、接头逐项建模。",
-      "comparisons": []
+      "implementation_objects": "SOP_Market_canopy_seams_and_soffit",
+      "next_action": "按原照机位校准雨棚弧度、接缝位置和挂点。",
+      "comparisons": [],
+      "rework_evidence": [
+        "renders/sop_rework/cameras.json",
+        "verification/sop_reaudit/native_rework_validation.json",
+        "verification/sop_reaudit/runtime_rework_validation.json"
+      ]
     },
     {
       "id": "M07",
@@ -476,5 +514,13 @@
       "comparisons": []
     }
   ],
-  "release_status": "REWORK_REQUIRED"
+  "release_status": "REWORK_REQUIRED",
+  "runtime_report": {
+    "file": "verification/sop_reaudit/runtime_rework_validation.json",
+    "sha256": "ba59aa2bb25b26d542ba936419e2a199720e9062140c3252a4c30d2e6b8ba148"
+  },
+  "blender_report": {
+    "file": "verification/sop_reaudit/native_rework_validation.json",
+    "sha256": "0badf34a9dcd56dee1554f22b7f2e469492875b1ddecd5d1de02f451b3bccc2d"
+  }
 }
