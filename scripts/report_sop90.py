@@ -45,6 +45,8 @@ for item in a['items']:
 write(A/'audit.json',a)
 sources=json.loads((A/'sources.json').read_text());result=inspect(R,sources,a);p=progress(a,result)
 write(V/'reference_validation.json',result);write(V/'progress.json',p)
+write(R/'verification/sop_reaudit/reference_validation.json',result)
+(A/'README.md').write_text(f"# 艺术砖廊与道里菜市场重审资料\n\n当前台账 {len(sources)} 条，已查看 {result['reviewed_photos']} 张；有效近期目标原图 {len(result['eligible_recent_photos'])} 张，{len(result['source_groups'])} 个独立作者。原 {p['denominator']} 项检查范围中，完整实景闭环通过 {p['numerator']} 项，至少 {p['required_matches']} 项且满足共同前提才达到90%阶段目标。当前未验收。\n\n[当前工程与对照](../../verification/sop90/README.md) · [逐项进度](../../verification/sop90/progress.json) · [当前完整门禁结果](../../verification/sop90/reference_validation.json)\n\n原照片仅保存在本机 local/ 或既有本地参考路径，不随仓库/游戏分发。sources.json记录URL、哈希、拍摄日期依据和排除原因；audit.json保留所有已知偏差。候选总数和技术检查不能作为实景通过率。\n")
 manifest={'status':'REWORK_IN_PROGRESS_NOT_ACCEPTED','assets':assets,'native':bound(V/'native_validation.json'),'runtime':bound(V/'runtime_validation.json'),'app_zip':bound(R/'builds/review/SophiaWalk.zip'),'audit':bound(A/'audit.json'),'sources':bound(A/'sources.json'),'renders':[bound(x) for x in sorted((R/'renders/sop_rework').glob('*.png'))],'cameras':bound(R/'renders/sop_rework/cameras.json'),'game_images':images,'progress':p}
 write(V/'manifest.json',manifest)
 text=f'''# 90% 目标持续返工记录
