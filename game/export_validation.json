@@ -1,15 +1,22 @@
 {
   "Sophia_Square.glb": {
-    "size_bytes": 228314992,
+    "size_bytes": 240281120,
     "header_valid": true,
-    "meshes": 954,
-    "materials": 85,
-    "images": 12,
+    "meshes": 980,
+    "materials": 95,
+    "images": 13,
     "external_uris": [],
     "pigeon_meshes": [],
-    "revision": "2.2.0-demo",
-    "imported_meshes": 954,
+    "revision": "2.2.1-demo",
+    "imported_meshes": 980,
     "loaded_images": [
+      {
+        "name": "brick_diff",
+        "size": [
+          2048,
+          2048
+        ]
+      },
       {
         "name": "brick_face_diff",
         "size": [
@@ -98,15 +105,15 @@
     "empty_meshes": []
   },
   "Sophia_Collision.glb": {
-    "size_bytes": 535292,
+    "size_bytes": 554968,
     "header_valid": true,
-    "meshes": 297,
+    "meshes": 309,
     "materials": 0,
     "images": 0,
     "external_uris": [],
     "pigeon_meshes": [],
-    "revision": "2.2.0-demo",
-    "imported_meshes": 297,
+    "revision": "2.2.1-demo",
+    "imported_meshes": 309,
     "loaded_images": [],
     "empty_meshes": []
   }

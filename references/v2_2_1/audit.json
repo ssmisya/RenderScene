@@ -1,0 +1,44 @@
+{
+  "review_date": "2026-09-14",
+  "target_epoch": "2025 permanent gallery and Daoli frontage; 2026 storefront state not verified",
+  "coverage_complete": false,
+  "current_epoch_verified": false,
+  "items": [
+    {
+      "id": "GALLERY-CONSTRUCTION",
+      "subject": "Unsupported rails, isolated stair block and thin pediment",
+      "status": "UNVERIFIED",
+      "photo_ids": [
+        "brick_gallery_2025",
+        "gallery2018_2",
+        "gallery2018_3"
+      ],
+      "finding": "悬空扶手、独立台阶、无平台与薄片山花等构造瑕疵已修复并实际渲染。实体比例、拱券排布及全部构件尚缺近期多角度证据。",
+      "implementation": "scripts/v221_targeted_repairs.py",
+      "comparison_evidence": [
+        "verification/v2_2_1/before_gallery.png",
+        "renders/v2_2_1/game_gallery_front.png",
+        "renders/v2_2_1/game_gallery_landing.png"
+      ],
+      "implementation_issue_status": "FIXED"
+    },
+    {
+      "id": "MARKET-FRONTAGE",
+      "subject": "Floating overlapping text, blank facade and missing entrance",
+      "status": "MISMATCH",
+      "photo_ids": [
+        "market_front_20250621",
+        "trip_1_0",
+        "market2017_preview"
+      ],
+      "finding": "移除重叠文字，绿色字序、入口雨棚、面板拼缝和八杂市标识已修订。字形并非原招牌定制字形，面板/窗带数量、楼高、转角及全部店招仍未标定，不能认定100%复原。",
+      "implementation": "scripts/v221_targeted_repairs.py",
+      "comparison_evidence": [
+        "verification/v2_2_1/before_market.png",
+        "renders/v2_2_1/game_market_front.png",
+        "renders/v2_2_1/game_market_entry.png"
+      ],
+      "implementation_issue_status": "FIXED_FOR_REPORTED_PLACEMENT_DEFECTS"
+    }
+  ]
+}

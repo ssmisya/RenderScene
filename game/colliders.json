@@ -4797,216 +4797,6 @@
       "rotation_z": 0
     },
     {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -68.8,
-        37.5,
-        0.075
-      ],
-      "size": [
-        0.34,
-        6.4,
-        0.15
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -68.46,
-        37.5,
-        0.15
-      ],
-      "size": [
-        0.34,
-        6.4,
-        0.3
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -68.12,
-        37.5,
-        0.22499999999999998
-      ],
-      "size": [
-        0.34,
-        6.4,
-        0.44999999999999996
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -67.78,
-        37.5,
-        0.3
-      ],
-      "size": [
-        0.34,
-        6.4,
-        0.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -67.44,
-        37.5,
-        0.375
-      ],
-      "size": [
-        0.34,
-        6.4,
-        0.75
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -67.1,
-        37.5,
-        0.44999999999999996
-      ],
-      "size": [
-        0.34,
-        6.4,
-        0.8999999999999999
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -66.76,
-        37.5,
-        0.525
-      ],
-      "size": [
-        0.34,
-        6.4,
-        1.05
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -64.8,
-        67.2,
-        0.075
-      ],
-      "size": [
-        6.4,
-        0.34,
-        0.15
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -64.8,
-        67.54,
-        0.15
-      ],
-      "size": [
-        6.4,
-        0.34,
-        0.3
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -64.8,
-        67.88,
-        0.22499999999999998
-      ],
-      "size": [
-        6.4,
-        0.34,
-        0.44999999999999996
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -64.8,
-        68.22,
-        0.3
-      ],
-      "size": [
-        6.4,
-        0.34,
-        0.6
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -64.8,
-        68.56,
-        0.375
-      ],
-      "size": [
-        6.4,
-        0.34,
-        0.75
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -64.8,
-        68.9,
-        0.44999999999999996
-      ],
-      "size": [
-        6.4,
-        0.34,
-        0.8999999999999999
-      ],
-      "rotation_z": 0
-    },
-    {
-      "name": "gallery stair",
-      "type": "box",
-      "center": [
-        -64.8,
-        69.24,
-        0.525
-      ],
-      "size": [
-        6.4,
-        0.34,
-        1.05
-      ],
-      "rotation_z": 0
-    },
-    {
       "name": "glazed opening perimeter",
       "type": "cylinder",
       "center": [
@@ -5016,6 +4806,396 @@
       ],
       "radius": 4.25,
       "height": 1.2
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -69.2,
+        37.5,
+        0.075
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.15
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -68.86,
+        37.5,
+        0.15
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.3
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -68.52,
+        37.5,
+        0.22499999999999998
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.44999999999999996
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -68.18,
+        37.5,
+        0.3
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.6
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -67.84,
+        37.5,
+        0.375
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.75
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -67.5,
+        37.5,
+        0.44999999999999996
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.8999999999999999
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -67.16,
+        37.5,
+        0.525
+      ],
+      "size": [
+        6.4,
+        0.34,
+        1.05
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery connected landing",
+      "type": "box",
+      "center": [
+        -65.495,
+        37.5,
+        0.525
+      ],
+      "size": [
+        6.4,
+        2.99,
+        1.05
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery inner landing",
+      "type": "box",
+      "center": [
+        -62.4,
+        37.5,
+        0.525
+      ],
+      "size": [
+        6.4,
+        3.2,
+        1.05
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -64.8,
+        66.8,
+        0.075
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.15
+      ],
+      "rotation_z": 3.141592653589793
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -64.8,
+        67.14,
+        0.15
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.3
+      ],
+      "rotation_z": 3.141592653589793
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -64.8,
+        67.48,
+        0.22499999999999998
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.44999999999999996
+      ],
+      "rotation_z": 3.141592653589793
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -64.8,
+        67.82,
+        0.3
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.6
+      ],
+      "rotation_z": 3.141592653589793
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -64.8,
+        68.16,
+        0.375
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.75
+      ],
+      "rotation_z": 3.141592653589793
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -64.8,
+        68.5,
+        0.44999999999999996
+      ],
+      "size": [
+        6.4,
+        0.34,
+        0.8999999999999999
+      ],
+      "rotation_z": 3.141592653589793
+    },
+    {
+      "name": "gallery repaired tread",
+      "type": "box",
+      "center": [
+        -64.8,
+        68.84,
+        0.525
+      ],
+      "size": [
+        6.4,
+        0.34,
+        1.05
+      ],
+      "rotation_z": 3.141592653589793
+    },
+    {
+      "name": "gallery connected landing",
+      "type": "box",
+      "center": [
+        -64.8,
+        70.505,
+        0.525
+      ],
+      "size": [
+        6.4,
+        2.99,
+        1.05
+      ],
+      "rotation_z": 3.141592653589793
+    },
+    {
+      "name": "gallery inner landing",
+      "type": "box",
+      "center": [
+        -64.8,
+        73.6,
+        0.525
+      ],
+      "size": [
+        6.4,
+        3.2,
+        1.05
+      ],
+      "rotation_z": 3.141592653589793
+    },
+    {
+      "name": "gallery continuous floor",
+      "type": "box",
+      "center": [
+        -57.25,
+        37.5,
+        0.525
+      ],
+      "size": [
+        14.0,
+        6.3999999999999995,
+        1.05
+      ],
+      "rotation_z": 0.0
+    },
+    {
+      "name": "gallery continuous floor",
+      "type": "box",
+      "center": [
+        -50.5,
+        46.0,
+        0.525
+      ],
+      "size": [
+        17.5,
+        6.3999999999999995,
+        1.05
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery continuous floor",
+      "type": "box",
+      "center": [
+        -64.8,
+        88.05,
+        0.525
+      ],
+      "size": [
+        32.599999999999994,
+        6.6,
+        1.05
+      ],
+      "rotation_z": 1.5707963267948966
+    },
+    {
+      "name": "gallery continuous floor",
+      "type": "box",
+      "center": [
+        -57.4,
+        104.1,
+        0.525
+      ],
+      "size": [
+        15.299999999999997,
+        6.6,
+        1.05
+      ],
+      "rotation_z": 0.0
+    },
+    {
+      "name": "market entry step",
+      "type": "box",
+      "center": [
+        -110.54108054336218,
+        18.114973288140405,
+        0.1
+      ],
+      "size": [
+        12.8,
+        0.36,
+        0.2
+      ],
+      "rotation_z": -1.670900923207096
+    },
+    {
+      "name": "market entry step",
+      "type": "box",
+      "center": [
+        -110.89927844779525,
+        18.150949130865094,
+        0.2
+      ],
+      "size": [
+        12.8,
+        0.36,
+        0.4
+      ],
+      "rotation_z": -1.670900923207096
+    },
+    {
+      "name": "market entry step",
+      "type": "box",
+      "center": [
+        -111.25747635222834,
+        18.186924973589786,
+        0.30000000000000004
+      ],
+      "size": [
+        12.8,
+        0.36,
+        0.6000000000000001
+      ],
+      "rotation_z": -1.670900923207096
+    },
+    {
+      "name": "market connected landing",
+      "type": "box",
+      "center": [
+        -112.54101884311353,
+        18.31583841001993,
+        0.3
+      ],
+      "size": [
+        12.8,
+        2.42,
+        0.6
+      ],
+      "rotation_z": -1.670900923207096
     }
   ]
 }

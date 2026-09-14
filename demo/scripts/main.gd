@@ -267,7 +267,7 @@ func build_ui() -> void:
 			2: b.pressed.connect(func(): set_menu(false))
 			3: b.pressed.connect(func(): player.reset_position();set_menu(false))
 			4: b.pressed.connect(func(): get_tree().quit())
-	text_label(menu,"V2.2 DEMO   ·   户外场景，教堂内部未开放\n场景依据照片持续修订；实景还原验收仍在进行。",16,Vector2(96,720),Color(.60,.67,.72))
+	text_label(menu,"V2.2.1 DEMO   ·   户外场景，教堂内部未开放\n场景依据照片持续修订；实景还原验收仍在进行。",16,Vector2(96,720),Color(.60,.67,.72))
 	set_menu(true)
 
 func set_menu(opened: bool) -> void:
@@ -391,6 +391,36 @@ func run_qa() -> void:
 	player.pitch=.18
 	await get_tree().create_timer(2).timeout
 	await save_capture("day_north")
+	# Regression views and traversal for the user-reported gallery / market defects.
+	player.position=Vector3(-77,.18,-30)
+	player.rotation.y=-1.10
+	player.pitch=.13
+	await get_tree().create_timer(.8).timeout
+	await save_capture("gallery_front")
+	player.position=Vector3(-72,.18,-37.5)
+	player.rotation.y=-PI/2
+	player.pitch=.10
+	await get_tree().create_timer(.5).timeout
+	ev=InputEventKey.new();ev.physical_keycode=KEY_W;ev.pressed=true;Input.parse_input_event(ev)
+	await get_tree().create_timer(2.5).timeout
+	ev=InputEventKey.new();ev.physical_keycode=KEY_W;ev.pressed=false;Input.parse_input_event(ev)
+	await get_tree().create_timer(.2).timeout
+	checks["gallery_stairs_reach_landing"]=player.position.y>1.0 and player.position.x> -68
+	report["gallery_position"]=str(player.position)
+	await save_capture("gallery_landing")
+	player.position=Vector3(-70,.18,-20)
+	player.rotation.y=PI/2
+	player.pitch=.24
+	await get_tree().create_timer(.8).timeout
+	await save_capture("market_front")
+	player.position=Vector3(-98,.18,-18)
+	player.rotation.y=PI/2
+	player.pitch=.20
+	await get_tree().create_timer(.8).timeout
+	await save_capture("market_entry")
+	set_night(true)
+	await get_tree().create_timer(.8).timeout
+	await save_capture("market_night")
 	var sum_fps: float=0
 	for fps in fps_history: sum_fps+=fps
 	var elapsed: float=0

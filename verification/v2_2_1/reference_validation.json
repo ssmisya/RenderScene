@@ -1,0 +1,65 @@
+{
+  "review_date": "2026-09-14",
+  "reviewed_photos": 8,
+  "eligible_recent_photos": [
+    "brick_gallery_2025",
+    "market_front_20250621"
+  ],
+  "rejected": [
+    {
+      "id": "gallery2018_2",
+      "reasons": [
+        "capture date unconfirmed"
+      ]
+    },
+    {
+      "id": "gallery2018_3",
+      "reasons": [
+        "capture date unconfirmed"
+      ]
+    },
+    {
+      "id": "gallery2018_0",
+      "reasons": [
+        "capture date unconfirmed"
+      ]
+    },
+    {
+      "id": "gallery2018_1",
+      "reasons": [
+        "capture date unconfirmed"
+      ]
+    },
+    {
+      "id": "market2017_preview",
+      "reasons": [
+        "capture date unconfirmed"
+      ]
+    },
+    {
+      "id": "trip_1_0",
+      "reasons": [
+        "capture date unconfirmed"
+      ]
+    }
+  ],
+  "source_groups": [
+    "Dahua Harbin self-photographed",
+    "张澍 / 黑龙江日报"
+  ],
+  "checks": {
+    "ten_recent_distinct_photos": false,
+    "three_independent_sources": false,
+    "source_integrity": true,
+    "coverage_complete": false,
+    "zero_unresolved_differences": false,
+    "matches_have_evidence": true,
+    "current_epoch_verified": false
+  },
+  "open_items": [
+    "GALLERY-CONSTRUCTION",
+    "MARKET-FRONTAGE"
+  ],
+  "accuracy_gate": "NOT_ACCEPTED",
+  "note": "A count check does not certify pixel, dimensional or photogrammetric accuracy."
+}

@@ -23,3 +23,4 @@ builds/
 references/v2_2/*_2025*.jpg
 !references/v2_2/Arplane_20250224.jpg
 logs/godot_launch_sample.txt
+references/v2_2_1/local/

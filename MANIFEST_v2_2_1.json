@@ -1,0 +1,108 @@
+{
+  "version": "2.2.1-demo",
+  "date": "2026-09-14",
+  "runtime_gate": "PASS_16_OF_16",
+  "accuracy_gate": "NOT_ACCEPTED",
+  "files": {
+    "Harbin_Sophia_Square.blend": {
+      "bytes": 132815673,
+      "sha256": "8e4bd25aaa11ad044b46c0248d88e7f50087a5d7e645fc5a6373e5975c591f59"
+    },
+    "game/Sophia_Square.glb": {
+      "bytes": 240281120,
+      "sha256": "6a29e4d45cae94185140b1b890e5178819297bb6f99240c68cd857937494dd27"
+    },
+    "game/Sophia_Collision.glb": {
+      "bytes": 554968,
+      "sha256": "cde58b9b772b55653a49b1bb7b6e11a51f6f78f5e8bf126f9d2ec0a18b934dc8"
+    },
+    "SophiaWalk_macOS_v2.2.1_demo.zip": {
+      "bytes": 224877126,
+      "sha256": "2659db6dab11a9c7bb6705cd4c2d44ec00a742235f08d08614411649b22f0653"
+    },
+    "validation_v2_2_1.json": {
+      "bytes": 4849,
+      "sha256": "e0550fd5cf21a167b6557ff4a88c56a62766bb474f3cde827af7097aee824b0a"
+    },
+    "game/export_validation.json": {
+      "bytes": 2099,
+      "sha256": "06f0616723ea501147e8989e46265e46a050052270a0cf800c1f382ea975fc41"
+    },
+    "verification/v2_2_1/runtime_validation.json": {
+      "bytes": 1306,
+      "sha256": "18b7f329372251af001a0edca38162739b73a3a7f57682ab6efb72e8be61fd18"
+    },
+    "verification/v2_2_1/reference_validation.json": {
+      "bytes": 1361,
+      "sha256": "43190fff59d075b9dcb991f3b98c901c1d9d4b69d469bbc6dfe6f8ef20866e92"
+    },
+    "scripts/v221_targeted_repairs.py": {
+      "bytes": 10267,
+      "sha256": "d814f841a64a1b13d1462bde81a08dcf4ac13b7046e70dfeba5894fead7a3df8"
+    },
+    "demo/scripts/main.gd": {
+      "bytes": 17791,
+      "sha256": "921a9d8d5117f60b93cb65ebdf36490de84759d7f9040cfd304f073e1943cd74"
+    },
+    "docs/实景复原与地图扩展SOP.md": {
+      "bytes": 7625,
+      "sha256": "07f596e7e8cd4600a0c2c815e0fb2ceae8ef2c482191f49f0e9e8f380d6d4ea4"
+    },
+    "renders/v2_2_1/DAY_Gallery.png": {
+      "bytes": 1865750,
+      "sha256": "48042b007f6326735002b3db2de988c4f341229e7516e649f8ff7517b027e51c"
+    },
+    "renders/v2_2_1/DAY_Market.png": {
+      "bytes": 1372549,
+      "sha256": "d119f859f0433739603e2aad5d2516e85dadf8ba32ac00f2e48fb584f1ce4faa"
+    },
+    "renders/v2_2_1/NIGHT_Gallery.png": {
+      "bytes": 1457157,
+      "sha256": "99a3350aa3d5c2a440926d4605ff84e7a4d4fb923730559b0f8eb1d0e9236985"
+    },
+    "renders/v2_2_1/NIGHT_Market.png": {
+      "bytes": 1324500,
+      "sha256": "65ac960d5dde553c8de0ba680443e45d51c39c94af9ac1f10e92db6688e19f9c"
+    },
+    "renders/v2_2_1/game_day_north.png": {
+      "bytes": 898216,
+      "sha256": "1cb2bf1fe7cda91001815dcbdc38c51a4457949019f7451029a70f66fdaf611e"
+    },
+    "renders/v2_2_1/game_day_portal.png": {
+      "bytes": 1535143,
+      "sha256": "ee134098a22b6c620fa14a8fed71b5edc0e4889dbed551f9d14c2522e7f597c2"
+    },
+    "renders/v2_2_1/game_day_spawn.png": {
+      "bytes": 1079306,
+      "sha256": "8c30a78a9afbbabe5901cacc844d28303a92190c472e7b6e3cfbea206e922470"
+    },
+    "renders/v2_2_1/game_gallery_front.png": {
+      "bytes": 1104695,
+      "sha256": "4e3f35551eca42946c2c2aa588ef54c310389c8d54783a9148a497303162f1b0"
+    },
+    "renders/v2_2_1/game_gallery_landing.png": {
+      "bytes": 1086906,
+      "sha256": "120ba5aba6187ec23c8d2af61a21684da5b3607c17522f6bae311a49bca5f036"
+    },
+    "renders/v2_2_1/game_market_entry.png": {
+      "bytes": 398957,
+      "sha256": "2d37b8544f13f307178a0270b92e10ced0e8931c6120d054aae3e5df06c56c70"
+    },
+    "renders/v2_2_1/game_market_front.png": {
+      "bytes": 674192,
+      "sha256": "fb3020778b384910c73dfed131c46f3899b0490048f43384fd29794bf3e99718"
+    },
+    "renders/v2_2_1/game_market_night.png": {
+      "bytes": 282859,
+      "sha256": "ef7d11c5ddd694c1dae8c6acb8e5c54d514694929c568bed02c32f634ed19523"
+    },
+    "renders/v2_2_1/game_night_flashlight.png": {
+      "bytes": 810867,
+      "sha256": "2a54d736b2ec8a45b7cd77833a7d24452876e880aa290fcdf6c3c0050a8eeac0"
+    },
+    "renders/v2_2_1/game_night_spawn.png": {
+      "bytes": 787064,
+      "sha256": "703ac67a6908e8372cb349fff15944fc4d38df43faa124bc422e64df7673d59e"
+    }
+  }
+}

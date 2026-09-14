@@ -1,0 +1,154 @@
+[
+  {
+    "id": "brick_gallery_2025",
+    "file": "references/v2_2/brick_gallery_2025.jpg",
+    "image_url": "https://q7.itc.cn/q_70/images03/20250921/644caacbe54e47ae917d264483535e19.jpeg",
+    "source_url": "https://www.sohu.com/a/937208491_350855",
+    "capture_date": "2025",
+    "capture_date_precision": "year",
+    "date_basis": "author caption, not EXIF",
+    "author": "大话哈尔滨 / article self-photographed figures",
+    "license": "reference only; no texture redistribution permission established",
+    "reviewed": true,
+    "sha256": "3b233a45eecfba665b3d92aecdf4ceee098b046493d4a007ad0ccda5eaedfcf2",
+    "dimensions": [
+      375,
+      190
+    ],
+    "review_date": "2026-09-13",
+    "usable_for_architecture": true,
+    "coverage": "brick galleries",
+    "observations": "L-shaped passage footprint checked against OSM; end pavilion pediment and raised entry; dimensions unresolved",
+    "texture_use": false,
+    "source_group": "Dahua Harbin self-photographed",
+    "redistribute_original": false
+  },
+  {
+    "id": "gallery2018_2",
+    "file": "references/v2_2_1/local/gallery2018_2.jpg",
+    "source_url": "https://www.sohu.com/a/242708406_100104079",
+    "image_url": "https://5b0988e595225.cdn.sohucs.com/images/20180723/d33435e76b5147c082070d8aa5b04144.jpeg",
+    "author": "郑武华",
+    "capture_date": null,
+    "publication_date": "2018-07-23",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "745ebfa668f16e8b1efa28a6abf7f783783805baccaa114a3473bdeb1e44bc47",
+    "dimensions": [
+      600,
+      400
+    ],
+    "license": "Local reference only; not distributed or used as textures",
+    "limitation": "Historical/undated auxiliary reference; not eligible for recent-photo threshold"
+  },
+  {
+    "id": "gallery2018_3",
+    "file": "references/v2_2_1/local/gallery2018_3.jpg",
+    "source_url": "https://www.sohu.com/a/242708406_100104079",
+    "image_url": "https://5b0988e595225.cdn.sohucs.com/images/20180723/154f21fe995f40fa98424bbb8064bea9.jpeg",
+    "author": "郑武华",
+    "capture_date": null,
+    "publication_date": "2018-07-23",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "b5851e4eaeef9be79f2962218d4607a4828364f2f99880597aa5c4912925f5de",
+    "dimensions": [
+      600,
+      400
+    ],
+    "license": "Local reference only; not distributed or used as textures",
+    "limitation": "Historical/undated auxiliary reference; not eligible for recent-photo threshold"
+  },
+  {
+    "id": "gallery2018_0",
+    "file": "references/v2_2_1/local/gallery2018_0.jpg",
+    "source_url": "https://www.sohu.com/a/242708406_100104079",
+    "image_url": "https://5b0988e595225.cdn.sohucs.com/images/20180723/6bc376718f8b4f9992153732d23ac03d.jpeg",
+    "author": "郑武华",
+    "capture_date": null,
+    "publication_date": "2018-07-23",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "3cd4cb17293cc9eb73d0616e0c42eef702252073cdde143704beb414cd5e4fd6",
+    "dimensions": [
+      600,
+      400
+    ],
+    "license": "Local reference only; not distributed or used as textures",
+    "limitation": "Historical/undated auxiliary reference; not eligible for recent-photo threshold"
+  },
+  {
+    "id": "gallery2018_1",
+    "file": "references/v2_2_1/local/gallery2018_1.jpg",
+    "source_url": "https://www.sohu.com/a/242708406_100104079",
+    "image_url": "https://5b0988e595225.cdn.sohucs.com/images/20180723/162614f4615f45c19356ee246bc99e8b.jpeg",
+    "author": "郑武华",
+    "capture_date": null,
+    "publication_date": "2018-07-23",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "572b90073c480fc5725329b119a2582b0b89061dea821fa6cf8b72c332982fd5",
+    "dimensions": [
+      600,
+      899
+    ],
+    "license": "Local reference only; not distributed or used as textures",
+    "limitation": "Historical/undated auxiliary reference; not eligible for recent-photo threshold"
+  },
+  {
+    "id": "market2017_preview",
+    "file": "references/v2_2_1/local/market2017_preview.jpg",
+    "source_url": "https://sucai.redocn.com/jianzhu_7900119.html",
+    "image_url": "https://img.redocn.com/sheying/20170223/haerbinxinyibaishangchang_7900119.jpg",
+    "author": "648463860 / 红动中国",
+    "capture_date": null,
+    "publication_date": "2017-02-23 image URL; capture unconfirmed",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "52d57cb38c6b80257d2d8173ed2a012631c6a409785905f74b7382d6dfd1da7f",
+    "dimensions": [
+      600,
+      427
+    ],
+    "license": "Local reference only; not distributed or used as textures",
+    "limitation": "Historical/undated auxiliary reference; not eligible for recent-photo threshold"
+  },
+  {
+    "id": "trip_1_0",
+    "file": "references/v2_2_1/local/trip_1_0.jpg",
+    "source_url": "https://www.trip.com/moments/detail/harbin-151-124880310/",
+    "image_url": "https://ak-d.tripcdn.com/images/1mi34224x8wmt4z2sA7E7.jpg?proc=source/trip",
+    "author": "ㅣ愛亂跑的小芮ㅣ",
+    "capture_date": null,
+    "publication_date": "2024-09-28",
+    "date_evidence": "Post publication date only, original capture not confirmed",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "4fb22d4898da2d2fac015c5e95f0f3543717e63322efebab6daf4cc53d53120d",
+    "dimensions": [
+      1280,
+      1281
+    ],
+    "license": "Local reference only; no texture reuse or redistribution",
+    "limitation": "Exact camera and dimensions are uncalibrated"
+  },
+  {
+    "id": "market_front_20250621",
+    "file": "references/v2_2_1/local/market_front_20250621.jpg",
+    "source_url": "https://news.sina.cn/znl/2025-06-26/detail-infckxsm3536939.d.html",
+    "image_url": "https://k.sinaimg.cn/n/spider20250626/105/w2048h1257/20250626/11d9-00d7a2149d8b73588e2f915e5313b2df.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+    "author": "张澍 / 黑龙江日报",
+    "capture_date": "2025-06-21",
+    "publication_date": "2025-06-25",
+    "date_evidence": "Article describes June 21 visit",
+    "reviewed": true,
+    "usable_for_architecture": true,
+    "sha256": "671d9af7f015878c17de96788c09ebf71390000e39eaabbc5a59daf380914c34",
+    "dimensions": [
+      700,
+      430
+    ],
+    "license": "Local reference only; no texture reuse or redistribution",
+    "limitation": "Exact camera and dimensions are uncalibrated"
+  }
+]
